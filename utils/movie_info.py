@@ -64,7 +64,7 @@ def get_movie_genre(movie_name):
     return movie.details(movie_id)['genres'][0]['name']
 
 
-def get_movie_mpaa(movie_name, year):
+def get_movie_mpaa(movie_name):
     header = {
         'accept': 'application/json',
         'Content-Type': 'application/x-www-form-urlencoded'
@@ -75,6 +75,4 @@ def get_movie_mpaa(movie_name, year):
     }
     response = requests.get(
         "https://betterimdbot.herokuapp.com/", headers=header, params=params)
-    return response.json()[1].keys()
-
-
+    return response.json()[1].get('p_g_rating')
