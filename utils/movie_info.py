@@ -76,3 +76,21 @@ def get_movie_mpaa(movie_name):
     response = requests.get(
         "https://betterimdbot.herokuapp.com/", headers=header, params=params)
     return response.json()[1].get('p_g_rating')
+
+def get_animation_info(movie_name):
+    header = {
+        'accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+
+    params = {
+        'tt': movie_name
+    }
+    response = requests.get(
+        "https://betterimdbot.herokuapp.com/", headers=header, params=params)
+
+    if response.json()[1].get('genres') is None:
+        return "Unknown"
+    return response.json()[1].get('genres')
+
+
