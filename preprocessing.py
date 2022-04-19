@@ -18,7 +18,7 @@ def droppingNa():
 
 def dataDroping():
     data.drop(data.index[data['directors'] == 'Unknown'], inplace=True)
-    data.drop(['release_date'], axis=1)
+    data.drop(['release_date'], axis=1, inplace=True)
 
 def currency():
     data['revenue'] = data['revenue'].str[1:].str.replace(',', '').astype("float32").astype("int32")
