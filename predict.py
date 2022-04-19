@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import preprocessing
 from sklearn import linear_model
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
@@ -9,51 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import StandardScaler
 
-
-def Feature_Encoder(X,cols):
-    for c in cols:
-        lbl = LabelEncoder()
-        lbl.fit(list(X[c].values))
-        X[c] = lbl.transform(list(X[c].values))
-           
-    return X
-
-
-data = pd.read_csv('datasets/[MERGED-COMPLETE]movies_revenue.csv')
-
-#data cleaning
-data.dropna(how='any',inplace=True)
-data.drop(data.index[data['directors'] == 'Unknown'],inplace=True)
-data['revenue'] = data['revenue'].str[1:].str.replace(',','').astype("float32").astype("int32")
-data['release_date'] = pd.to_datetime(data['release_date'])
-data['release_date'] = data['release_date'].view('int64')
-print(data.shape)
-cols=('movie_title','genre','MPAA_rating','directors', 'animated')
-data = Feature_Encoder(data,cols)
-
-X = data.iloc[:,0:] #Features
-Y=data['revenue'] #Label
-
-# Feature Selection
-# Get the correlation between the features
-movie_data = data.iloc[:,:]
-corr = movie_data.corr()
-
-
-top_feature = corr.index[abs(corr['revenue']) > 0.009]
-# Correlation plot
-plt.subplots(figsize=(12, 8))
-top_corr = movie_data[top_feature].corr()
-sns.heatmap(top_corr, annot=True)
-plt.show()
-top_feature = top_feature.delete(-1)
-X = X[top_feature]
-
-
-#feature scaling
-scaler = StandardScaler()
-X = scaler.fit_transform(X)
-
+X,Y = preprocessing.settingXandY('revenue')
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20,shuffle=True,random_state=10)
 
