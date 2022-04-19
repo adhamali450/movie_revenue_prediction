@@ -7,7 +7,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-data = pd.read_csv('datasets/[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('C:\\Users\\Sondos\\Documents\\GitHub\\movie_revenue_prediction\\datasets\\[MERGED-COMPLETE]movies_revenue.csv')
 
 def droppingNa():
     data.dropna(how='any', inplace=True)
@@ -17,7 +17,7 @@ def dataDroping():
     data.drop(['release_date'], axis=1, inplace=True)
 
 def currency():
-    data['revenue'] = data['revenue'].str[1:].str.replace(',', '').astype("float32").astype("int32")
+    data['revenue'] = data['revenue'].replace('[\$,]', '', regex=True).astype(float)
 
 def sepDate(dateColumn):
     data[dateColumn] = pd.to_datetime(data[dateColumn])
@@ -42,7 +42,7 @@ def cleaningData():
     currency()
     sepDate('release_date')
     dataDroping()
-    movingRevenueColumn(data ,'revenue')
+    movingRevenueColumn(data,'revenue')
 
 def DrawHeatMap(YColumn,readyData):
     movie_data = readyData.iloc[:, :]
