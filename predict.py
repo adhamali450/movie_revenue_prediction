@@ -19,14 +19,15 @@ def Feature_Encoder(X,cols):
     return X
 
 
-data = pd.read_csv('datasets/[ANIMATED]movie-revenues.csv')
+data = pd.read_csv('datasets/[MERGED-COMPLETE]movies_revenue.csv')
 
 #data cleaning
 data.dropna(how='any',inplace=True)
+data.drop(data.index[data['directors'] == 'Unknown'],inplace=True)
 data['revenue'] = data['revenue'].str[1:].str.replace(',','').astype("float32").astype("int32")
 data['release_date'] = pd.to_datetime(data['release_date'])
 data['release_date'] = data['release_date'].view('int64')
-
+print(data.shape)
 cols=('movie_title','genre','MPAA_rating','directors', 'animated')
 data = Feature_Encoder(data,cols)
 
@@ -39,7 +40,7 @@ movie_data = data.iloc[:,:]
 corr = movie_data.corr()
 
 
-top_feature = corr.index[abs(corr['revenue']) > 0.009]
+top_feature = corr.index[abs(corr['revenue']) > 0.001]
 # Correlation plot
 # plt.subplots(figsize=(12, 8))
 # top_corr = movie_data[top_feature].corr()
@@ -53,9 +54,9 @@ scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
 
-X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.40,shuffle=True,random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20,shuffle=True,random_state=10)
 
-poly_features = PolynomialFeatures(degree=2)
+poly_features = PolynomialFeatures(degree=6)
 
 # transforms the existing features to higher degree features.
 X_train_poly = poly_features.fit_transform(X_train)
@@ -73,7 +74,7 @@ print('Mean Square Error Polynomial train => ', metrics.mean_squared_error(y_tra
 print("############################################################################################")
 
 
-rdg = Ridge(alpha = 0.1 , normalize = True)
+rdg = Ridge(alpha = 0.01 , normalize = True)
 rdg.fit(X, Y)
 prediction3 = rdg.predict(X_test)
 print('Mean Square Error ridge test => ', metrics.mean_squared_error(y_test, prediction3))
