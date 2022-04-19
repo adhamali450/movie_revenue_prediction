@@ -40,14 +40,15 @@ movie_data = data.iloc[:,:]
 corr = movie_data.corr()
 
 
-top_feature = corr.index[abs(corr['revenue']) > 0.001]
+top_feature = corr.index[abs(corr['revenue']) > 0.009]
 # Correlation plot
-# plt.subplots(figsize=(12, 8))
-# top_corr = movie_data[top_feature].corr()
-# sns.heatmap(top_corr, annot=True)
-# plt.show()
-# top_feature = top_feature.delete(-1)
+plt.subplots(figsize=(12, 8))
+top_corr = movie_data[top_feature].corr()
+sns.heatmap(top_corr, annot=True)
+plt.show()
+top_feature = top_feature.delete(-1)
 X = X[top_feature]
+
 
 #feature scaling
 scaler = StandardScaler()
@@ -56,7 +57,7 @@ X = scaler.fit_transform(X)
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20,shuffle=True,random_state=10)
 
-poly_features = PolynomialFeatures(degree=6)
+poly_features = PolynomialFeatures(degree=3)
 
 # transforms the existing features to higher degree features.
 X_train_poly = poly_features.fit_transform(X_train)
