@@ -67,8 +67,10 @@ def settingXandY(YColumn):
     creatModel(merge_data)
 
 def creatModel(merge_data):
-    X = merge_data.drop(['revenue', 'movie_title', 'animated'], axis=1)
-    Y = merge_data['revenue']
+    min_threshold, max_threshold = merge_data["revenue"].quantile([0.01, 0.99])
+    merge_data2 = merge_data[ (merge_data['revenue']>min_threshold) & (merge_data['revenue'] < max_threshold)]
+    X = merge_data2.drop(['revenue', 'movie_title', 'animated'], axis=1)
+    Y = merge_data2['revenue']
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20,shuffle=True,random_state=10)
 
     poly_model = linear_model.LinearRegression()

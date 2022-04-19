@@ -63,9 +63,11 @@ def settingXandY(YColumn):
     cleaningData()
     cols = ('movie_title', 'genre', 'MPAA_rating', 'directors', 'animated')
     readyData = Feature_Encoder(data, cols)
-    X = readyData.iloc[:, 0:]  # Features
-    Y = readyData[YColumn]  # Label
-    top_feature = DrawHeatMap(YColumn, readyData)
+    min_threshold, max_threshold = readyData["revenue"].quantile([0.01, 0.99])
+    merge_data2 = readyData[(readyData['revenue'] > min_threshold) & (readyData['revenue'] < max_threshold)]
+    X = merge_data2.iloc[:, 0:]  # Features
+    Y = merge_data2[YColumn]  # Label
+    top_feature = DrawHeatMap(YColumn, merge_data2)
     # Feature Selection
     X = X[top_feature]
     # feature scaling
