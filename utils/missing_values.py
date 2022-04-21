@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import movie_info
+import movie_info
 
 def fetch_missing_values(fetch_genres=True, fetch_directors=True):
     data_revenue = pd.read_csv('datasets/movies-revenue.csv')
@@ -38,9 +38,39 @@ def fetch_missing_values(fetch_genres=True, fetch_directors=True):
         data_revenue['directors'] = directors
 
     data_revenue["animated"] = animated
-
+    fill_mpaa(data_revenue)
     print("Missing data filled")
+    
+    return data_revenue
 
+
+
+def fill_diff_directors(data_revenue):
+    data = pd.read_csv('datasets/movie-director.csv')
+
+    for movie in range(0, data_revenue.shape[0]):
+        movie_name = data_revenue['movie_title'][movie].replace('…', '')
+        for i in range(0, data.shape[0]):
+            if data['name'][i] == movie_name and data['director'][i] != 'full credits':
+                data_revenue['directors'][movie] = data['director'][i]
+                break
+        
+    
+    return data_revenue
+
+def fill_mpaa(data_revenue):
+    data_revenue['MPAA_rating'] = data_revenue['MPAA_rating'].fillna('Unknown')
+    for movie in range(0, data_revenue.shape[0]):
+
+        movie_name = data_revenue['movie_title'][movie].replace('…', '')
+        if data_revenue['MPAA_rating'][movie] == 'Unknown':
+            mpaa = movie_info.get_movie_mpaa(movie_name)
+            if mpaa == '15' or mpaa == 'A15':
+                mpaa = 'PG'
+            if mpaa == 'Approved' or mpaa == 'TV-G' :
+                mpaa = 'G'
+            data_revenue['MPAA_rating'][movie] = mpaa
+            print(mpaa)
     return data_revenue
 
 
