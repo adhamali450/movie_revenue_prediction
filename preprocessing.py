@@ -21,6 +21,7 @@ def droppingNa(data):
 
 def dataDroping(data):
     data.drop(data.index[data['directors'] == 'Unknown'], inplace=True)
+    data.drop(data.index[data['animated'] == 'Unknown'], inplace=True)
     data.drop(['release_date'], axis=1, inplace=True)
 
 def currency(data):

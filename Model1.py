@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import Ridge
 import time
 
-data = pd.read_csv('datasets/[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('[MERGED-COMPLETE]movies_revenue.csv')
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, shuffle=True, random_state=10)

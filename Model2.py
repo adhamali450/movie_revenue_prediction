@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import preprocessing
 import pandas as pd
 
-data = pd.read_csv('datasets/[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('[MERGED-COMPLETE]movies_revenue.csv')
 
 def settingXandY(YColumn):
       merge_data2 = preprocessing.settingXandYUsingDummies(data)
