@@ -1,76 +1,80 @@
 import pandas as pd
+import numpy as np
 import movie_info
 
-def fetch_missing_values(fetch_genres=True, fetch_directors=True):
-    data_revenue = pd.read_csv('datasets/movies-revenue.csv')
+
+def fetch_missing_values(data_revenue, fetch_genres=True, fetch_directors=True):
 
     # Handing missing genres, directors
-
     print("Began filling missing values")
 
-    directors = []
-    animated = []
     data_revenue['genre'].fillna('NO_GENRE', inplace=True)
+    data_revenue['director'].fillna('NO_DIRECTOR', inplace=True)
+
+    counter = 0
     for movie in range(data_revenue.shape[0]):
         movie_name = data_revenue['movie_title'][movie].replace('…', '')
+        print(str(counter) + ' ' + movie_name)
+        counter = counter + 1
         # Genres
         if fetch_genres:
             if data_revenue['genre'][movie] == 'NO_GENRE':
                 movie_genre = movie_info.get_movie_genre(movie_name)
                 data_revenue['genre'][movie] = movie_genre
+
         # Directors
         if fetch_directors:
-            movie_director = movie_info.get_movie_director(movie_name)
-            directors.append(movie_director)
+            if data_revenue['director'][movie] == 'NO_DIRECTOR':
+                movie_director = movie_info.get_movie_director(movie_name)
+                data_revenue['director'][movie] = movie_director
 
+        # is animated ?
+        animated = []
         genres = movie_info.get_animation_info(movie_name)
-        print(movie_name)
-        print(genres)
         if genres != "Unknown":
             if "#Animation" in genres:
-                animated.append("Yes")
+                animated.append("YES")
             else:
                 animated.append("NO")
         else:
-            animated.append("Unknown")
-
-    if fetch_directors:
-        data_revenue['directors'] = directors
+            animated.append("NO")
 
     data_revenue["animated"] = animated
     fill_mpaa(data_revenue)
+
     print("Missing data filled")
     
     return data_revenue
 
 
+def get_existing_directors(data_revenue):
+    data_director = pd.read_csv('datasets/movie-director.csv')
 
-def fill_diff_directors(data_revenue):
-    data = pd.read_csv('datasets/movie-director.csv')
+    directors = [None] * data_revenue['movie_title'].count()
 
     for movie in range(0, data_revenue.shape[0]):
-        movie_name = data_revenue['movie_title'][movie].replace('…', '')
-        for i in range(0, data.shape[0]):
-            if data['name'][i] == movie_name and data['director'][i] != 'full credits':
-                data_revenue['directors'][movie] = data['director'][i]
+        movie_name = data_revenue['movie_title'][movie]
+        for i in range(0, data_director.shape[0]):
+            if data_director['name'][i] == movie_name and data_director['director'][i] != 'full credits':
+                directors[movie] = data_director['director'][i]
                 break
-        
-    
-    return data_revenue
+
+    data_revenue['director'] = directors
+
 
 def fill_mpaa(data_revenue):
-    data_revenue['MPAA_rating'] = data_revenue['MPAA_rating'].fillna('Unknown')
+    data_revenue['MPAA_rating'].fillna('UNKNOWN', inplace=True)
     for movie in range(0, data_revenue.shape[0]):
 
         movie_name = data_revenue['movie_title'][movie].replace('…', '')
-        if data_revenue['MPAA_rating'][movie] == 'Unknown':
+        if data_revenue['MPAA_rating'][movie] == 'UNKNOWN':
             mpaa = movie_info.get_movie_mpaa(movie_name)
             if mpaa == '15' or mpaa == 'A15':
                 mpaa = 'PG'
-            if mpaa == 'Approved' or mpaa == 'TV-G' :
+            if mpaa == 'Approved' or mpaa == 'TV-G':
                 mpaa = 'G'
             data_revenue['MPAA_rating'][movie] = mpaa
-            print(mpaa)
+
     return data_revenue
 
 

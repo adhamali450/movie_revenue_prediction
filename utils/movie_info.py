@@ -1,11 +1,6 @@
-from operator import le
 import requests
-from sqlalchemy import null
 from tmdbv3api import TMDb, Movie
 from pyjsonq import JsonQ
-import pandas as pd
-import json
-
 
 API_KEY = "b8656aad79d3af2e20690f7c808f7211"
 
@@ -16,8 +11,8 @@ def get_movie_id(api_key, movie_name):
 
     details_response = requests.get(
         details_url
-        .replace('{API_KEY}', api_key)
-        .replace('{movie_name}', movie_name)) \
+            .replace('{API_KEY}', api_key)
+            .replace('{movie_name}', movie_name)) \
         .json()
 
     try:
@@ -69,13 +64,14 @@ def get_movie_mpaa(movie_name):
         'accept': 'application/json',
         'Content-Type': 'application/x-www-form-urlencoded'
     }
-    
+
     params = {
         'tt': movie_name
     }
     response = requests.get(
         "https://betterimdbot.herokuapp.com/", headers=header, params=params)
     return response.json()[1].get('p_g_rating')
+
 
 def get_animation_info(movie_name):
     header = {
@@ -92,5 +88,3 @@ def get_animation_info(movie_name):
     if response.json()[1].get('genres') is None:
         return "Unknown"
     return response.json()[1].get('genres')
-
-

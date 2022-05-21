@@ -9,19 +9,19 @@ from sklearn.feature_selection import SelectFromModel
 from sklearn.preprocessing import StandardScaler
 
 
-data = pd.read_csv('[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue.csv')
 
 def settingXandY(YColumn):
       merge_data2 = preprocessing.settingXandYUsingDummies(data)
-      creatModel(merge_data2)
+      create_model(merge_data2)
 
-def creatModel(merge_data):
+def create_model(merge_data):
     min_threshold, max_threshold = merge_data["revenue"].quantile([0.01, 0.99])
     merge_data2 = merge_data[ (merge_data['revenue']>min_threshold) & (merge_data['revenue'] < max_threshold)]
     X = merge_data2.iloc[:, 0:]  # Features
     X.drop(['revenue'], axis=1, inplace=True)
     Y = merge_data2['revenue']
-    
+
     lasso = Lasso().fit(X, Y)
     model = SelectFromModel(lasso, prefit=True)
     X = model.transform(X)
@@ -36,7 +36,6 @@ def creatModel(merge_data):
     start = time.time()
     poly_model.fit(X_train, y_train)
     end = time.time()
-    
 
     prediction = poly_model.predict(X_test)
     prediction2 = poly_model.predict(X_train)
@@ -44,7 +43,7 @@ def creatModel(merge_data):
     print('Mean Square Error Linear test => ', metrics.mean_squared_error(y_test, prediction))
     print('r2 score Train => ', metrics.r2_score(y_train, prediction2))
     print('Mean Square Error Linear train => ', metrics.mean_squared_error(y_train, prediction2))
-    preprocessing.plotGraph(y_test, prediction , "Linear Model")
+    preprocessing.plot_graph(y_test, prediction, "Linear Model")
     print("time of training => " ,end-start)
 
 def __main__():
