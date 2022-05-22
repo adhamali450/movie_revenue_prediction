@@ -1,5 +1,5 @@
 import time
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from preprocessing import *
@@ -9,6 +9,14 @@ warnings.filterwarnings("ignore")
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
 
+def applying_GridSearch(X_train, y_train):
+    grid_params = {'n_neighbors': [5, 7, 9, 11, 13, 15],
+                   'weights': ['uniform', 'distance'],
+                   'metric': ['minkowski', 'euclidean', 'manhattan']}
+    gs = GridSearchCV(KNeighborsClassifier(), grid_params, verbose=1, cv=3, n_jobs=-1)
+    g_res = gs.fit(X_train, y_train)
+    print(g_res.best_score_)
+    print(g_res.best_params_)
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=63, shuffle=True)

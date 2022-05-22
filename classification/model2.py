@@ -2,10 +2,22 @@ from sklearn.multiclass import OneVsOneClassifier
 from sklearn import metrics
 from sklearn.svm import SVC
 from preprocessing import *
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 import time
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
+
+def applying_GridSearch(X_train, y_train):
+    param_grid = {'C': [0.1, 1, 10, 100, 1000],
+                  'degree': [3, 4, 5],
+                  'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
+                  'kernel': ['linear', 'poly', 'rbf']}
+
+    grid = GridSearchCV(SVC(), param_grid, refit=True, verbose=3)
+
+    grid.fit(X_train, y_train)
+    print(grid.best_params_)
+    print(grid.best_estimator_)
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=84, shuffle=True)
