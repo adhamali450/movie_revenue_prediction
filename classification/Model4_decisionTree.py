@@ -5,8 +5,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestRegressor
-
+import time
+import matplotlib.pyplot as plt
 import warnings
+
 warnings.filterwarnings("ignore")
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
@@ -14,10 +16,20 @@ data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
 def train_random_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(
         X, Y, test_size=0.20, shuffle=True, random_state=84)
-    rf = RandomForestRegressor(n_estimators=1000)
+
+    rf = RandomForestRegressor(bootstrap=True, max_depth=110, max_features=4, min_samples_leaf=3, min_samples_split=10, n_estimators=100, random_state=85)
     # Train the model on training data
+    train_start = time.time()
     rf.fit(X_train, y_train)
+    train_end = time.time()
+
+    test_start = time.time()
     y_pred = rf.predict(X_test)
+    test_end = time.time()
+
+    accuracy = metrics.r2_score(y_test, y_pred)
+    train_time = train_end-train_start
+    test_time = test_end-test_start
 
     print('Mean Square Error RandomForestRegressor test => ',
           metrics.mean_squared_error(y_test, y_pred))
@@ -28,6 +40,9 @@ def train_random_model(X, Y):
           metrics.mean_squared_error(y_train, y_pred))
     print('r2 score Train RandomForestRegressor => ',
           metrics.r2_score(y_train, y_pred))
+
+    plot_numbers = [accuracy, train_time, test_time]
+    graph_bar(plot_numbers, 'Time', 'Random Forest Model')
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(

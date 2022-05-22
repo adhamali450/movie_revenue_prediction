@@ -14,7 +14,6 @@ from sklearn.preprocessing import StandardScaler
 def movie_lemma(movie):
     return re.sub("\d*", "", movie).strip()
 
-
 def get_sequels(data):
     movies = data['movie_title'].values.tolist()
     is_sequels = [0 for movie in movies]
@@ -26,13 +25,11 @@ def get_sequels(data):
 
     data.insert(1, 'sequel', is_sequels)
 
-
 def mergeFiles(fileOnePath, fileTwoPath, commonColumn):
     df1 = pd.read_csv(fileOnePath)
     df2 = pd.read_csv(fileTwoPath)
     finalDf = df1.merge(df2, on=commonColumn)
     return finalDf
-
 
 def feature_encoder(data, nom_cols, ord_cols):
     encoder = ce.OneHotEncoder(
@@ -43,7 +40,6 @@ def feature_encoder(data, nom_cols, ord_cols):
         frequency_encoding(data, c)
 
     return data
-
 
 def drop_contextual_na(data):
     # actual nulls and rows that evaluates to null
@@ -93,7 +89,6 @@ def draw_heat_map(YColumn, readyData):
     top_feature = top_feature.delete(-1)
     return top_feature
 
-
 def plot_graph(y_test, y_pred, regressorName):
     if max(y_test) >= max(y_pred):
         my_range = int(max(y_test))
@@ -105,7 +100,6 @@ def plot_graph(y_test, y_pred, regressorName):
     plt.show()
     return
 
-
 def prepare_data(data, target_col, work_with_revenue=True):
     # work with revenue set to False when called to a classification model
 
@@ -116,12 +110,10 @@ def prepare_data(data, target_col, work_with_revenue=True):
     spread_date(data, 'release_date', False)
     shift_target_column(data, target_col)
 
-
 def lasso_feature_selection(X, Y):
     lasso = Lasso().fit(X, Y)
     model = SelectFromModel(lasso, prefit=True)
     return model.transform(X)
-
 
 def setting_xy_for_knn(data, target_col):
     prepare_data(data, target_col, False)
@@ -148,7 +140,6 @@ def setting_xy_for_knn(data, target_col):
     X_new = scale.fit_transform(X_new)
 
     return X_new, Y
-
 
 def setting_xy_for_predict(data, target_col):
     prepare_data(data, 'revenue')
@@ -179,7 +170,6 @@ def setting_xy_for_predict(data, target_col):
 
     return X_new, Y
 
-
 def settingXandYUsingDummies(data):
     prepare_data(data, 'revenue')
 
@@ -194,7 +184,6 @@ def settingXandYUsingDummies(data):
         frequency_encoding(merge_data, c)
 
     return merge_data
-
 
 def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
@@ -244,3 +233,10 @@ def setting_xy_for_random(data, target_col):
     Y = levelOfSuccess.fit_transform(Y)
 
     return X, Y
+
+def graph_bar(plot_numbers, y_label, plot_title):
+    plot_data = ['Accuracy', 'Training Time', 'Test Time']
+    plt.bar(plot_data, plot_numbers)
+    plt.title(plot_title)
+    plt.ylabel(y_label)
+    plt.show()
