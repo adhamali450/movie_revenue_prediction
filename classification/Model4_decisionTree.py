@@ -60,29 +60,7 @@ def train_random_model(X, Y):
     plot_numbers = [accuracy, train_time, test_time]
     graph_bar(plot_numbers, 'Time', 'Random Forest Model')
 
-def train_model(X, Y):
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, Y, test_size=0.20, shuffle=True, random_state=10)
-
-    model = AdaBoostClassifier(DecisionTreeClassifier(max_depth=3),
-                                    n_estimators=1000, learning_rate=0.01)
-
-    model.fit(X_train, y_train)
-
-    prediction = model.predict(X_test)
-    print('Mean Square Error DecisionTreeClassifier test => ',
-          metrics.mean_squared_error(y_test, prediction))
-    print('r2 score Test DecisionTreeClassifier=> ',
-          metrics.r2_score(y_test, prediction))
-    prediction = model.predict(X_train)
-    print('Mean Square Error DecisionTreeClassifier train =>',
-          metrics.mean_squared_error(y_train, prediction))
-    print('r2 score Train DecisionTreeClassifier => ',
-          metrics.r2_score(y_train, prediction))
-
 def __main__():
-    #X, Y = setting_xy_for_knn(data, 'MovieSuccessLevel')
-    #train_model(X, Y)
     X, Y = setting_xy_for_random(data, 'MovieSuccessLevel')
     train_random_model(X, Y)
 
