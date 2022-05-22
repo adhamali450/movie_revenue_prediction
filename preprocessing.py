@@ -25,11 +25,14 @@ def get_sequels(data):
 
     data.insert(1, 'sequel', is_sequels)
 
-def mergeFiles(fileOnePath, fileTwoPath, commonColumn):
+def merge_files(fileOnePath, fileTwoPath, commonColumn):
     df1 = pd.read_csv(fileOnePath)
     df2 = pd.read_csv(fileTwoPath)
-    finalDf = df1.merge(df2, on=commonColumn)
-    return finalDf
+    
+    df2 = df2.rename(columns={'name': 'movie_title'})
+
+    df = pd.merge(df1, df2, on=commonColumn, how='outer')
+    return df
 
 def feature_encoder(data, nom_cols, ord_cols):
     encoder = ce.OneHotEncoder(
