@@ -5,11 +5,11 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.linear_model import Lasso
-from sklearn.feature_selection import SelectFromModel
+from sklearn.feature_selection import SelectFromModel, SelectKBest
 import category_encoders as ce
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-
+from sklearn.preprocessing import OrdinalEncoder
 
 def movie_lemma(movie):
     return re.sub("\d*", "", movie).strip()
@@ -200,3 +200,25 @@ def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
                       len(data[col_name])).to_dict()}
     data[col_name] = data[col_name].map(dic[col_name])
+
+
+def setting_xy_for_SVM(data, target_col):
+    prepare_data(data, target_col, False)
+
+    data_encoded = feature_encoder(data, ['directors'], ['genre', 'MPAA_rating', 'animated'])
+
+    Y = data[target_col]
+    X = data_encoded.iloc[:, 0:]  # Features
+    X.drop(['movie_title', target_col], axis=1, inplace=True)
+
+    #Label Encoding
+    levelOfSuccess = LabelEncoder()
+    Y = levelOfSuccess.fit_transform(Y)
+
+    X_new = lasso_feature_selection(X, Y)
+
+    # scaling
+    scale = StandardScaler()
+    X_new = scale.fit_transform(X_new)
+
+    return X_new, Y
