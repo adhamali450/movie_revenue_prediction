@@ -56,11 +56,9 @@ def drop_contextual_na(data):
     data.drop(data.index[data['MPAA_rating'] == 'Not Rated'], inplace=True)
     data.drop('animated', axis=1, inplace=True)
 
-
 def unformat_revenue(data):
     data['revenue'] = data['revenue'].replace(
         '[\$,]', '', regex=True).astype(float)
-
 
 def spread_date(df, col_name, keep_original=False):
     df[col_name] = pd.to_datetime(df[col_name])
@@ -80,11 +78,9 @@ def spread_date(df, col_name, keep_original=False):
     if not keep_original:
         df.drop(['release_date'], axis=1, inplace=True)
 
-
 def shift_target_column(data, col_name):
     move = data.pop(col_name)
     data.insert(int(data.iloc[0].size), col_name, move)
-
 
 def draw_heat_map(YColumn, readyData):
     movie_data = readyData.iloc[:, :]
@@ -204,3 +200,47 @@ def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
                       len(data[col_name])).to_dict()}
     data[col_name] = data[col_name].map(dic[col_name])
+
+def setting_xy_for_SVM(data, target_col):
+    prepare_data(data, target_col, False)
+
+    data_encoded = feature_encoder(data, ['director'], ['genre', 'MPAA_rating'])
+
+    Y = data[target_col]
+    X = data_encoded.iloc[:, 0:]  # Features
+    X.drop(['movie_title', target_col], axis=1, inplace=True)
+
+    #Label Encoding
+    levelOfSuccess = LabelEncoder()
+    Y = levelOfSuccess.fit_transform(Y)
+
+    X_new = lasso_feature_selection(X, Y)
+
+    # scaling
+    scale = StandardScaler()
+    X_new = scale.fit_transform(X_new)
+
+    return X_new, Y
+
+def setting_xy_for_random(data, target_col):
+    prepare_data(data, target_col, False)
+
+    #Generate Dummies for Genres and MPAA_ratings
+    colName = ['genre', 'MPAA_rating']
+    dummeis = pd.get_dummies(data[colName], prefix_sep="_", drop_first=True)
+    merge_data = pd.concat([data, dummeis], axis=1)
+    merge_data.drop(columns=colName, axis=1, inplace=True)
+    shift_target_column(merge_data, target_col)
+
+    cols = ['director']
+    for c in cols:
+        frequency_encoding(merge_data, c)
+
+    merge_data.drop(['movie_title'], inplace=True, axis=1)
+    X = merge_data.iloc[:, 1:-1]
+    Y = merge_data.iloc[:, -1:]
+
+    levelOfSuccess = LabelEncoder()
+    Y = levelOfSuccess.fit_transform(Y)
+
+    return X, Y
