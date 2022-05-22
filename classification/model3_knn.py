@@ -1,6 +1,5 @@
 import time
-
-import pandas as pd
+from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from preprocessing import *
@@ -12,10 +11,8 @@ data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
 
 
 def train_model(X, Y):
-    from sklearn.model_selection import train_test_split
-
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=10)
-    knn = KNeighborsClassifier(n_neighbors=8)
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=63, shuffle=True)
+    knn = KNeighborsClassifier(n_neighbors=9, metric='manhattan', weights='uniform')
 
     train_start = time.time()
     knn.fit(X_train, y_train)
@@ -39,7 +36,6 @@ def train_model(X, Y):
 
     plot_numbers = [accuracy, train_time, test_time]
     graph_bar(plot_numbers, 'Time', 'KNN Model')
-
 
 def __main__():
     X, Y = setting_xy_for_knn(data, 'MovieSuccessLevel')

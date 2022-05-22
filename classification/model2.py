@@ -1,8 +1,8 @@
-from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+from sklearn.multiclass import OneVsOneClassifier
 from sklearn import metrics
-from sklearn.svm import LinearSVC, SVC
+from sklearn.svm import SVC
 from preprocessing import *
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 import time
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
