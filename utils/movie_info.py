@@ -88,3 +88,31 @@ def get_animation_info(movie_name):
     if response.json()[1].get('genres') is None:
         return "Unknown"
     return response.json()[1].get('genres')
+
+#get movie year using tmdb api
+def get_movie_year_tmdb(movie_name):
+    movie_id = get_movie_id(API_KEY, movie_name)
+
+    if not movie_id:
+        return 'Unknown'
+
+    tmdb = TMDb()
+    tmdb.api_key = API_KEY
+    movie = Movie()
+    print(movie.details(movie_id)['release_date'][:4])
+    return movie.details(movie_id)['release_date'][:4]
+
+
+def get_movie_year(movie_name):
+    header = {
+        'accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+
+    params = {
+        'tt': movie_name
+    }
+    response = requests.get(
+        "https://betterimdbot.herokuapp.com/", headers=header, params=params)
+    print(response.json()[1].get('year')[:4])
+    return response.json()[1].get('year')[:4]

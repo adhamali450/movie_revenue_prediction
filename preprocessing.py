@@ -5,11 +5,11 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.linear_model import Lasso
-from sklearn.feature_selection import SelectFromModel, SelectKBest
+from sklearn.feature_selection import SelectFromModel
 import category_encoders as ce
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder , OrdinalEncoder
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import OrdinalEncoder
+
 
 def movie_lemma(movie):
     return re.sub("\d*", "", movie).strip()
@@ -50,8 +50,11 @@ def drop_contextual_na(data):
     # e.g. director: Unknown
     data.dropna(how='any', inplace=True)
 
-    data.drop(data.index[data['directors'] == 'Unknown'], inplace=True)
-    data.drop(data.index[data['animated'] == 'Unknown'], inplace=True)
+    data.drop(data.index[data['director'] == 'Unknown'], inplace=True)
+    data.drop(data.index[data['director'] == 'NO_DIRECTOR'], inplace=True)
+    data.drop(data.index[data['MPAA_rating'] == 'Unknown'], inplace=True)
+    data.drop(data.index[data['MPAA_rating'] == 'Not Rated'], inplace=True)
+    data.drop('animated', axis=1, inplace=True)
 
 
 def unformat_revenue(data):
@@ -129,7 +132,7 @@ def setting_xy_for_knn(data, target_col):
 
     # encoding
     ## 1. features
-    data_encoded = feature_encoder(data, ['directors'], ['genre', 'MPAA_rating', 'animated'])
+    data_encoded = feature_encoder(data, ['director'], ['genre', 'MPAA_rating'])
     ## 2. label
     encoder = LabelEncoder()
     data_encoded[target_col] = encoder.fit_transform(data_encoded[target_col])
@@ -155,7 +158,7 @@ def setting_xy_for_predict(data, target_col):
     prepare_data(data, 'revenue')
 
     # encoding
-    data_encoded = feature_encoder(data, ['directors'], ['genre', 'MPAA_rating', 'animated'])
+    data_encoded = feature_encoder(data, ['movie_title','director'], ['genre', 'MPAA_rating'])
 
     # corr graph
     draw_heat_map(target_col, data_encoded)
@@ -166,9 +169,10 @@ def setting_xy_for_predict(data, target_col):
             data_encoded['revenue'] < max_threshold)]
 
     X = data_ready.iloc[:, 0:]  # Features
-    X.drop(['movie_title', target_col], axis=1, inplace=True)
 
     Y = data_ready[target_col]  # Label
+    X.drop('revenue', axis=1, inplace=True)
+    print(X)
 
     # feature Selection
     X_new = lasso_feature_selection(X, Y)
@@ -183,13 +187,13 @@ def setting_xy_for_predict(data, target_col):
 def settingXandYUsingDummies(data):
     prepare_data(data, 'revenue')
 
-    colName = ['genre', 'MPAA_rating', 'animated']
+    colName = ['genre', 'MPAA_rating']
     dummeis = pd.get_dummies(data[colName], prefix_sep="_", drop_first=True)
     merge_data = pd.concat([data, dummeis], axis=1)
     merge_data.drop(columns=colName, axis=1, inplace=True)
     shift_target_column(merge_data, 'revenue')
 
-    cols = ['movie_title', 'directors']
+    cols = ['movie_title', 'director']
     for c in cols:
         frequency_encoding(merge_data, c)
 
@@ -200,25 +204,3 @@ def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
                       len(data[col_name])).to_dict()}
     data[col_name] = data[col_name].map(dic[col_name])
-
-
-def setting_xy_for_SVM(data, target_col):
-    prepare_data(data, target_col, False)
-
-    data_encoded = feature_encoder(data, ['directors'], ['genre', 'MPAA_rating', 'animated'])
-
-    Y = data[target_col]
-    X = data_encoded.iloc[:, 0:]  # Features
-    X.drop(['movie_title', target_col], axis=1, inplace=True)
-
-    #Label Encoding
-    levelOfSuccess = LabelEncoder()
-    Y = levelOfSuccess.fit_transform(Y)
-
-    X_new = lasso_feature_selection(X, Y)
-
-    # scaling
-    scale = StandardScaler()
-    X_new = scale.fit_transform(X_new)
-
-    return X_new, Y

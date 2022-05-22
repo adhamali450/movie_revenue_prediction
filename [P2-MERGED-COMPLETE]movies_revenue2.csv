@@ -1,0 +1,464 @@
+movie_title,release_date,genre,MPAA_rating,directors,animated,MovieSuccessLevel
+Recess: School's Out,16-Feb-01,Comedy,G,Chuck Sheetz,Yes,C
+D2: The Mighty Ducks,25-Mar-94,Comedy,PG,Sam Weisman,NO,B
+Home on the Range,2-Apr-04,Comedy,PG,Will Finn,Yes,C
+Young Black Stallion,25-Dec-03,Adventure,G,Simon Wincer,NO,D
+What's Love Got to Do With It,9-Jun-93,Drama,R,Brian Gibson,NO,B
+Lady and the Tramp,22-Jun-55,Drama,G,Hamilton Luske,NO,S
+Corky Romano,12-Oct-01,Comedy,PG-13,Rob Pritts,NO,C
+The Waterboy,6-Nov-98,Comedy,PG-13,Frank Coraci,NO,A
+Captain America: The Winter Soldier,4-Apr-14,Action,PG-13,Anthony Russo,NO,A
+Pirates of the Caribbean: Dead Man’…,7-Jul-06,Adventure,PG-13,Gore Verbinski,NO,S
+Ladder 49,1-Oct-04,Action,PG-13,Jay Russell,NO,B
+Coyote Ugly,4-Aug-00,Drama,PG-13,David McNally,NO,B
+The Sixth Man,28-Mar-97,Comedy,PG-13,Randall Miller,NO,C
+Dick Tracy,15-Jun-90,Action,PG,Warren Beatty,NO,A
+Sister Act 2 Back in the Habit,10-Dec-93,Comedy,PG,Bill Duke,NO,B
+DuckTales: The Movie - Treasure of th…,3-Aug-90,Adventure,G,Bob Hathcock,Yes,C
+Blame it on the Bellboy,6-Mar-92,Comedy,PG-13,Mark Herman,NO,D
+The Hunchback of Notre Dame,21-Jun-96,Adventure,G,Gary Trousdale,Yes,B
+Ernest Goes to Jail,6-Apr-90,Comedy,PG,John R. Cherry III,NO,C
+Ant-Man,17-Jul-15,Action,PG-13,Peyton Reed,NO,B
+The Shaggy Dog,10-Mar-06,Comedy,PG,Brian Robbins,NO,B
+The Life Aquatic with Steve Zissou,10-Dec-04,Comedy,R,Wes Anderson,NO,C
+Bridge to Terabithia,16-Feb-07,Drama,PG,Gábor Csupó,NO,B
+Beauty and the Beast,13-Nov-91,Musical,G,Gary Trousdale,NO,A
+Miami Rhapsody,27-Jan-95,Romantic Comedy,PG-13,David Frankel,NO,D
+A Bug's Life,20-Nov-98,Adventure,G,John Lasseter,Yes,A
+3 Men and a Little Lady,21-Nov-90,Comedy,PG,Emile Ardolino,NO,B
+The Puppet Masters,21-Oct-94,Horror,R,Stuart Orme,NO,D
+Signs,2-Aug-02,Thriller/Suspense,PG-13,M. Night Shyamalan,NO,A
+Dead Presidents,4-Oct-95,Drama,R,Albert Hughes,NO,C
+"McFarland, USA",20-Feb-15,Drama,PG,Niki Caro,NO,C
+George Of The Jungle,16-Jul-97,Comedy,PG,Sam Weisman,NO,B
+Bound by Honor,16-Apr-93,Crime,R,Taylor Hackford,NO,D
+The Avengers,4-May-12,Action,PG-13,Joss Whedon,NO,S
+Ten Things I Hate About You,31-Mar-99,Romantic Comedy,PG-13,Andre Paras,NO,C
+Earth,22-Apr-09,Documentary,G,Kevin Nolting,NO,C
+Hello Again,6-Nov-87,Comedy,PG,Tom Gustafson,NO,C
+When a Man Loves a Woman,29-Apr-94,Drama,R,Luis Mandoki,NO,B
+Unbreakable,22-Nov-00,Thriller/Suspense,PG-13,M. Night Shyamalan,NO,B
+3 Men and a Baby,25-Nov-87,Comedy,PG,Leonard Nimoy,NO,A
+X Games 3D: The Movie,21-Aug-09,Documentary,PG,Steven Lawrence,NO,D
+Cars 2,24-Jun-11,Adventure,G,John Lasseter,Yes,A
+The Princess Diaries 2: Royal Engagement,11-Aug-04,Romantic Comedy,G,Garry Marshall,NO,B
+The Jungle Book 2,14-Feb-03,Adventure,G,Steve Trenbirth,Yes,C
+Aspen Extreme,22-Jan-93,Romantic Comedy,PG-13,Patrick Hasburgh,NO,D
+Noises Off...,20-Mar-92,Comedy,PG-13,Peter Bogdanovich,NO,D
+He Got Game,1-May-98,Drama,R,Spike Lee,NO,C
+Bringing Down the House,7-Mar-03,Comedy,PG-13,Adam Shankman,NO,B
+Bon Voyage!,17-May-62,Comedy,Not Rated,Jean-Paul Rappeneau,NO,B
+Doctor Strange,4-Nov-16,Adventure,PG-13,Scott Derrickson,NO,A
+Flubber,26-Nov-97,Comedy,PG,Les Mayfield,NO,B
+Roving Mars,27-Jan-06,Documentary,G,George Butler,NO,D
+Captain Ron,18-Sep-92,Comedy,PG-13,Thom Eberhardt,NO,C
+Shadow Conspiracy,31-Jan-97,Thriller/Suspense,R,George P. Cosmatos,NO,D
+Good Morning Vietnam,23-Dec-87,Comedy,R,Barry Levinson,NO,A
+Babes in Toyland,14-Dec-61,Musical,G,Clive Donner,NO,B
+An Innocent Man,6-Oct-89,Drama,R,Peter Yates,NO,C
+Summer of Sam,2-Jul-99,Drama,R,Spike Lee,NO,C
+The Good Dinosaur,25-Nov-15,Adventure,PG,Peter Sohn,Yes,B
+Angels in the Outfield,15-Jul-94,Comedy,PG,William Dear,NO,B
+Tough Guys,3-Oct-86,Comedy,PG,Jeff Kanew,NO,C
+Something Wicked This Way Comes,29-Apr-83,Horror,PG,Jack Clayton,NO,D
+The Rocketeer,21-Jun-91,Action,PG,Joe Johnston,NO,B
+Stakeout,5-Aug-87,Comedy,R,John Badham,NO,B
+National Treasure 2: Book of Secrets,21-Dec-07,Adventure,PG,Jon Turteltaub,NO,A
+Terminal Velocity,23-Sep-94,Action,PG-13,Deran Sarafian,NO,C
+Apocalypto,8-Dec-06,Adventure,R,Mel Gibson,NO,C
+Invincible,25-Aug-06,Drama,PG,Ericson Core,Yes,B
+25th Hour,19-Dec-02,Drama,R,Spike Lee,NO,D
+Mighty Joe Young,25-Dec-98,Adventure,PG,Ron Underwood,NO,B
+Deceived,27-Sep-91,Thriller/Suspense,PG-13,Damian Harris,NO,C
+Never Cry Wolf,7-Oct-83,Drama,PG,Carroll Ballard,NO,B
+G-Force,24-Jul-09,Adventure,PG,Hoyt Yeatman,Yes,B
+Feast of July,13-Oct-95,Drama,R,Christopher Menaul,NO,D
+The Lookout,30-Mar-07,Drama,R,Scott Frank,NO,D
+Cool Runnings,1-Oct-93,Comedy,PG,Jon Turteltaub,NO,B
+Alice Through the Looking Glass,27-May-16,Adventure,PG,James Bobin,NO,B
+The Devil and Max Devlin,1-Jan-81,Fantasy,PG,Steven Hilliard Stern,NO,C
+The Chronicles of Narnia: Prince Caspian,16-May-08,Adventure,PG,Andrew Adamson,NO,B
+The Insider,5-Nov-99,Drama,R,Michael Mann,NO,C
+Camp Nowhere,26-Aug-94,Comedy,PG,Jonathan Prince,NO,C
+The Rock,7-Jun-96,Action,R,Michael Bay,NO,A
+Green Card,25-Dec-90,Romantic Comedy,PG-13,Peter Weir,NO,C
+Real Steel,7-Oct-11,Action,PG-13,Shawn Levy,NO,B
+A Kid in King Arthur's Court,11-Aug-95,Adventure,PG,Michael Gottlieb,NO,C
+The Last Flight of Noah’s Ark,25-Jun-80,Adventure,G,Charles Jarrott,NO,C
+African Cats,22-Apr-11,Documentary,G,Alastair Fothergill,NO,D
+Toy Story 3D Double Feature,2-Oct-09,Adventure,G,Unknown,Yes,C
+Into the Woods,25-Dec-14,Musical,PG,Rob Marshall,NO,B
+Finding Nemo,30-May-03,Adventure,G,Andrew Stanton,Yes,S
+The Good Mother,4-Nov-88,Drama,PG,Steve Antin,NO,D
+The Hundred-Foot Journey,8-Aug-14,Romantic Comedy,PG,Lasse Hallström,NO,C
+Pearl Harbor,25-May-01,Action,PG-13,Michael Bay,NO,A
+Pirates of the Caribbean: At World’…,24-May-07,Adventure,PG-13,Gore Verbinski,NO,A
+Color of Night,19-Aug-94,Thriller/Suspense,R,Richard Rush,NO,C
+Romy and Michele's High School Reunion,25-Apr-97,Comedy,R,David Mirkin,NO,C
+Cheetah,18-Aug-89,Adventure,TV-G,Oz Scott,NO,D
+Jack,9-Aug-96,Drama,PG-13,Christopher McQuarrie,NO,B
+Monsters University,21-Jun-13,Adventure,G,Dan Scanlon,Yes,A
+The Fifth Estate,18-Oct-13,Drama,R,Bill Condon,NO,D
+Before and After,23-Feb-96,Drama,PG-13,Barbet Schroeder,NO,D
+Moonlight Mile,27-Sep-02,Drama,PG-13,Brad Silberling,NO,D
+A Stranger Among Us,17-Jul-92,Drama,PG-13,Sidney Lumet,NO,C
+The Lizzie McGuire Movie,2-May-03,Comedy,PG,Jim Fall,NO,C
+Krippendorf's Tribe,27-Feb-98,Comedy,PG-13,Todd Holland,NO,D
+crazy/beautiful,29-Jun-01,Drama,PG-13,John Stockwell,NO,C
+Adventures in Babysitting,3-Jul-87,Comedy,PG-13,John Schultz,NO,B
+The Game Plan,22-Sep-07,Comedy,PG,Andy Fickman,NO,B
+Splash,9-Mar-84,Comedy,PG,Ron Howard,NO,B
+Who Framed Roger Rabbit?,22-Jun-88,Comedy,PG,Robert Zemeckis,Yes,A
+The Light Between Oceans,2-Sep-16,Drama,PG-13,Derek Cianfrance,NO,D
+The Guardian,29-Sep-06,Action,PG-13,Andrew Davis,NO,B
+The Sword in the Stone,25-Dec-63,Adventure,G,Wolfgang Reitherman,Yes,B
+Mr. Holland's Opus,29-Dec-95,Drama,PG,Stephen Herek,NO,B
+The Rescuers Down Under,16-Nov-90,Adventure,G,Mike Gabriel,Yes,C
+The Preacher's Wife,13-Dec-96,Drama,PG,Penny Marshall,NO,B
+Sarafina!,18-Sep-92,Drama,PG-13,Darrell James Roodt,NO,D
+Trenchcoat,11-Mar-83,Comedy,PG,Michael Tuchner,NO,D
+Confessions of a Teenage Drama Queen,20-Feb-04,Comedy,PG,Sara Sugarman,NO,C
+Around the World in 80 Days,16-Jun-04,Adventure,PG,Frank Coraci,NO,C
+Blaze,13-Dec-89,Drama,R,Ethan Hawke,Yes,C
+Toy Story,22-Nov-95,Adventure,G,John Lasseter,Yes,A
+Prince of Persia: Sands of Time,28-May-10,Action,PG-13,Mike Newell,NO,B
+Eddie,31-May-96,Comedy,PG-13,Dexter Fletcher,NO,C
+White Fang 2: Myth of the White Wolf,15-Apr-94,Adventure,PG,Ken Olin,NO,D
+White Squall,2-Feb-96,Adventure,PG-13,Ridley Scott,NO,D
+The Invisible,27-Apr-07,Thriller/Suspense,PG-13,Leigh Whannell,NO,C
+Guilty as Sin,4-Jun-93,Thriller/Suspense,R,Sidney Lumet,NO,C
+Operation Dumbo Drop,28-Jul-95,Adventure,PG,Simon Wincer,NO,C
+Ghosts of the Abyss,11-Apr-03,Documentary,G,James Cameron,NO,C
+Scenes from a Mall,22-Feb-91,Comedy,R,Paul Mazursky,NO,D
+The BFG,1-Jul-16,Adventure,PG,Steven Spielberg,NO,C
+Tron,9-Jul-82,Action,PG,Joseph Kosinski,NO,B
+Firelight,4-Sep-98,Drama,R,William Nicholson,NO,D
+Delivery Man,22-Nov-13,Comedy,PG-13,Ken Scott,NO,C
+New York Stories,1-Mar-89,Drama,PG,Francis Ford Coppola,NO,C
+Disorganized Crime,14-Apr-89,Comedy,R,Jim Kouf,NO,D
+Tom and Huck,22-Dec-95,Adventure,PG,Peter Hewitt,NO,C
+Keeping the Faith,14-Apr-00,Romantic Comedy,PG-13,Edward Norton,NO,C
+Grosse Pointe Blank,11-Apr-97,Black Comedy,R,George Armitage,NO,C
+Indian Summer,23-Apr-93,Comedy,R,Mike Binder,NO,C
+The Princess and the Frog,25-Nov-09,Adventure,G,Ron Clements,Yes,B
+Billy Bathgate,1-Nov-91,Drama,R,Robert Benton,NO,C
+3 Ninjas Kick Back,6-May-94,Action,PG,Charles T. Kanganis,NO,C
+My Boyfriend's Back,6-Aug-93,Comedy,PG-13,Bob Balaban,NO,D
+Goal! The Dream Begins,12-May-06,Drama,PG,Danny Cannon,NO,D
+Country,29-Sep-84,Drama,PG-13,Francis Lee,NO,C
+Big Trouble,5-Apr-02,Comedy,PG-13,Barry Sonnenfeld,NO,D
+People Like Us,29-Jun-12,Drama,PG-13,Alex Kurtzman,NO,D
+Mars Needs Moms,11-Mar-11,Adventure,PG,Simon Wells,Yes,C
+Angie,4-Mar-94,Comedy,R,Martha Coolidge,NO,D
+Deuce Bigalow: Male Gigolo,10-Dec-99,Comedy,R,Mike Mitchell,NO,B
+Veronica Guerin,17-Oct-03,Drama,R,Joel Schumacher,NO,D
+Max Keeble's Big Move,5-Oct-01,Comedy,PG,Tim Hill,NO,C
+The Scarlet Letter,13-Oct-95,Drama,R,Roland Joffé,NO,C
+D3: The Mighty Ducks,4-Oct-96,Comedy,PG,Rob Lieberman,NO,C
+Up,29-May-09,Adventure,PG,Darrell Van Citters,NO,A
+Alive,15-Jan-93,Adventure,R,Santiago Menghini,NO,B
+Can't Buy Me Love,14-Aug-87,Romantic Comedy,PG-13,Steve Rash,NO,C
+The Hoax,6-Apr-07,Drama,R,Lasse Hallström,NO,D
+Fantasia,13-Nov-40,Musical,G,David Hand,Yes,S
+Crimson Tide,12-May-95,Action,R,Tony Scott,NO,B
+Ransom,8-Nov-96,Action,R,Ron Howard,NO,A
+Pretty Woman,23-Mar-90,Romantic Comedy,R,Garry Marshall,NO,A
+Inspector Gadget,23-Jul-99,Comedy,PG,David Kellogg,NO,B
+Winnie the Pooh,15-Jul-11,Adventure,G,Stephen J. Anderson,Yes,C
+The Tigger Movie,11-Feb-00,Adventure,G,Jun Falkenstein,Yes,B
+Heavy Weights,17-Feb-95,Comedy,PG,Steven Brill,NO,C
+What About Bob?,17-May-91,Comedy,PG,Frank Oz,NO,B
+Condorman,7-Aug-81,Action,G,Charles Jarrott,NO,D
+The Haunted Mansion,26-Nov-03,Comedy,PG,Rob Minkoff,NO,B
+The Hitchhiker's Guide to the Galaxy,29-Apr-05,Comedy,PG,Garth Jennings,NO,C
+Bedknobs and Broomsticks,7-Oct-71,Musical,G,Robert Stevenson,Yes,B
+Pooh's Heffalump Movie,11-Feb-05,Adventure,G,Frank Nissen,Yes,C
+Open Range,15-Aug-03,Western,R,Kevin Costner,NO,B
+D.O.A.,18-Mar-88,Thriller/Suspense,PG-13,Annabel Jankel,NO,C
+Meet the Deedles,27-Mar-98,Comedy,PG,Steve Boyum,NO,D
+A Beautiful Planet,29-Apr-16,Documentary,G,Toni Myers,NO,D
+Sister Act,29-May-92,Comedy,PG,Emile Ardolino,NO,A
+Strange Magic,23-Jan-15,Adventure,PG,Gary Rydstrom,Yes,D
+The Many Adventures of Winnie the Pooh,11-Mar-77,Animation,G,Wolfgang Reitherman,Yes,D
+Quiz Show,14-Sep-94,Drama,PG-13,Robert Redford,NO,C
+While You Were Sleeping,21-Apr-95,Romantic Comedy,PG,Jon Turteltaub,NO,B
+Bedtime Stories,25-Dec-08,Comedy,PG,Adam Shankman,NO,B
+"The Chronicles of Narnia: The Lion, t…",9-Dec-05,Adventure,PG,Andrew Adamson,NO,A
+Instinct,4-Jun-99,Drama,R,Paul Verhoeven,NO,C
+Step Up,11-Aug-06,Drama,PG-13,Anne Fletcher,NO,B
+G.I. Jane,22-Aug-97,Drama,R,Ridley Scott,NO,B
+Oscar,26-Apr-91,Comedy,PG,Éric-Emmanuel Schmitt,NO,C
+The Parent Trap,29-Jul-98,Comedy,PG,Nancy Meyers,NO,B
+Primeval,12-Jan-07,Adventure,R,Michael Katleman,NO,D
+The Lone Ranger,2-Jul-13,Western,PG-13,Gore Verbinski,NO,B
+"Monsters, Inc.",2-Nov-01,Adventure,G,Pete Docter,Yes,A
+Reign of Fire,19-Feb-02,Action,PG-13,Rob Bowman,NO,C
+Running Brave,4-Nov-83,Drama,PG,Donald Shebib,NO,D
+Dinosaur,19-May-00,Adventure,PG,Ralph Zondag,Yes,A
+Rushmore,11-Dec-98,Black Comedy,R,Wes Anderson,NO,C
+Freaky Friday,21-Jan-77,Comedy,PG,Mark Waters,NO,B
+The 13th Warrior,27-Aug-99,Action,R,John McTiernan,NO,C
+Brave,22-Jun-12,Adventure,PG,Brenda Chapman,Yes,A
+Eight Below,17-Feb-06,Adventure,PG,Frank Marshall,NO,B
+Gake no ue no Ponyo,14-Aug-09,Adventure,G,Hayao Miyazaki,Yes,D
+Queen of Katwe,23-Sep-16,Drama,PG,Mira Nair,NO,D
+Straight Talk,3-Apr-92,Comedy,PG,Barnet Kellman,NO,C
+Holy Man,9-Oct-98,Comedy,PG,Stephen Herek,NO,C
+The Sorcerer's Apprentice,14-Jul-10,Adventure,PG,Jon Turteltaub,NO,C
+Stella,2-Feb-90,Drama,PG-13,Thomas Sieben,NO,C
+An American Werewolf in Paris,25-Dec-97,Horror,R,Anthony Waller,NO,C
+The Mighty Ducks,2-Oct-92,Comedy,PG,Stephen Herek,NO,B
+Tall Tale,24-Mar-95,Western,PG,Jeremiah S. Chechik,NO,D
+Tangled,24-Nov-10,Adventure,PG,Nathan Greno,Yes,A
+Ed Wood,30-Sep-94,Comedy,R,Tim Burton,NO,D
+The Jerky Boys,3-Feb-95,Comedy,R,James Melkonian,NO,D
+The Rich Man's Wife,13-Sep-96,Thriller/Suspense,R,Amy Holden Jones,NO,D
+"20,000 Leagues Under the Sea",23-Dec-54,Adventure,G,Richard Fleischer,NO,S
+Super Mario Bros.,28-May-93,Action,PG,Annabel Jankel,NO,C
+The Proposal,19-Jun-09,Romantic Comedy,PG-13,Anne Fletcher,NO,B
+Race to Witch Mountain,13-Mar-09,Adventure,PG,Andy Fickman,NO,B
+The Adventures of Huck Finn,2-Apr-93,Adventure,PG,Stephen Sommers,NO,C
+Jefferson in Paris,31-Mar-95,Drama,PG-13,James Ivory,NO,D
+The Jungle Book,15-Apr-16,Adventure,PG,Wolfgang Reitherman,NO,A
+Sky High,29-Jul-05,Adventure,PG,Mike Mitchell,NO,B
+Toy Story 2,19-Nov-99,Adventure,G,John Lasseter,Yes,A
+The Rescuers,22-Jun-77,Adventure,G,Wolfgang Reitherman,Yes,B
+Remember the Titans,29-Sep-00,Drama,PG,Boaz Yakin,NO,B
+A Lot Like Love,22-Apr-05,Comedy,PG-13,Nigel Cole,NO,C
+3 Ninjas,7-Aug-92,Action,PG,Jon Turteltaub,NO,C
+Flight of the Navigator,30-Jul-86,Adventure,PG,Randal Kleiser,NO,C
+America's Heart and Soul,2-Jul-04,Documentary,Not Rated,Louis Schwartsberg,NO,D
+Swing Vote,1-Aug-08,Comedy,PG-13,Joshua Michael Stern,NO,D
+The Straight Story,15-Oct-99,Drama,G,David Lynch,NO,D
+The Kid,7-Jul-00,Comedy,PG,Jon Turteltaub,NO,B
+Enchanted,21-Nov-07,Romantic Comedy,PG,Kevin Lima,Yes,B
+Zootopia,4-Mar-16,Adventure,PG,Byron Howard,Yes,A
+I'll Be Home For Christmas,13-Nov-98,Comedy,PG,James Brolin,NO,C
+The War at Home,20-Nov-96,Drama,R,Emilio Estevez,NO,D
+Peter Pan: Return to Neverland,15-Feb-02,Adventure,G,Robin Budd,Yes,B
+Ratatouille,29-Jun-07,Comedy,G,Brad Bird,Yes,A
+Secretariat,8-Oct-10,Drama,PG,Randall Wallace,NO,C
+Medicine Man,7-Feb-92,Drama,PG-13,John McTiernan,NO,B
+A Thousand Acres,19-Sep-97,Drama,R,Jocelyn Moorhouse,NO,D
+Mission to Mars,10-Mar-00,Adventure,PG,Brian De Palma,NO,B
+Brother Bear,24-Oct-03,Adventure,G,Robert Walker,Yes,B
+Snow White and the Seven Dwarfs,21-Dec-37,Musical,G,David Hand,Yes,S
+Toy Story 3,18-Jun-10,Adventure,G,Lee Unkrich,Yes,A
+Miracle,6-Feb-04,Drama,PG,T.C. Christensen,NO,B
+My Favorite Martian,12-Feb-99,Comedy,PG,Donald Petrie,NO,C
+Benji the Hunted,5-Jun-87,Adventure,G,Joe Camp,NO,C
+A Far Off Place,12-Mar-93,Adventure,PG,Mikael Salomon,NO,C
+Old Dogs,25-Nov-09,Comedy,PG,Walt Becker,NO,C
+Alice in Wonderland,5-Mar-10,Adventure,PG,Clyde Geronimi,NO,A
+The Little Mermaid,15-Nov-89,Adventure,G,Ron Clements,NO,A
+Stick It,28-Apr-06,Comedy,PG-13,Jessica Bendinger,NO,C
+Funny Bones,31-Mar-95,Comedy,R,Peter Chelsom,NO,D
+Cars,9-Jun-06,Comedy,G,John Lasseter,Yes,A
+Bicentennial Man,17-Dec-99,Drama,PG,Chris Columbus,NO,B
+Chimpanzee,20-Apr-12,Documentary,G,Alastair Fothergill,NO,C
+The Apple Dumpling Gang,1-Jul-75,Comedy,G,Norman Tokar,NO,B
+The Other Sister,26-Feb-99,Romantic Comedy,PG-13,Garry Marshall,NO,C
+A Simple Twist of Fate,2-Sep-94,Drama,PG-13,Gillies MacKinnon,NO,D
+Where the Heart Is,23-Feb-90,Comedy,PG-13,Matt Williams,NO,D
+Kaze Tachinu,8-Nov-13,Drama,PG-13,Mitsuo Wakasugi,Yes,D
+Off Beat,11-Apr-86,Comedy,PG,Michael Dinner,NO,D
+The Greatest Game Ever Played,30-Sep-05,Drama,PG,Bill Paxton,NO,C
+The Three Musketeers,12-Nov-93,Adventure,PG,William Lau,NO,B
+A Civil Action,25-Dec-98,Drama,PG-13,Steven Zaillian,NO,B
+Walt and El Grupo,10-Sep-09,Documentary,PG,Theodore Thomas,NO,D
+Powder,27-Oct-95,Drama,PG-13,Victor Salva,NO,C
+1492: Conquest of Paradise,9-Oct-92,Adventure,PG-13,Ridley Scott,NO,D
+The Cemetery Club,3-Feb-93,Comedy,PG-13,Bill Duke,NO,D
+Stay Alive,24-Mar-06,Horror,PG-13,William Brent Bell,NO,C
+That Darn Cat,14-Feb-97,Comedy,PG,Bob Spiers,NO,C
+The Muppet Christmas Carol,11-Dec-92,Comedy,G,Brian Henson,NO,C
+Step Up 2 the Streets,14-Feb-08,Drama,PG-13,Jon M. Chu,NO,C
+Fantasia 2000 (Theatrical Release),16-Jun-00,Musical,G,Unknown,Yes,D
+The Santa Clause 2,1-Nov-02,Comedy,G,Michael Lembeck,NO,A
+The Recruit,31-Jan-03,Thriller/Suspense,PG-13,Roger Donaldson,NO,B
+Money for Nothing,10-Sep-93,Comedy,R,Ramón Menéndez,NO,D
+Bad Company,20-Jan-95,Thriller/Suspense,R,Joel Schumacher,NO,D
+I Love Trouble,29-Jun-94,Romantic Comedy,PG,Charles Shyer,NO,C
+The Absent Minded Professor,16-Mar-61,Comedy,G,Robert Stevenson,NO,A
+Jungle 2 Jungle,7-Mar-97,Comedy,PG,John Pasquin,NO,B
+Tex,19-Nov-82,Drama,R,Tim Hunter,NO,C
+Life With Mikey,4-Jun-93,Comedy,PG,James Lapine,NO,C
+Gone Fishin',30-May-97,Comedy,PG,Christopher Cain,NO,C
+Rogue One: A Star Wars Story,16-Dec-16,Adventure,PG-13,Gareth Edwards,NO,S
+The Marrying Man,5-Apr-91,Romantic Comedy,R,Jerry Rees,NO,C
+Bubble Boy,24-Aug-01,Comedy,PG-13,Blair Hayes,NO,D
+Baby: Secret of the Lost Legend,22-Mar-85,Adventure,PG,Bill L. Norton,NO,C
+The Fox and the Hound,10-Jul-81,Comedy,G,Art Stevens,Yes,B
+High Heels and Low Lifes,26-Oct-01,Action,R,Mel Smith,NO,D
+The Tie That Binds,8-Sep-95,Thriller/Suspense,R,Wesley Strick,NO,D
+John Carter,9-Mar-12,Adventure,PG-13,Andrew Stanton,NO,B
+Blank Check,11-Feb-94,Comedy,PG,Rupert Wainwright,NO,C
+Guardians of the Galaxy,1-Aug-14,Adventure,PG-13,James Gunn,NO,A
+Star Wars Ep. VII: The Force Awakens,18-Dec-15,Adventure,PG-13,Unknown,NO,S
+A Goofy Movie,7-Apr-95,Comedy,G,Kevin Lima,Yes,C
+Hocus Pocus,16-Jul-93,Comedy,PG,Kenny Ortega,NO,B
+Pete’s Dragon,12-Aug-16,Adventure,PG,David Lowery,NO,B
+Night Crossing,5-Feb-82,Drama,PG,Delbert Mann,NO,D
+Lilo & Stitch,21-Jun-02,Adventure,PG,Chris Sanders,Yes,A
+Metro,17-Jan-97,Action,R,Thomas Carter,NO,C
+National Treasure,19-Nov-04,Adventure,PG,Jon Turteltaub,NO,A
+Shanghai Noon,26-May-00,Western,PG-13,Tom Dey,NO,B
+Dangerous Minds,11-Aug-95,Drama,R,John N. Smith,NO,B
+The Distinguished Gentleman,4-Dec-92,Comedy,R,Jonathan Lynn,NO,B
+The Secret World of Arietty,17-Feb-12,Adventure,G,Unknown,Yes,C
+The Princess Diaries,3-Aug-01,Comedy,G,Garry Marshall,NO,B
+Step Up 3D,6-Aug-10,Drama,PG-13,Jon M. Chu,NO,C
+Underdog,3-Aug-07,Adventure,PG,Jon Erwin,NO,C
+Red Rock West,28-Jan-94,Crime,R,John Dahl,NO,D
+Captain America: Civil War,6-May-16,Action,PG-13,Anthony Russo,NO,A
+Mr. Wrong,16-Feb-96,Romantic Comedy,PG-13,Nick Castle,NO,C
+Nixon,20-Dec-95,Drama,R,Oliver Stone,NO,C
+The Ref,9-Mar-94,Comedy,R,Ted Demme,NO,C
+The Santa Clause 3: The Escape Clause,3-Nov-06,Comedy,G,Michael Lembeck,NO,B
+Ice Princess,18-Mar-05,Comedy,G,Tim Fywell,NO,C
+King Arthur,7-Jul-04,Adventure,PG-13,Antoine Fuqua,NO,B
+Nothing To Lose,18-Jul-97,Comedy,R,Steve Oedekerk,NO,B
+Herbie: Fully Loaded,22-Jun-05,Comedy,G,Angela Robinson,NO,B
+Father of the Bride,20-Dec-91,Comedy,PG,Charles Shyer,NO,B
+You Again,24-Sep-10,Comedy,PG,Andy Fickman,NO,C
+Treasure Planet,27-Nov-02,Adventure,PG,Ron Clements,Yes,C
+The Great Mouse Detective,2-Jul-86,Adventure,G,Ron Clements,Yes,C
+Cinderella,13-Mar-15,Drama,PG,Wilfred Jackson,NO,A
+Frozen,22-Nov-13,Adventure,PG,Chris Buck,Yes,A
+Pirates of the Caribbean: On Stranger…,20-May-11,Adventure,PG-13,Rob Marshall,NO,A
+Zokkomon,22-Apr-11,Adventure,PG,Satyajit Bhatkal,NO,D
+Gross Anatomy,20-Oct-89,Drama,PG-13,Thom Eberhardt,NO,C
+The Incredibles,5-Nov-04,Adventure,PG,Brad Bird,Yes,A
+Frank McKlusky C.I.,1-Jan-02,Action,PG-13,Arlene Sanford,NO,D
+Taking Care of Business,17-Aug-90,Comedy,R,Arthur Hiller,NO,C
+Tim Burton's The Nightmare Before Chr…,20-Oct-06,Musical,PG,Henry Selick,NO,C
+Cocktail,29-Jul-88,Drama,R,Roger Donaldson,NO,B
+Gun Shy,4-Feb-00,Comedy,R,Simon West,NO,D
+Mr. Destiny,12-Oct-90,Comedy,PG-13,James Orr,NO,C
+Herbie Goes to Monte Carlo,24-Jun-77,Romance,G,Vincent McEveety,NO,B
+Evita,25-Dec-96,Musical,PG,Alan Parker,NO,B
+Dark Water,8-Jul-05,Thriller/Suspense,PG-13,Walter Salles,NO,C
+Piglet's Big Movie,21-Mar-03,Comedy,G,Francis Glebas,Yes,C
+Kazaam,17-Jul-96,Comedy,PG,Paul Michael Glaser,NO,C
+Déjà Vu,22-Nov-06,Thriller/Suspense,PG-13,Tony Scott,NO,B
+Waking Sleeping Beauty,26-Mar-10,Documentary,PG,Don Hahn,NO,D
+The Count of Monte Cristo,25-Jan-02,Drama,PG-13,Kevin Reynolds,NO,B
+The Program,24-Sep-93,Action,R,Stephen Frears,NO,C
+When in Rome,29-Jan-10,Romantic Comedy,PG-13,Mark Steven Johnson,NO,C
+Born Yesterday,26-Mar-93,Romantic Comedy,PG,George Cukor,NO,C
+The Alamo,9-Apr-04,Western,PG-13,John Lee Hancock,NO,C
+Mad Love,26-May-95,Drama,PG-13,Antonia Bird,NO,C
+Armageddon,1-Jul-98,Adventure,PG-13,Michael Bay,NO,A
+Air Bud,1-Aug-97,Comedy,PG,Charles Martin Smith,NO,C
+Fire Birds,24-May-90,Action,PG-13,David Green,NO,C
+The Black Cauldron,24-Jul-85,Adventure,PG,Ted Berman,Yes,C
+Oz the Great and Powerful,8-Mar-13,Adventure,PG,Sam Raimi,NO,A
+Two Much,15-Mar-96,Romantic Comedy,PG-13,Fernando Trueba,NO,D
+102 Dalmatians,22-Nov-00,Comedy,G,Kevin Lima,NO,B
+The Pacifier,4-Mar-05,Comedy,PG,Adam Shankman,NO,B
+Prom,29-Apr-11,Comedy,PG,Paul Lynch,NO,D
+Un indien dans la ville,22-Mar-96,Comedy,PG,Hervé Palud,NO,D
+Annapolis,27-Jan-06,Drama,PG-13,Justin Lin,NO,C
+The Country Bears,26-Jul-02,Adventure,G,Peter Hastings,NO,C
+Planes: Fire and Rescue,18-Jul-14,Adventure,PG,Roberts Gannaway,Yes,C
+Tin Men,6-Mar-87,Comedy,R,Barry Levinson,NO,C
+Renaissance Man,3-Jun-94,Comedy,PG-13,Penny Marshall,NO,C
+Playing God,17-Oct-97,Thriller/Suspense,R,Andy Wilson,NO,D
+Phenomenon,5-Jul-96,Drama,PG,Jon Turteltaub,NO,B
+Gnomeo and Juliet,11-Feb-11,Comedy,G,Kelly Asbury,Yes,B
+The Color of Money,17-Oct-86,Drama,R,Martin Scorsese,NO,B
+Blackbeard's Ghost,8-Feb-68,Comedy,G,Robert Stevenson,NO,B
+Ernest Scared Stupid,11-Oct-91,Comedy,PG,John R. Cherry III,NO,C
+The Emperor's New Groove,15-Dec-00,Adventure,G,Mark Dindal,Yes,B
+Double Take,12-Jan-01,Action,PG-13,George Gallo,NO,C
+Rocket Man,10-Oct-97,Comedy,PG,Oscar Rudolph,NO,C
+Mulan,19-Jun-98,Adventure,G,Barry Cook,NO,A
+Song of the South,12-Nov-46,Adventure,G,Wilfred Jackson,Yes,S
+The Black Hole,21-Dec-79,Adventure,PG,Gary Nelson,NO,B
+Raising Helen,28-May-04,Comedy,PG-13,Garry Marshall,NO,C
+A Gun in Betty Lou's Handbag,21-Aug-92,Comedy,PG-13,Allan Moyle,NO,D
+The Air Up There,7-Jan-94,Comedy,PG,Paul Michael Glaser,NO,C
+Roommates,3-Mar-95,Comedy,PG,Peter Yates,NO,C
+Morning Light,17-Oct-08,Documentary,PG,Mark Monroe,NO,D
+Valiant,19-Aug-05,Adventure,G,Gary Chapman,Yes,C
+Down and Out in Beverly Hills,31-Jan-86,Comedy,R,Paul Mazursky,NO,B
+Tarzan,16-Jun-99,Adventure,G,Chris Buck,NO,A
+The Royal Tenenbaums,14-Dec-01,Black Comedy,R,Wes Anderson,NO,B
+James and the Giant Peach,12-Apr-96,Adventure,PG,Henry Selick,Yes,C
+"Mystery, Alaska",1-Oct-99,Comedy,R,Jay Roach,NO,D
+Last Dance,3-May-96,Drama,R,Thomas Carter,NO,D
+My Science Project,9-Aug-85,Comedy,PG,Jonathan R. Betuel,NO,D
+Homeward Bound II: Lost in San Franc…,8-Mar-96,Adventure,G,David R. Ellis,NO,C
+The Muppets,23-Nov-11,Comedy,PG,James Bobin,NO,B
+Turner & Hooch,28-Jul-89,Comedy,PG,Roger Spottiswoode,NO,B
+Oceans,22-Apr-10,Documentary,G,Gary Ross,NO,C
+It's Pat,26-Aug-94,Comedy,PG-13,Adam Bernstein,NO,D
+The Finest Hours,29-Jan-16,Thriller/Suspense,PG,Craig Gillespie,NO,C
+Shoot to Kill,12-Feb-88,Action,R,Roger Spottiswoode,NO,C
+Hannah Montana the Movie,10-Apr-09,Drama,G,Peter Chelsom,NO,B
+First Kid,30-Aug-96,Comedy,PG,David M. Evans,NO,C
+Consenting Adults,16-Oct-92,Drama,R,Alan J. Pakula,NO,C
+Dan in Real Life,20-Oct-07,Romantic Comedy,PG-13,Peter Hedges,NO,C
+Sorority Boys,22-Mar-02,Comedy,R,Wallace Wolodarsky,NO,D
+Simon Birch,11-Sep-98,Drama,PG,Mark Steven Johnson,NO,C
+In the Army Now,12-Aug-94,Comedy,PG,Daniel Petrie Jr.,NO,C
+Bad Company,7-Jun-02,Action,PG-13,Joel Schumacher,NO,C
+Wreck-It Ralph,2-Nov-12,Adventure,PG,Rich Moore,Yes,A
+Iron Man 3,3-May-13,Action,PG-13,Shane Black,NO,A
+Cinderella,15-Feb-50,Drama,G,Wilfred Jackson,NO,S
+One Magic Christmas,22-Nov-85,Drama,G,Phillip Borsos,NO,C
+Beverly Hills Chihuahua,3-Oct-08,Comedy,PG,Raja Gosnell,NO,B
+WALL-E,27-Jun-08,Adventure,G,Andrew Stanton,Yes,A
+Aladdin,11-Nov-92,Comedy,G,Ron Clements,NO,A
+Casanova,25-Dec-05,Drama,R,Lasse Hallström,NO,D
+Thor: The Dark World,8-Nov-13,Adventure,PG-13,Alan Taylor,NO,A
+Monkey Kingdom,17-Apr-15,Documentary,G,Alastair Fothergill,NO,D
+Ernest Saves Christmas,11-Nov-88,Comedy,PG,John R. Cherry III,NO,C
+Hannah Montana/Miley Cyrus: Best of B…,1-Feb-08,Concert/Performance,G,Unknown,NO,B
+Saving Mr. Banks,13-Dec-13,Drama,PG-13,John Lee Hancock,NO,B
+The Aristocats,24-Apr-70,Musical,G,Wolfgang Reitherman,Yes,A
+Calendar Girls,19-Dec-03,Comedy,PG-13,Nigel Cole,NO,C
+Unstrung Heroes,15-Sep-95,Drama,PG,Diane Keaton,NO,D
+Three Fugitives,27-Jan-89,Comedy,PG-13,Francis Veber,NO,B
+Tomorrowland,22-May-15,Adventure,PG,Brad Bird,NO,B
+The Village,30-Jul-04,Thriller/Suspense,PG-13,M. Night Shyamalan,NO,B
+"Alexander and the Terrible, Horrible,…",10-Oct-14,Comedy,PG,Miguel Arteta,NO,C
+Arachnophobia,18-Jul-90,Thriller/Suspense,PG-13,Frank Marshall,NO,B
+Lincoln,9-Nov-12,Drama,PG-13,Timur Bekmambetov,NO,B
+The Horse Whisperer,15-May-98,Drama,PG-13,Robert Redford,NO,B
+Muppets Most Wanted,21-Mar-14,Comedy,PG,James Bobin,NO,C
+Fantasia 2000 (IMAX),1-Jan-00,Musical,G,Unknown,Yes,B
+Spaced Invaders,27-Apr-90,Comedy,PG,Patrick Read Johnson,NO,C
+Just Visiting,6-Apr-01,Comedy,PG-13,Jean-Marie Poiré,NO,D
+Holes,18-Apr-03,Drama,PG,Andrew Davis,NO,B
+The Last Shot,24-Sep-04,Comedy,R,Jeff Nathanson,NO,D
+The Jungle Book,18-Oct-67,Musical,Not Rated,Wolfgang Reitherman,NO,S
+Meet the Robinsons,30-Mar-07,Adventure,G,Stephen J. Anderson,Yes,B
+Dead Poets Society,2-Jun-89,Drama,PG,Peter Weir,NO,A
+Avengers: Age of Ultron,1-May-15,Action,PG-13,Joss Whedon,NO,A
+Man of the House,3-Mar-95,Comedy,PG,Stephen Herek,NO,B
+Bears,18-Apr-14,Documentary,G,Daniel Chong,NO,D
+Passed Away,24-Apr-92,Comedy,PG-13,Charlie Peters,NO,D
+ESPN's Ultimate X - The Movie,10-May-02,Documentary,PG,Unknown,NO,D
+Atlantis: The Lost Empire,8-Jun-01,Adventure,PG,Gary Trousdale,Yes,B
+Ernest Goes to Camp,22-May-87,Comedy,PG,John R. Cherry III,NO,C
+Teacher's Pet: The Movie,16-Jan-04,Comedy,PG,Unknown,Yes,D
+Spy Hard,24-May-96,Comedy,PG-13,Rick Friedberg,NO,C
+Snow Dogs,18-Jan-02,Comedy,PG,Brian Levant,NO,B
+Frankenweenie,5-Oct-12,Comedy,PG,Tim Burton,Yes,C
+Tuck Everlasting,11-Oct-02,Drama,PG,Jay Russell,NO,C
+Hauru no ugoku shiro,10-Jun-05,Adventure,PG,Hayao Miyazaki,Yes,D
+Gedo Senki (Tales from Earthsea),13-Aug-10,Adventure,PG-13,Unknown,Yes,D
+Return to Oz,21-Jun-85,Adventure,G,Walter Murch,NO,C
+Disney's A Christmas Carol,6-Nov-09,Drama,PG,Robert Zemeckis,Yes,B
+Prefontaine,24-Jan-97,Drama,PG-13,Steve James,NO,D
+Beaches,21-Dec-88,Drama,PG-13,Garry Marshall,NO,B
+101 Dalmatians,25-Jan-61,Comedy,G,Stephen Herek,NO,S
+The Last Song,31-Mar-10,Drama,PG,Julie Anne Robinson,NO,C
+Father Hood,27-Aug-93,Action,PG-13,Darrell James Roodt,NO,D
+Encino Man,22-May-09,Family,PG,Les Mayfield,NO,B
+Sweet Home Alabama,27-Sep-02,Comedy,PG-13,Andy Tennant,NO,B
+Play it to the Bone,24-Dec-99,Comedy,R,Ron Shelton,NO,D
+The Odd Life of Timothy Green,15-Aug-12,Drama,PG,Peter Hedges,NO,C
+Honey I Blew Up the Kid,17-Jul-92,Comedy,PG,Randal Kleiser,NO,B
+Hercules,13-Jun-97,Adventure,G,Ron Clements,Yes,B
