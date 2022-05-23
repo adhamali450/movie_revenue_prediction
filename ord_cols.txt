@@ -13,7 +13,9 @@ genre_Black Comedy
 genre_Western
 genre_Animation
 genre_Romance
+genre_Family
 MPAA_rating_G
 MPAA_rating_PG
 MPAA_rating_R
 MPAA_rating_PG-13
+MPAA_rating_TV-G

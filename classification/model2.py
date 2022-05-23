@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 import time
 import joblib
 
-data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue2.csv')
 
 def applying_GridSearch(X_train, y_train):
     param_grid = {'C': [0.1, 1, 10, 100, 1000],

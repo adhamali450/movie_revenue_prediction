@@ -7,34 +7,22 @@ import pandas as pd
 from sklearn.linear_model import Lasso
 from sklearn.feature_selection import SelectFromModel
 from sklearn.preprocessing import StandardScaler
+import joblib
 
 
-data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue2.csv')
 
 def settingXandY(YColumn):
-      merge_data2 = preprocessing.settingXandYUsingDummies(data)
-      create_model(merge_data2)
+      X ,Y = preprocessing.settingXandYUsingDummies(data)
+      create_model(X ,Y)
 
-def create_model(merge_data):
-    min_threshold, max_threshold = merge_data["revenue"].quantile([0.01, 0.99])
-    merge_data2 = merge_data[ (merge_data['revenue']>min_threshold) & (merge_data['revenue'] < max_threshold)]
-    X = merge_data2.iloc[:, 0:]  # Features
-    X.drop(['revenue'], axis=1, inplace=True)
-    Y = merge_data2['revenue']
-
-    lasso = Lasso().fit(X, Y)
-    model = SelectFromModel(lasso, prefit=True)
-    X = model.transform(X)
-
-    #feature scaling
-    sc = StandardScaler()
-    X = sc.fit_transform(X)
-
+def create_model(X ,Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20,shuffle=True,random_state=10)
 
     poly_model = linear_model.LinearRegression()
     start = time.time()
     poly_model.fit(X_train, y_train)
+    joblib.dump(poly_model, 'model2_polynomial.sav')
     end = time.time()
 
     prediction = poly_model.predict(X_test)

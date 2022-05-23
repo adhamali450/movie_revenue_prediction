@@ -4,11 +4,11 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
 import time
-
+import joblib
 import warnings
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue2.csv')
 
 
 def train_model(X, Y):
@@ -18,8 +18,9 @@ def train_model(X, Y):
     start = time.time()
     ridge = Ridge(alpha=1.0, solver='auto')
     ridge.fit(X_train, y_train)
+    joblib.dump(ridge, 'model1Ridge.sav')
     end = time.time()
-
+    print(X.shape)
     y_pred = ridge.predict(X_test)
     print('Mean Square Error ridge test => ',
           metrics.mean_squared_error(y_pred, y_test))

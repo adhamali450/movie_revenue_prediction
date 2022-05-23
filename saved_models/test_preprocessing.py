@@ -2,15 +2,16 @@ import re
 import datetime
 from datetime import timedelta
 import pandas as pd
+import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.linear_model import Lasso
 from sklearn.feature_selection import SelectFromModel
 import category_encoders as ce
-from sklearn.preprocessing import LabelEncoder 
+from sklearn.preprocessing import LabelEncoder, scale 
 from sklearn.preprocessing import StandardScaler
 
-with open('ord_cols.txt', 'r') as f:
+with open('dumm.txt', 'r') as f:
     fetched = f.read().splitlines()
 
 def movie_lemma(movie):
@@ -91,16 +92,6 @@ def shift_target_column(data, col_name):
     move = data.pop(col_name)
     data.insert(int(data.iloc[0].size), col_name, move)
 
-def draw_heat_map(YColumn, readyData):
-    movie_data = readyData.iloc[:, :]
-    corr = movie_data.corr()
-    top_feature = corr.index[abs(corr[YColumn]) > 0.09]
-    plt.subplots(figsize=(12, 8))
-    top_corr = movie_data[top_feature].corr()
-    sns.heatmap(top_corr, annot=True)
-    plt.show()
-    top_feature = top_feature.delete(-1)
-    return top_feature
 
 def plot_graph(y_test, y_pred, regressorName):
     if max(y_test) >= max(y_pred):
@@ -127,57 +118,24 @@ def lasso_feature_selection(X, Y):
     model = SelectFromModel(lasso, prefit=True)
     return model.transform(X)
 
-def setting_xy_for_knn(data, target_col):
-    prepare_data(data, target_col, False)
-
-    # encoding
-    ## 1. features
-    data_encoded = feature_encoder(data, ['director'], ['genre', 'MPAA_rating'])
-    ## 2. label
-    encoder = LabelEncoder()
-    data_encoded[target_col] = encoder.fit_transform(data_encoded[target_col])
-
-    X = data_encoded.iloc[:, 0:]  # Features
-    X.drop(['movie_title', target_col], axis=1, inplace=True)
-
-    Y = data_encoded[target_col]  # Label
-
-    X_new = lasso_feature_selection(X, Y)
-
-    # scaling
-    scale = StandardScaler()
-    X_new = scale.fit_transform(X_new)
-
-    return X_new, Y
-
 def setting_xy_for_predict(data, target_col):
     prepare_data(data, 'revenue')
 
     # encoding
     data_encoded = feature_encoder(data, ['movie_title','director'], ['genre', 'MPAA_rating'])
-
+    data_encoded = concat_data_columns(data_encoded, fetched)
     # corr graph
-    draw_heat_map(target_col, data_encoded)
+    X = data_encoded.iloc[:, 0:]  # Features
 
-    # discarding outliers
-    min_threshold, max_threshold = data_encoded[target_col].quantile([0.01, 0.99])
-    data_ready = data_encoded[(data_encoded[target_col] > min_threshold) & (
-            data_encoded['revenue'] < max_threshold)]
-
-    X = data_ready.iloc[:, 0:]  # Features
-
-    Y = data_ready[target_col]  # Label
+    Y = data_encoded[target_col]  # Label
     X.drop('revenue', axis=1, inplace=True)
-    print(X)
+    
+    X = lasso_feature_selection(X, Y)
 
-    # feature Selection
-    X_new = lasso_feature_selection(X, Y)
-
-    # scaling
     scale = StandardScaler()
-    X_new = scale.fit_transform(X_new)
+    X = scale.fit_transform(X)
 
-    return X_new, Y
+    return X, Y
 
 def settingXandYUsingDummies(data):
     prepare_data(data, 'revenue')
@@ -186,20 +144,33 @@ def settingXandYUsingDummies(data):
     dummeis = pd.get_dummies(data[colName], prefix_sep="_", drop_first=True)
     merge_data = pd.concat([data, dummeis], axis=1)
     merge_data.drop(columns=colName, axis=1, inplace=True)
+    merge_data = concat_data_columns(merge_data, fetched)
     shift_target_column(merge_data, 'revenue')
 
     cols = ['movie_title', 'director']
     for c in cols:
         frequency_encoding(merge_data, c)
 
-    return merge_data
+    X = merge_data.iloc[:, 0:]  # Features
+    X.drop(['revenue'], axis=1, inplace=True)
+    Y = merge_data['revenue']
+    
+    lasso = Lasso().fit(X, Y)
+    model = SelectFromModel(lasso, prefit=True)
+    X = model.transform(X)
+
+    #feature scaling
+    sc = StandardScaler()
+    X = sc.fit_transform(X)
+    
+    return X , Y
 
 def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
                       len(data[col_name])).to_dict()}
     data[col_name] = data[col_name].map(dic[col_name])
 
-def setting_xy_for_SVM(data, target_col):
+def setting_xy_for_classefiers(data, target_col):
     prepare_data(data, target_col, False)
 
     data_encoded = feature_encoder(data, ['director'], ['genre', 'MPAA_rating'])
@@ -207,7 +178,7 @@ def setting_xy_for_SVM(data, target_col):
     Y = data[target_col]
     X = data_encoded.iloc[:, 0:]  # Features
     X.drop(['movie_title', target_col], axis=1, inplace=True)
-    print(data_encoded.head())
+    print(X.columns)
     #Label Encoding
     levelOfSuccess = LabelEncoder()
     Y = levelOfSuccess.fit_transform(Y)
@@ -230,14 +201,18 @@ def setting_xy_for_random(data, target_col):
     merge_data.drop(columns=colName, axis=1, inplace=True)
     merge_data = concat_data_columns(merge_data, fetched)
     shift_target_column(merge_data, target_col)
-    print(merge_data.head())
+
+
     cols = ['director']
     for c in cols:
         frequency_encoding(merge_data, c)
 
     merge_data.drop(['movie_title'], inplace=True, axis=1)
-    X = merge_data.iloc[:, 1:-1]
+    X = merge_data.iloc[:, 0:]
     Y = merge_data.iloc[:, -1:]
+    X.drop(['MovieSuccessLevel'], axis=1, inplace=True)
+    print(X.shape)
+
 
     levelOfSuccess = LabelEncoder()
     Y = levelOfSuccess.fit_transform(Y)

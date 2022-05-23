@@ -7,7 +7,7 @@ import warnings
 import joblib
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
+data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue2.csv')
 
 def applying_GridSearch(X_train, y_train):
     grid_params = {'n_neighbors': [5, 7, 9, 11, 13, 15],

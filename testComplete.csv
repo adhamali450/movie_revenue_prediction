@@ -1,0 +1,4 @@
+movie_title,release_date,genre,MPAA_rating,revenue,director,year,month,day,animated
+The Associate,10/25/1996,Comedy,PG-13,"$40,000 ",Donald Petrie,1996,10,25,NO
+101 Dalmatians,11/27/1996,Comedy,G,"$40,000 ",Wolfgang Reitherman,1996,11,27,NO
+Cradle Will Rock,12/8/1999,Drama,R,"$40,000 ",Tim Robbins,1999,12,8,NO

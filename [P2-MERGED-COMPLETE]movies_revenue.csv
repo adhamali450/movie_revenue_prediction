@@ -1,464 +1,464 @@
-,movie_title,release_date,genre,MPAA_rating,MovieSuccessLevel,director,year,month,day,animated
-0,Recess: School's Out,2001-02-16,Comedy,G,C,Chuck Sheetz,2001,2,16,YES
-1,D2: The Mighty Ducks,1994-03-25,Comedy,PG,B,Sam Weisman,1994,3,25,NO
-2,Home on the Range,2004-04-02,Comedy,PG,C,Will Finn,2004,4,2,YES
-3,Young Black Stallion,2003-12-25,Adventure,G,D,Simon Wincer,2003,12,25,NO
-4,What's Love Got to Do With It,1993-06-09,Drama,R,B,Brian Gibson,1993,6,9,NO
-5,Lady and the Tramp,2055-06-22,Drama,G,S,Hamilton Luske,1955,6,22,NO
-6,Corky Romano,2001-10-12,Comedy,PG-13,C,Rob Pritts,2001,10,12,NO
-7,The Waterboy,1998-11-06,Comedy,PG-13,A,Frank Coraci,1998,11,6,NO
-8,Captain America: The Winter Soldier,2014-04-04,Action,PG-13,A,Anthony Russo,2014,4,4,NO
-9,Pirates of the Caribbean: Dead Man’…,2006-07-07,Adventure,PG-13,S,Gore Verbinski,2006,7,7,NO
-10,Ladder 49,2004-10-01,Action,PG-13,B,Jay Russell,2004,10,1,NO
-11,Coyote Ugly,2000-08-04,Drama,PG-13,B,David McNally,2000,8,4,NO
-12,The Sixth Man,1997-03-28,Comedy,PG-13,C,Randall Miller,1997,3,28,NO
-13,Dick Tracy,1990-06-15,Action,PG,A,Warren Beatty,1990,6,15,NO
-14,Sister Act 2 Back in the Habit,1993-12-10,Comedy,PG,B,Bill Duke,1993,12,10,YES
-15,DuckTales: The Movie - Treasure of th…,1990-08-03,Adventure,G,C,Bob Hathcock,1990,8,3,NO
-16,Blame it on the Bellboy,1992-03-06,Comedy,PG-13,D,Mark Herman,1992,3,6,YES
-17,The Hunchback of Notre Dame,1996-06-21,Adventure,G,B,Gary Trousdale,1996,6,21,NO
-18,Ernest Goes to Jail,1990-04-06,Comedy,PG,C,John R. Cherry III,1990,4,6,NO
-19,Ant-Man,2015-07-17,Action,PG-13,B,NO_DIRECTOR,2015,7,17,NO
-20,The Shaggy Dog,2006-03-10,Comedy,PG,B,Brian Robbins,2006,3,10,NO
-21,The Life Aquatic with Steve Zissou,2004-12-10,Comedy,R,C,Wes Anderson,2004,12,10,NO
-22,Bridge to Terabithia,2007-02-16,Drama,PG,B,Gábor Csupó,2007,2,16,YES
-23,Beauty and the Beast,1991-11-13,Musical,G,A,Gary Trousdale,1991,11,13,NO
-24,Miami Rhapsody,1995-01-27,Romantic Comedy,PG-13,D,David Frankel,1995,1,27,NO
-25,A Bug's Life,1998-11-20,Adventure,G,A,John Lasseter,1998,11,20,NO
-26,3 Men and a Little Lady,1990-11-21,Comedy,PG,B,Emile Ardolino,1990,11,21,NO
-27,The Puppet Masters,1994-10-21,Horror,R,D,Stuart Orme,1994,10,21,NO
-28,Signs,2002-08-02,Thriller/Suspense,PG-13,A,M. Night Shyamalan,2002,8,2,NO
-29,Dead Presidents,1995-10-04,Drama,R,C,Albert Hughes,1995,10,4,NO
-30,"McFarland, USA",2015-02-20,Drama,PG,C,Niki Caro,2015,2,20,NO
-31,George Of The Jungle,1997-07-16,Comedy,PG,B,Sam Weisman,1997,7,16,NO
-32,Bound by Honor,1993-04-16,Crime,R,D,Taylor Hackford,1993,4,16,NO
-33,The Avengers,2012-05-04,Action,PG-13,S,Joss Whedon,2012,5,4,NO
-34,Ten Things I Hate About You,1999-03-31,Romantic Comedy,PG-13,C,Andre Paras,1999,3,31,NO
-35,Earth,2009-04-22,Documentary,G,C,NO_DIRECTOR,2009,4,22,NO
-36,Hello Again,1987-11-06,Comedy,PG,C,Tom Gustafson,1987,11,6,YES
-37,When a Man Loves a Woman,1994-04-29,Drama,R,B,Luis Mandoki,1994,4,29,NO
-38,Unbreakable,2000-11-22,Thriller/Suspense,PG-13,B,NO_DIRECTOR,2000,11,22,YES
-39,3 Men and a Baby,1987-11-25,Comedy,PG,A,Leonard Nimoy,1987,11,25,NO
-40,X Games 3D: The Movie,2009-08-21,Documentary,PG,D,Steven Lawrence,2009,8,21,NO
-41,Cars 2,2011-06-24,Adventure,G,A,John Lasseter,2011,6,24,NO
-42,The Princess Diaries 2: Royal Engagement,2004-08-11,Romantic Comedy,G,B,Garry Marshall,2004,8,11,NO
-43,The Jungle Book 2,2003-02-14,Adventure,G,C,Steve Trenbirth,2003,2,14,NO
-44,Aspen Extreme,1993-01-22,Romantic Comedy,PG-13,D,Patrick Hasburgh,1993,1,22,NO
-45,Noises Off...,1992-03-20,Comedy,PG-13,D,Peter Bogdanovich,1992,3,20,NO
-46,He Got Game,1998-05-01,Drama,R,C,Spike Lee,1998,5,1,NO
-47,Bringing Down the House,2003-03-07,Comedy,PG-13,B,Adam Shankman,2003,3,7,NO
-48,Bon Voyage!,2062-05-17,Comedy,Not Rated,B,Jean-Paul Rappeneau,1962,5,17,NO
-49,Doctor Strange,2016-11-04,Adventure,PG-13,A,NO_DIRECTOR,2016,11,4,NO
-50,Flubber,1997-11-26,Comedy,PG,B,Les Mayfield,1997,11,26,NO
-51,Roving Mars,2006-01-27,Documentary,G,D,George Butler,2006,1,27,YES
-52,Captain Ron,1992-09-18,Comedy,PG-13,C,Thom Eberhardt,1992,9,18,NO
-53,Shadow Conspiracy,1997-01-31,Thriller/Suspense,R,D,George P. Cosmatos,1997,1,31,NO
-54,Good Morning Vietnam,1987-12-23,Comedy,R,A,Barry Levinson,1987,12,23,NO
-55,Babes in Toyland,2061-12-14,Musical,G,B,NO_DIRECTOR,1961,12,14,NO
-56,An Innocent Man,1989-10-06,Drama,R,C,Peter Yates,1989,10,6,NO
-57,Summer of Sam,1999-07-02,Drama,R,C,Spike Lee,1999,7,2,NO
-58,The Good Dinosaur,2015-11-25,Adventure,PG,B,Peter Sohn,2015,11,25,NO
-59,Angels in the Outfield,1994-07-15,Comedy,PG,B,William Dear,1994,7,15,NO
-60,Tough Guys,1986-10-03,Comedy,PG,C,Jeff Kanew,1986,10,3,NO
-61,Something Wicked This Way Comes,1983-04-29,Horror,PG,D,Jack Clayton,1983,4,29,NO
-62,The Rocketeer,1991-06-21,Action,PG,B,Joe Johnston,1991,6,21,NO
-63,Stakeout,1987-08-05,Comedy,R,B,John Badham,1987,8,5,YES
-64,National Treasure 2: Book of Secrets,2007-12-21,Adventure,PG,A,Jon Turteltaub,2007,12,21,NO
-65,Terminal Velocity,1994-09-23,Action,PG-13,C,Deran Sarafian,1994,9,23,NO
-66,Apocalypto,2006-12-08,Adventure,R,C,Mel Gibson,2006,12,8,NO
-67,Invincible,2006-08-25,Drama,PG,B,NO_DIRECTOR,2006,8,25,NO
-68,25th Hour,2002-12-19,Drama,R,D,Spike Lee,2002,12,19,NO
-69,Mighty Joe Young,1998-12-25,Adventure,PG,B,Ron Underwood,1998,12,25,NO
-70,Deceived,1991-09-27,Thriller/Suspense,PG-13,C,NO_DIRECTOR,1991,9,27,NO
-71,Never Cry Wolf,1983-10-07,Drama,PG,B,Carroll Ballard,1983,10,7,NO
-72,G-Force,2009-07-24,Adventure,PG,B,Hoyt Yeatman,2009,7,24,NO
-73,Feast of July,1995-10-13,Drama,R,D,Christopher Menaul,1995,10,13,NO
-74,The Lookout,2007-03-30,Drama,R,D,Scott Frank,2007,3,30,NO
-75,Cool Runnings,1993-10-01,Comedy,PG,B,Jon Turteltaub,1993,10,1,NO
-76,Alice Through the Looking Glass,2016-05-27,Adventure,PG,B,James Bobin,2016,5,27,NO
-77,The Devil and Max Devlin,1981-01-01,Fantasy,PG,C,Steven Hilliard Stern,1981,1,1,NO
-78,The Chronicles of Narnia: Prince Caspian,2008-05-16,Adventure,PG,B,Andrew Adamson,2008,5,16,NO
-79,The Insider,1999-11-05,Drama,R,C,Michael Mann,1999,11,5,YES
-80,Camp Nowhere,1994-08-26,Comedy,PG,C,Jonathan Prince,1994,8,26,NO
-81,The Rock,1996-06-07,Action,R,A,Michael Bay,1996,6,7,NO
-82,Green Card,1990-12-25,Romantic Comedy,PG-13,C,Peter Weir,1990,12,25,NO
-83,Real Steel,2011-10-07,Action,PG-13,B,Shawn Levy,2011,10,7,NO
-84,A Kid in King Arthur's Court,1995-08-11,Adventure,PG,C,Michael Gottlieb,1995,8,11,NO
-85,The Last Flight of Noah’s Ark,1980-06-25,Adventure,G,C,Charles Jarrott,1980,6,25,NO
-86,African Cats,2011-04-22,Documentary,G,D,Alastair Fothergill,2011,4,22,YES
-87,Toy Story 3D Double Feature,2009-10-02,Adventure,G,C,NO_DIRECTOR,2009,10,2,NO
-88,Into the Woods,2014-12-25,Musical,PG,B,Rob Marshall,2014,12,25,NO
-89,Finding Nemo,2003-05-30,Adventure,G,S,Andrew Stanton,2003,5,30,NO
-90,The Good Mother,1988-11-04,Drama,R,D,Steve Antin,1988,11,4,NO
-91,The Hundred-Foot Journey,2014-08-08,Romantic Comedy,PG,C,Lasse Hallström,2014,8,8,NO
-92,Pearl Harbor,2001-05-25,Action,PG-13,A,Michael Bay,2001,5,25,NO
-93,Pirates of the Caribbean: At World’…,2007-05-24,Adventure,PG-13,A,Gore Verbinski,2007,5,24,NO
-94,Color of Night,1994-08-19,Thriller/Suspense,R,C,Richard Rush,1994,8,19,NO
-95,Romy and Michele's High School Reunion,1997-04-25,Comedy,R,C,David Mirkin,1997,4,25,NO
-96,Cheetah,1989-08-18,Adventure,UNKNOWN,D,NO_DIRECTOR,1989,8,18,NO
-97,Jack,1996-08-09,Drama,PG-13,B,NO_DIRECTOR,1996,8,9,NO
-98,Monsters University,2013-06-21,Adventure,G,A,Dan Scanlon,2013,6,21,YES
-99,The Fifth Estate,2013-10-18,Drama,R,D,Bill Condon,2013,10,18,NO
-100,Before and After,1996-02-23,Drama,PG-13,D,Barbet Schroeder,1996,2,23,YES
-101,Moonlight Mile,2002-09-27,Drama,PG-13,D,Brad Silberling,2002,9,27,NO
-102,A Stranger Among Us,1992-07-17,Drama,PG-13,C,Sidney Lumet,1992,7,17,NO
-103,The Lizzie McGuire Movie,2003-05-02,Comedy,PG,C,Jim Fall,2003,5,2,NO
-104,Krippendorf's Tribe,1998-02-27,Comedy,PG-13,D,Todd Holland,1998,2,27,NO
-105,crazy/beautiful,2001-06-29,Drama,PG-13,C,NO_DIRECTOR,2001,6,29,YES
-106,Adventures in Babysitting,1987-07-03,Comedy,PG-13,B,John Schultz,1987,7,3,NO
-107,The Game Plan,2007-09-22,Comedy,PG,B,Andy Fickman,2007,9,22,NO
-108,Splash,1984-03-09,Comedy,PG,B,Ron Howard,1984,3,9,NO
-109,Who Framed Roger Rabbit?,1988-06-22,Comedy,PG,A,NO_DIRECTOR,1988,6,22,NO
-110,The Light Between Oceans,2016-09-02,Drama,PG-13,D,Derek Cianfrance,2016,9,2,NO
-111,The Guardian,2006-09-29,Action,PG-13,B,Andrew Davis,2006,9,29,NO
-112,The Sword in the Stone,2063-12-25,Adventure,G,B,Wolfgang Reitherman,1963,12,25,NO
-113,Mr. Holland's Opus,1995-12-29,Drama,PG,B,Stephen Herek,1995,12,29,NO
-114,The Rescuers Down Under,1990-11-16,Adventure,G,C,Mike Gabriel,1990,11,16,NO
-115,The Preacher's Wife,1996-12-13,Drama,PG,B,Penny Marshall,1996,12,13,NO
-116,Sarafina!,1992-09-18,Drama,PG-13,D,Darrell James Roodt,1992,9,18,NO
-117,Trenchcoat,1983-03-11,Comedy,PG,D,Michael Tuchner,1983,3,11,NO
-118,Confessions of a Teenage Drama Queen,2004-02-20,Comedy,PG,C,Sara Sugarman,2004,2,20,NO
-119,Around the World in 80 Days,2004-06-16,Adventure,PG,C,NO_DIRECTOR,2004,6,16,NO
-120,Blaze,1989-12-13,Drama,R,C,NO_DIRECTOR,1989,12,13,YES
-121,Toy Story,1995-11-22,Adventure,G,A,John Lasseter,1995,11,22,NO
-122,Prince of Persia: Sands of Time,2010-05-28,Action,PG-13,B,NO_DIRECTOR,2010,5,28,NO
-123,Eddie,1996-05-31,Comedy,PG-13,C,NO_DIRECTOR,1996,5,31,NO
-124,White Fang 2: Myth of the White Wolf,1994-04-15,Adventure,PG,D,Ken Olin,1994,4,15,NO
-125,White Squall,1996-02-02,Adventure,PG-13,D,Ridley Scott,1996,2,2,NO
-126,The Invisible,2007-04-27,Thriller/Suspense,PG-13,C,NO_DIRECTOR,2007,4,27,YES
-127,Guilty as Sin,1993-06-04,Thriller/Suspense,R,C,Sidney Lumet,1993,6,4,NO
-128,Operation Dumbo Drop,1995-07-28,Adventure,PG,C,Simon Wincer,1995,7,28,NO
-129,Ghosts of the Abyss,2003-04-11,Documentary,G,C,James Cameron,2003,4,11,NO
-130,Scenes from a Mall,1991-02-22,Comedy,R,D,Paul Mazursky,1991,2,22,NO
-131,The BFG,2016-07-01,Adventure,PG,C,Steven Spielberg,2016,7,1,NO
-132,Tron,1982-07-09,Action,UNKNOWN,B,NO_DIRECTOR,1982,7,9,NO
-133,Firelight,1998-09-04,Drama,R,D,William Nicholson,1998,9,4,NO
-134,Delivery Man,2013-11-22,Comedy,PG-13,C,Ken Scott,2013,11,22,YES
-135,New York Stories,1989-03-01,Drama,PG,C,Francis Ford Coppola,1989,3,1,NO
-136,Disorganized Crime,1989-04-14,Comedy,R,D,Jim Kouf,1989,4,14,NO
-137,Tom and Huck,1995-12-22,Adventure,PG,C,Peter Hewitt,1995,12,22,NO
-138,Keeping the Faith,2000-04-14,Romantic Comedy,PG-13,C,Edward Norton,2000,4,14,NO
-139,Grosse Pointe Blank,1997-04-11,Black Comedy,R,C,George Armitage,1997,4,11,YES
-140,Indian Summer,1993-04-23,Comedy,R,C,NO_DIRECTOR,1993,4,23,YES
-141,The Princess and the Frog,2009-11-25,Adventure,G,B,Ron Clements,2009,11,25,NO
-142,Billy Bathgate,1991-11-01,Drama,R,C,Robert Benton,1991,11,1,NO
-143,3 Ninjas Kick Back,1994-05-06,Action,PG,C,Charles T. Kanganis,1994,5,6,NO
-144,My Boyfriend's Back,1993-08-06,Comedy,PG-13,D,Bob Balaban,1993,8,6,NO
-145,Goal! The Dream Begins,2006-05-12,Drama,PG,D,Danny Cannon,2006,5,12,YES
-146,Country,1984-09-29,Drama,UNKNOWN,C,NO_DIRECTOR,1984,9,29,YES
-147,Big Trouble,2002-04-05,Comedy,PG-13,D,NO_DIRECTOR,2002,4,5,NO
-148,People Like Us,2012-06-29,Drama,PG-13,D,Alex Kurtzman,2012,6,29,NO
-149,Mars Needs Moms,2011-03-11,Adventure,PG,C,Simon Wells,2011,3,11,NO
-150,Angie,1994-03-04,Comedy,R,D,NO_DIRECTOR,1994,3,4,NO
-151,Deuce Bigalow: Male Gigolo,1999-12-10,Comedy,R,B,Mike Mitchell,1999,12,10,NO
-152,Veronica Guerin,2003-10-17,Drama,R,D,Joel Schumacher,2003,10,17,YES
-153,Max Keeble's Big Move,2001-10-05,Comedy,PG,C,Tim Hill,2001,10,5,YES
-154,The Scarlet Letter,1995-10-13,Drama,R,C,Roland Joffé,1995,10,13,NO
-155,D3: The Mighty Ducks,1996-10-04,Comedy,PG,C,Rob Lieberman,1996,10,4,NO
-156,Up,2009-05-29,Adventure,PG,A,NO_DIRECTOR,2009,5,29,NO
-157,Alive,1993-01-15,Adventure,R,B,NO_DIRECTOR,1993,1,15,NO
-158,Can't Buy Me Love,1987-08-14,Romantic Comedy,PG-13,C,Steve Rash,1987,8,14,NO
-159,The Hoax,2007-04-06,Drama,R,D,Lasse Hallström,2007,4,6,NO
-160,Fantasia,2040-11-13,Musical,G,S,David Hand,1940,11,13,NO
-161,Crimson Tide,1995-05-12,Action,R,B,Tony Scott,1995,5,12,NO
-162,Ransom,1996-11-08,Action,R,A,Ron Howard,1996,11,8,NO
-163,Pretty Woman,1990-03-23,Romantic Comedy,R,A,Garry Marshall,1990,3,23,YES
-164,Inspector Gadget,1999-07-23,Comedy,PG,B,David Kellogg,1999,7,23,NO
-165,Winnie the Pooh,2011-07-15,Adventure,G,C,Stephen J. Anderson,2011,7,15,NO
-166,The Tigger Movie,2000-02-11,Adventure,G,B,Jun Falkenstein,2000,2,11,YES
-167,Heavy Weights,1995-02-17,Comedy,PG,C,Steven Brill,1995,2,17,NO
-168,What About Bob?,1991-05-17,Comedy,PG,B,NO_DIRECTOR,1991,5,17,NO
-169,Condorman,1981-08-07,Action,G,D,Charles Jarrott,1981,8,7,YES
-170,The Haunted Mansion,2003-11-26,Comedy,PG,B,Rob Minkoff,2003,11,26,NO
-171,The Hitchhiker's Guide to the Galaxy,2005-04-29,Comedy,PG,C,Garth Jennings,2005,4,29,YES
-172,Bedknobs and Broomsticks,2071-10-07,Musical,G,B,Robert Stevenson,1971,10,7,NO
-173,Pooh's Heffalump Movie,2005-02-11,Adventure,G,C,Frank Nissen,2005,2,11,NO
-174,Open Range,2003-08-15,Western,R,B,Kevin Costner,2003,8,15,NO
-175,D.O.A.,1988-03-18,Thriller/Suspense,R,C,Annabel Jankel,1988,3,18,NO
-176,Meet the Deedles,1998-03-27,Comedy,PG,D,Steve Boyum,1998,3,27,NO
-177,A Beautiful Planet,2016-04-29,Documentary,G,D,Toni Myers,2016,4,29,NO
-178,Sister Act,1992-05-29,Comedy,PG,A,Emile Ardolino,1992,5,29,NO
-179,Strange Magic,2015-01-23,Adventure,PG,D,Gary Rydstrom,2015,1,23,YES
-180,The Many Adventures of Winnie the Pooh,1977-03-11,Animation,G,D,Wolfgang Reitherman,1977,3,11,NO
-181,Quiz Show,1994-09-14,Drama,PG-13,C,Robert Redford,1994,9,14,NO
-182,While You Were Sleeping,1995-04-21,Romantic Comedy,PG,B,Jon Turteltaub,1995,4,21,NO
-183,Bedtime Stories,2008-12-25,Comedy,PG,B,Adam Shankman,2008,12,25,NO
-184,"The Chronicles of Narnia: The Lion, t…",2005-12-09,Adventure,PG,A,Andrew Adamson,2005,12,9,NO
-185,Instinct,1999-06-04,Drama,R,C,NO_DIRECTOR,1999,6,4,NO
-186,Step Up,2006-08-11,Drama,PG-13,B,Anne Fletcher,2006,8,11,NO
-187,G.I. Jane,1997-08-22,Drama,R,B,Ridley Scott,1997,8,22,NO
-188,Oscar,1991-04-26,Comedy,PG,C,John Landis,1991,4,26,NO
-189,The Parent Trap,1998-07-29,Comedy,PG,B,Nancy Meyers,1998,7,29,NO
-190,Primeval,2007-01-12,Adventure,R,D,NO_DIRECTOR,2007,1,12,NO
-191,The Lone Ranger,2013-07-02,Western,PG-13,B,Gore Verbinski,2013,7,2,YES
-192,"Monsters, Inc.",2001-11-02,Adventure,G,A,Pete Docter,2001,11,2,NO
-193,Reign of Fire,2002-02-19,Action,PG-13,C,Rob Bowman,2002,2,19,NO
-194,Running Brave,1983-11-04,Drama,PG,D,Donald Shebib,1983,11,4,NO
-195,Dinosaur,2000-05-19,Adventure,PG,A,Ralph Zondag,2000,5,19,NO
-196,Rushmore,1998-12-11,Black Comedy,R,C,Wes Anderson,1998,12,11,NO
-197,Freaky Friday,1977-01-21,Comedy,UNKNOWN,B,NO_DIRECTOR,1977,1,21,NO
-198,The 13th Warrior,1999-08-27,Action,R,C,John McTiernan,1999,8,27,NO
-199,Brave,2012-06-22,Adventure,PG,A,Brenda Chapman,2012,6,22,YES
-200,Eight Below,2006-02-17,Adventure,PG,B,Frank Marshall,2006,2,17,YES
-201,Gake no ue no Ponyo,2009-08-14,Adventure,G,D,Hayao Miyazaki,2009,8,14,NO
-202,Queen of Katwe,2016-09-23,Drama,PG,D,Mira Nair,2016,9,23,YES
-203,Straight Talk,1992-04-03,Comedy,PG,C,Barnet Kellman,1992,4,3,YES
-204,Holy Man,1998-10-09,Comedy,PG,C,Stephen Herek,1998,10,9,NO
-205,The Sorcerer's Apprentice,2010-07-14,Adventure,PG,C,Jon Turteltaub,2010,7,14,NO
-206,Stella,1990-02-02,Drama,PG-13,C,NO_DIRECTOR,1990,2,2,NO
-207,An American Werewolf in Paris,1997-12-25,Horror,R,C,Anthony Waller,1997,12,25,NO
-208,The Mighty Ducks,1992-10-02,Comedy,PG,B,Stephen Herek,1992,10,2,YES
-209,Tall Tale,1995-03-24,Western,PG,D,Jeremiah S. Chechik,1995,3,24,YES
-210,Tangled,2010-11-24,Adventure,PG,A,Nathan Greno,2010,11,24,YES
-211,Ed Wood,1994-09-30,Comedy,R,D,Tim Burton,1994,9,30,NO
-212,The Jerky Boys,1995-02-03,Comedy,R,D,James Melkonian,1995,2,3,NO
-213,The Rich Man's Wife,1996-09-13,Thriller/Suspense,R,D,Amy Holden Jones,1996,9,13,NO
-214,"20,000 Leagues Under the Sea",2054-12-23,Adventure,G,S,Richard Fleischer,1954,12,23,NO
-215,Super Mario Bros.,1993-05-28,Action,PG,C,Annabel Jankel,1993,5,28,NO
-216,The Proposal,2009-06-19,Romantic Comedy,PG-13,B,Anne Fletcher,2009,6,19,NO
-217,Race to Witch Mountain,2009-03-13,Adventure,PG,B,Andy Fickman,2009,3,13,YES
-218,The Adventures of Huck Finn,1993-04-02,Adventure,PG,C,Stephen Sommers,1993,4,2,NO
-219,Jefferson in Paris,1995-03-31,Drama,PG-13,D,James Ivory,1995,3,31,NO
-220,The Jungle Book,2016-04-15,Adventure,PG,A,Wolfgang Reitherman,2016,4,15,NO
-221,Sky High,2005-07-29,Adventure,PG,B,Mike Mitchell,2005,7,29,NO
-222,Toy Story 2,1999-11-19,Adventure,G,A,John Lasseter,1999,11,19,NO
-223,The Rescuers,1977-06-22,Adventure,UNKNOWN,B,Wolfgang Reitherman,1977,6,22,YES
-224,Remember the Titans,2000-09-29,Drama,PG,B,Boaz Yakin,2000,9,29,NO
-225,A Lot Like Love,2005-04-22,Comedy,PG-13,C,Nigel Cole,2005,4,22,NO
-226,3 Ninjas,1992-08-07,Action,PG,C,Jon Turteltaub,1992,8,7,NO
-227,Flight of the Navigator,1986-07-30,Adventure,PG,C,Randal Kleiser,1986,7,30,NO
-228,America's Heart and Soul,2004-07-02,Documentary,Not Rated,D,Louis Schwartsberg,2004,7,2,NO
-229,Swing Vote,2008-08-01,Comedy,PG-13,D,Joshua Michael Stern,2008,8,1,NO
-230,The Straight Story,1999-10-15,Drama,G,D,David Lynch,1999,10,15,NO
-231,The Kid,2000-07-07,Comedy,PG,B,NO_DIRECTOR,2000,7,7,NO
-232,Enchanted,2007-11-21,Romantic Comedy,PG,B,Kevin Lima,2007,11,21,NO
-233,Zootopia,2016-03-04,Adventure,PG,A,Byron Howard,2016,3,4,NO
-234,I'll Be Home For Christmas,1998-11-13,Comedy,PG,C,James Brolin,1998,11,13,NO
-235,The War at Home,1996-11-20,NO_GENRE,R,D,NO_DIRECTOR,1996,11,20,NO
-236,Peter Pan: Return to Neverland,2002-02-15,Adventure,G,B,Robin Budd,2002,2,15,NO
-237,Ratatouille,2007-06-29,Comedy,G,A,Brad Bird,2007,6,29,NO
-238,Secretariat,2010-10-08,Drama,PG,C,Randall Wallace,2010,10,8,NO
-239,Medicine Man,1992-02-07,Drama,PG-13,B,John McTiernan,1992,2,7,NO
-240,A Thousand Acres,1997-09-19,Drama,R,D,Jocelyn Moorhouse,1997,9,19,NO
-241,Mission to Mars,2000-03-10,Adventure,PG,B,Brian De Palma,2000,3,10,NO
-242,Brother Bear,2003-10-24,Adventure,G,B,Robert Walker,2003,10,24,NO
-243,Snow White and the Seven Dwarfs,2037-12-21,Musical,G,S,David Hand,1937,12,21,NO
-244,Toy Story 3,2010-06-18,Adventure,G,A,Lee Unkrich,2010,6,18,NO
-245,Miracle,2004-02-06,Drama,PG,B,NO_DIRECTOR,2004,2,6,NO
-246,My Favorite Martian,1999-02-12,Comedy,PG,C,NO_DIRECTOR,1999,2,12,YES
-247,Benji the Hunted,1987-06-05,Adventure,G,C,Joe Camp,1987,6,5,NO
-248,A Far Off Place,1993-03-12,Adventure,PG,C,Mikael Salomon,1993,3,12,NO
-249,Old Dogs,2009-11-25,Comedy,PG,C,Walt Becker,2009,11,25,NO
-250,Alice in Wonderland,2010-03-05,Adventure,PG,A,Clyde Geronimi,2010,3,5,NO
-251,The Little Mermaid,1989-11-15,Adventure,G,A,Ron Clements,1989,11,15,NO
-252,Stick It,2006-04-28,Comedy,PG-13,C,Jessica Bendinger,2006,4,28,NO
-253,Funny Bones,1995-03-31,Comedy,R,D,Peter Chelsom,1995,3,31,YES
-254,Cars,2006-06-09,Comedy,G,A,John Lasseter,2006,6,9,NO
-255,Bicentennial Man,1999-12-17,Drama,PG,B,Chris Columbus,1999,12,17,YES
-256,Chimpanzee,2012-04-20,Documentary,G,C,Alastair Fothergill,2012,4,20,NO
-257,The Apple Dumpling Gang,1975-07-01,Comedy,G,B,Norman Tokar,1975,7,1,NO
-258,The Other Sister,1999-02-26,Romantic Comedy,PG-13,C,Garry Marshall,1999,2,26,NO
-259,A Simple Twist of Fate,1994-09-02,Drama,PG-13,D,Gillies MacKinnon,1994,9,2,NO
-260,Where the Heart Is,1990-02-23,Comedy,UNKNOWN,D,NO_DIRECTOR,1990,2,23,NO
-261,Kaze Tachinu,2013-11-08,Drama,PG-13,D,Mitsuo Wakasugi,2013,11,8,NO
-262,Off Beat,1986-04-11,Comedy,PG,D,Michael Dinner,1986,4,11,NO
-263,The Greatest Game Ever Played,2005-09-30,Drama,PG,C,Bill Paxton,2005,9,30,NO
-264,The Three Musketeers,1993-11-12,Adventure,PG,B,NO_DIRECTOR,1993,11,12,NO
-265,A Civil Action,1998-12-25,Drama,PG-13,B,Steven Zaillian,1998,12,25,NO
-266,Walt and El Grupo,2009-09-10,Documentary,PG,D,Theodore Thomas,2009,9,10,NO
-267,Powder,1995-10-27,Drama,PG-13,C,Victor Salva,1995,10,27,NO
-268,1492: Conquest of Paradise,1992-10-09,Adventure,PG-13,D,Ridley Scott,1992,10,9,NO
-269,The Cemetery Club,1993-02-03,Comedy,PG-13,D,Bill Duke,1993,2,3,NO
-270,Stay Alive,2006-03-24,Horror,PG-13,C,William Brent Bell,2006,3,24,NO
-271,That Darn Cat,1997-02-14,Comedy,PG,C,NO_DIRECTOR,1997,2,14,NO
-272,The Muppet Christmas Carol,1992-12-11,Comedy,G,C,Brian Henson,1992,12,11,YES
-273,Step Up 2 the Streets,2008-02-14,Drama,PG-13,C,Jon M. Chu,2008,2,14,YES
-274,Fantasia 2000 (Theatrical Release),2000-06-16,Musical,G,D,NO_DIRECTOR,2000,6,16,NO
-275,The Santa Clause 2,2002-11-01,Comedy,G,A,Michael Lembeck,2002,11,1,YES
-276,The Recruit,2003-01-31,Thriller/Suspense,PG-13,B,Roger Donaldson,2003,1,31,NO
-277,Money for Nothing,1993-09-10,Comedy,R,D,Ramón Menéndez,1993,9,10,NO
-278,Bad Company,1995-01-20,Thriller/Suspense,R,D,NO_DIRECTOR,1995,1,20,NO
-279,I Love Trouble,1994-06-29,Romantic Comedy,PG,C,Charles Shyer,1994,6,29,YES
-280,The Absent Minded Professor,2061-03-16,Comedy,G,A,Robert Stevenson,1961,3,16,NO
-281,Jungle 2 Jungle,1997-03-07,Comedy,PG,B,John Pasquin,1997,3,7,NO
-282,Tex,1982-11-19,Drama,UNKNOWN,C,NO_DIRECTOR,1982,11,19,NO
-283,Life With Mikey,1993-06-04,Comedy,PG,C,James Lapine,1993,6,4,NO
-284,Gone Fishin',1997-05-30,Comedy,PG,C,Riley Cairns,1997,5,30,NO
-285,Rogue One: A Star Wars Story,2016-12-16,Adventure,PG-13,S,Gareth Edwards,2016,12,16,NO
-286,The Marrying Man,1991-04-05,Romantic Comedy,R,C,Jerry Rees,1991,4,5,NO
-287,Bubble Boy,2001-08-24,Comedy,PG-13,D,Blair Hayes,2001,8,24,YES
-288,Baby: Secret of the Lost Legend,1985-03-22,Adventure,PG,C,Bill L. Norton,1985,3,22,NO
-289,The Fox and the Hound,1981-07-10,Comedy,G,B,Art Stevens,1981,7,10,NO
-290,High Heels and Low Lifes,2001-10-26,Action,R,D,Mel Smith,2001,10,26,NO
-291,The Tie That Binds,1995-09-08,Thriller/Suspense,R,D,Wesley Strick,1995,9,8,NO
-292,John Carter,2012-03-09,Adventure,PG-13,B,Andrew Stanton,2012,3,9,NO
-293,Blank Check,1994-02-11,Comedy,PG,C,Rupert Wainwright,1994,2,11,NO
-294,Guardians of the Galaxy,2014-08-01,Adventure,PG-13,A,James Gunn,2014,8,1,NO
-295,Star Wars Ep. VII: The Force Awakens,2015-12-18,Adventure,PG-13,S,Unknown,2015,12,18,NO
-296,A Goofy Movie,1995-04-07,Comedy,G,C,Kevin Lima,1995,4,7,NO
-297,Hocus Pocus,1993-07-16,Comedy,PG,B,NO_DIRECTOR,1993,7,16,YES
-298,Pete’s Dragon,2016-08-12,Adventure,PG,B,NO_DIRECTOR,2016,8,12,NO
-299,Night Crossing,1982-02-05,Drama,PG,D,Delbert Mann,1982,2,5,NO
-300,Lilo & Stitch,2002-06-21,Adventure,PG,A,Chris Sanders,2002,6,21,NO
-301,Metro,1997-01-17,Action,R,C,Thomas Carter,1997,1,17,NO
-302,National Treasure,2004-11-19,Adventure,PG,A,Jon Turteltaub,2004,11,19,NO
-303,Shanghai Noon,2000-05-26,Western,PG-13,B,Tom Dey,2000,5,26,NO
-304,Dangerous Minds,1995-08-11,Drama,R,B,John N. Smith,1995,8,11,YES
-305,The Distinguished Gentleman,1992-12-04,Comedy,R,B,Jonathan Lynn,1992,12,4,NO
-306,The Secret World of Arietty,2012-02-17,Adventure,G,C,NO_DIRECTOR,2012,2,17,NO
-307,The Princess Diaries,2001-08-03,Comedy,G,B,Garry Marshall,2001,8,3,YES
-308,Step Up 3D,2010-08-06,Drama,PG-13,C,Jon M. Chu,2010,8,6,NO
-309,Underdog,2007-08-03,Adventure,PG,C,NO_DIRECTOR,2007,8,3,NO
-310,Red Rock West,1994-01-28,Crime,R,D,John Dahl,1994,1,28,NO
-311,Captain America: Civil War,2016-05-06,Action,PG-13,A,Anthony Russo,2016,5,6,YES
-312,Mr. Wrong,1996-02-16,Romantic Comedy,PG-13,C,NO_DIRECTOR,1996,2,16,NO
-313,Nixon,1995-12-20,Drama,R,C,Oliver Stone,1995,12,20,NO
-314,The Ref,1994-03-09,Comedy,R,C,Ted Demme,1994,3,9,YES
-315,The Santa Clause 3: The Escape Clause,2006-11-03,Comedy,G,B,Michael Lembeck,2006,11,3,NO
-316,Ice Princess,2005-03-18,Comedy,G,C,Tim Fywell,2005,3,18,NO
-317,King Arthur,2004-07-07,Adventure,PG-13,B,NO_DIRECTOR,2004,7,7,NO
-318,Nothing To Lose,1997-07-18,Comedy,R,B,Steve Oedekerk,1997,7,18,NO
-319,Herbie: Fully Loaded,2005-06-22,Comedy,G,B,Angela Robinson,2005,6,22,NO
-320,Father of the Bride,1991-12-20,Comedy,PG,B,NO_DIRECTOR,1991,12,20,YES
-321,You Again,2010-09-24,Comedy,PG,C,Andy Fickman,2010,9,24,NO
-322,Treasure Planet,2002-11-27,Adventure,PG,C,Ron Clements,2002,11,27,NO
-323,The Great Mouse Detective,1986-07-02,Adventure,G,C,Ron Clements,1986,7,2,YES
-324,Cinderella,2015-03-13,Drama,PG,A,Wilfred Jackson,2015,3,13,NO
-325,Frozen,2013-11-22,Adventure,PG,A,Chris Buck,2013,11,22,NO
-326,Pirates of the Caribbean: On Stranger…,2011-05-20,Adventure,PG-13,A,Rob Marshall,2011,5,20,NO
-327,Zokkomon,2011-04-22,Adventure,PG,D,Satyajit Bhatkal,2011,4,22,NO
-328,Gross Anatomy,1989-10-20,Drama,PG-13,C,Thom Eberhardt,1989,10,20,NO
-329,The Incredibles,2004-11-05,Adventure,PG,A,Brad Bird,2004,11,5,NO
-330,Frank McKlusky C.I.,2002-01-01,Action,PG-13,D,Arlene Sanford,2002,1,1,NO
-331,Taking Care of Business,1990-08-17,Comedy,R,C,Arthur Hiller,1990,8,17,NO
-332,Tim Burton's The Nightmare Before Chr…,2006-10-20,Musical,PG,C,NO_DIRECTOR,2006,10,20,NO
-333,Cocktail,1988-07-29,Drama,R,B,Roger Donaldson,1988,7,29,NO
-334,Gun Shy,2000-02-04,Comedy,R,D,NO_DIRECTOR,2000,2,4,NO
-335,Mr. Destiny,1990-10-12,Comedy,PG-13,C,James Orr,1990,10,12,NO
-336,Herbie Goes to Monte Carlo,1977-06-24,Romance,G,B,Vincent McEveety,1977,6,24,NO
-337,Evita,1996-12-25,Musical,PG,B,Alan Parker,1996,12,25,NO
-338,Dark Water,2005-07-08,Thriller/Suspense,PG-13,C,Walter Salles,2005,7,8,NO
-339,Piglet's Big Movie,2003-03-21,Comedy,G,C,Francis Glebas,2003,3,21,YES
-340,Kazaam,1996-07-17,Comedy,PG,C,Paul Michael Glaser,1996,7,17,NO
-341,Déjà Vu,2006-11-22,Thriller/Suspense,PG-13,B,Tony Scott,2006,11,22,NO
-342,Waking Sleeping Beauty,2010-03-26,Documentary,PG,D,Don Hahn,2010,3,26,NO
-343,The Count of Monte Cristo,2002-01-25,Drama,PG-13,B,Kevin Reynolds,2002,1,25,YES
-344,The Program,1993-09-24,Action,R,C,Stephen Frears,1993,9,24,NO
-345,When in Rome,2010-01-29,Romantic Comedy,PG-13,C,Mark Steven Johnson,2010,1,29,NO
-346,Born Yesterday,1993-03-26,Romantic Comedy,PG,C,NO_DIRECTOR,1993,3,26,NO
-347,The Alamo,2004-04-09,Western,PG-13,C,NO_DIRECTOR,2004,4,9,NO
-348,Mad Love,1995-05-26,Drama,PG-13,C,NO_DIRECTOR,1995,5,26,NO
-349,Armageddon,1998-07-01,Adventure,PG-13,A,Michael Bay,1998,7,1,YES
-350,Air Bud,1997-08-01,Comedy,PG,C,Charles Martin Smith,1997,8,1,NO
-351,Fire Birds,1990-05-24,Action,PG-13,C,David Green,1990,5,24,NO
-352,The Black Cauldron,1985-07-24,Adventure,PG,C,Ted Berman,1985,7,24,NO
-353,Oz the Great and Powerful,2013-03-08,Adventure,PG,A,Sam Raimi,2013,3,8,NO
-354,Two Much,1996-03-15,Romantic Comedy,PG-13,D,Fernando Trueba,1996,3,15,NO
-355,102 Dalmatians,2000-11-22,Comedy,G,B,Kevin Lima,2000,11,22,NO
-356,The Pacifier,2005-03-04,Comedy,PG,B,Adam Shankman,2005,3,4,NO
-357,Prom,2011-04-29,Comedy,PG,D,NO_DIRECTOR,2011,4,29,NO
-358,Un indien dans la ville,1996-03-22,Comedy,PG,D,NO_DIRECTOR,1996,3,22,NO
-359,Annapolis,2006-01-27,Drama,PG-13,C,Justin Lin,2006,1,27,YES
-360,The Country Bears,2002-07-26,Adventure,G,C,Peter Hastings,2002,7,26,NO
-361,Planes: Fire and Rescue,2014-07-18,Adventure,PG,C,Roberts Gannaway,2014,7,18,NO
-362,Tin Men,1987-03-06,Comedy,R,C,Barry Levinson,1987,3,6,NO
-363,Renaissance Man,1994-06-03,Comedy,PG-13,C,Penny Marshall,1994,6,3,YES
-364,Playing God,1997-10-17,Thriller/Suspense,R,D,NO_DIRECTOR,1997,10,17,NO
-365,Phenomenon,1996-07-05,Drama,PG,B,NO_DIRECTOR,1996,7,5,NO
-366,Gnomeo and Juliet,2011-02-11,Comedy,G,B,Kelly Asbury,2011,2,11,NO
-367,The Color of Money,1986-10-17,Drama,R,B,Martin Scorsese,1986,10,17,NO
-368,Blackbeard's Ghost,2068-02-08,Comedy,G,B,Robert Stevenson,1968,2,8,YES
-369,Ernest Scared Stupid,1991-10-11,Comedy,PG,C,John R. Cherry III,1991,10,11,NO
-370,The Emperor's New Groove,2000-12-15,Adventure,G,B,Mark Dindal,2000,12,15,YES
-371,Double Take,2001-01-12,Action,PG-13,C,George Gallo,2001,1,12,NO
-372,Rocket Man,1997-10-10,Comedy,PG,C,Oscar Rudolph,1997,10,10,NO
-373,Mulan,1998-06-19,Adventure,G,A,Barry Cook,1998,6,19,YES
-374,Song of the South,2046-11-12,Adventure,G,S,Wilfred Jackson,1946,11,12,NO
-375,The Black Hole,1979-12-21,Adventure,PG,B,Gary Nelson,1979,12,21,YES
-376,Raising Helen,2004-05-28,Comedy,PG-13,C,Garry Marshall,2004,5,28,NO
-377,A Gun in Betty Lou's Handbag,1992-08-21,Comedy,PG-13,D,Allan Moyle,1992,8,21,YES
-378,The Air Up There,1994-01-07,Comedy,PG,C,Paul Michael Glaser,1994,1,7,NO
-379,Roommates,1995-03-03,Comedy,PG,C,NO_DIRECTOR,1995,3,3,NO
-380,Morning Light,2008-10-17,Documentary,PG,D,Mark Monroe,2008,10,17,NO
-381,Valiant,2005-08-19,Adventure,G,C,Gary Chapman,2005,8,19,NO
-382,Down and Out in Beverly Hills,1986-01-31,Comedy,R,B,Paul Mazursky,1986,1,31,NO
-383,Tarzan,1999-06-16,Adventure,G,A,Chris Buck,1999,6,16,NO
-384,The Royal Tenenbaums,2001-12-14,Black Comedy,R,B,Wes Anderson,2001,12,14,NO
-385,James and the Giant Peach,1996-04-12,Adventure,PG,C,Henry Selick,1996,4,12,NO
-386,"Mystery, Alaska",1999-10-01,Comedy,R,D,Jay Roach,1999,10,1,NO
-387,Last Dance,1996-05-03,Drama,R,D,NO_DIRECTOR,1996,5,3,YES
-388,My Science Project,1985-08-09,Comedy,PG,D,Jonathan R. Betuel,1985,8,9,
-389,Homeward Bound II: Lost in San Franc…,1996-03-08,Adventure,G,C,David R. Ellis,1996,3,8,
-390,The Muppets,2011-11-23,Comedy,PG,B,James Bobin,2011,11,23,
-391,Turner & Hooch,1989-07-28,Comedy,PG,B,NO_DIRECTOR,1989,7,28,
-392,Oceans,2010-04-22,Documentary,G,C,NO_DIRECTOR,2010,4,22,
-393,It's Pat,1994-08-26,Comedy,PG-13,D,Adam Bernstein,1994,8,26,
-394,The Finest Hours,2016-01-29,Thriller/Suspense,PG,C,Craig Gillespie,2016,1,29,
-395,Shoot to Kill,1988-02-12,Action,R,C,Roger Spottiswoode,1988,2,12,
-396,Hannah Montana the Movie,2009-04-10,Drama,G,B,Peter Chelsom,2009,4,10,
-397,First Kid,1996-08-30,Comedy,PG,C,David M. Evans,1996,8,30,
-398,Consenting Adults,1992-10-16,Drama,R,C,Alan J. Pakula,1992,10,16,
-399,Dan in Real Life,2007-10-20,Romantic Comedy,PG-13,C,Peter Hedges,2007,10,20,
-400,Sorority Boys,2002-03-22,Comedy,R,D,Wallace Wolodarsky,2002,3,22,
-401,Simon Birch,1998-09-11,Drama,PG,C,Mark Steven Johnson,1998,9,11,
-402,In the Army Now,1994-08-12,Comedy,PG,C,Daniel Petrie Jr.,1994,8,12,
-403,Bad Company,2002-06-07,Action,PG-13,C,Joel Schumacher,2002,6,7,
-404,Wreck-It Ralph,2012-11-02,Adventure,PG,A,Rich Moore,2012,11,2,
-405,Iron Man 3,2013-05-03,Action,PG-13,A,Shane Black,2013,5,3,
-406,Cinderella,2050-02-15,Drama,G,S,Wilfred Jackson,1950,2,15,
-407,One Magic Christmas,1985-11-22,Drama,G,C,Phillip Borsos,1985,11,22,
-408,Beverly Hills Chihuahua,2008-10-03,Comedy,PG,B,Raja Gosnell,2008,10,3,
-409,WALL-E,2008-06-27,Adventure,G,A,Andrew Stanton,2008,6,27,
-410,Aladdin,1992-11-11,Comedy,G,A,Ron Clements,1992,11,11,
-411,Casanova,2005-12-25,Drama,R,D,Lasse Hallström,2005,12,25,
-412,Thor: The Dark World,2013-11-08,Adventure,PG-13,A,Alan Taylor,2013,11,8,
-413,Monkey Kingdom,2015-04-17,Documentary,G,D,Alastair Fothergill,2015,4,17,
-414,Ernest Saves Christmas,1988-11-11,Comedy,PG,C,John R. Cherry III,1988,11,11,
-415,Hannah Montana/Miley Cyrus: Best of B…,2008-02-01,Concert/Performance,G,B,NO_DIRECTOR,2008,2,1,
-416,Saving Mr. Banks,2013-12-13,Drama,PG-13,B,John Lee Hancock,2013,12,13,
-417,The Aristocats,2070-04-24,Musical,G,A,Wolfgang Reitherman,1970,4,24,
-418,Calendar Girls,2003-12-19,Comedy,PG-13,C,Nigel Cole,2003,12,19,
-419,Unstrung Heroes,1995-09-15,Drama,PG,D,Diane Keaton,1995,9,15,
-420,Three Fugitives,1989-01-27,Comedy,PG-13,B,Francis Veber,1989,1,27,
-421,Tomorrowland,2015-05-22,Adventure,PG,B,Brad Bird,2015,5,22,
-422,The Village,2004-07-30,Thriller/Suspense,PG-13,B,M. Night Shyamalan,2004,7,30,
-423,"Alexander and the Terrible, Horrible,…",2014-10-10,Comedy,PG,C,Miguel Arteta,2014,10,10,
-424,Arachnophobia,1990-07-18,Thriller/Suspense,PG-13,B,Frank Marshall,1990,7,18,
-425,Lincoln,2012-11-09,Drama,PG-13,B,NO_DIRECTOR,2012,11,9,
-426,The Horse Whisperer,1998-05-15,Drama,PG-13,B,Robert Redford,1998,5,15,
-427,Muppets Most Wanted,2014-03-21,Comedy,PG,C,James Bobin,2014,3,21,
-428,Fantasia 2000 (IMAX),2000-01-01,Musical,G,B,Unknown,2000,1,1,
-429,Spaced Invaders,1990-04-27,Comedy,PG,C,Patrick Read Johnson,1990,4,27,
-430,Just Visiting,2001-04-06,Comedy,PG-13,D,Jean-Marie Poiré,2001,4,6,
-431,Holes,2003-04-18,Drama,PG,B,Andrew Davis,2003,4,18,
-432,The Last Shot,2004-09-24,Comedy,R,D,NO_DIRECTOR,2004,9,24,
-433,The Jungle Book,2067-10-18,Musical,Not Rated,S,NO_DIRECTOR,1967,10,18,
-434,Meet the Robinsons,2007-03-30,Adventure,G,B,Stephen J. Anderson,2007,3,30,
-435,Dead Poets Society,1989-06-02,Drama,PG,A,Peter Weir,1989,6,2,
-436,Avengers: Age of Ultron,2015-05-01,Action,PG-13,A,Joss Whedon,2015,5,1,
-437,Man of the House,1995-03-03,Comedy,PG,B,NO_DIRECTOR,1995,3,3,
-438,Bears,2014-04-18,Documentary,G,D,NO_DIRECTOR,2014,4,18,
-439,Passed Away,1992-04-24,Comedy,PG-13,D,Charlie Peters,1992,4,24,
-440,ESPN's Ultimate X - The Movie,2002-05-10,Documentary,PG,D,Unknown,2002,5,10,
-441,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,B,Gary Trousdale,2001,6,8,
-442,Ernest Goes to Camp,1987-05-22,Comedy,PG,C,John R. Cherry III,1987,5,22,
-443,Teacher's Pet: The Movie,2004-01-16,Comedy,PG,D,Unknown,2004,1,16,
-444,Spy Hard,1996-05-24,Comedy,PG-13,C,Rick Friedberg,1996,5,24,
-445,Snow Dogs,2002-01-18,Comedy,PG,B,Brian Levant,2002,1,18,
-446,Frankenweenie,2012-10-05,Comedy,PG,C,Tim Burton,2012,10,5,
-447,Tuck Everlasting,2002-10-11,Drama,PG,C,Jay Russell,2002,10,11,
-448,Hauru no ugoku shiro,2005-06-10,Adventure,PG,D,Hayao Miyazaki,2005,6,10,
-449,Gedo Senki (Tales from Earthsea),2010-08-13,Adventure,PG-13,D,NO_DIRECTOR,2010,8,13,
-450,Return to Oz,1985-06-21,Adventure,G,C,Walter Murch,1985,6,21,
-451,Disney's A Christmas Carol,2009-11-06,Drama,PG,B,Robert Zemeckis,2009,11,6,
-452,Prefontaine,1997-01-24,Drama,PG-13,D,Steve James,1997,1,24,
-453,Beaches,1988-12-21,Drama,PG-13,B,Garry Marshall,1988,12,21,
-454,101 Dalmatians,2061-01-25,Comedy,G,S,NO_DIRECTOR,1961,1,25,
-455,The Last Song,2010-03-31,Drama,PG,C,Julie Anne Robinson,2010,3,31,
-456,Father Hood,1993-08-27,Action,PG-13,D,Darrell James Roodt,1993,8,27,
-457,Encino Man,1992-05-22,Comedy,PG,B,Les Mayfield,1992,5,22,
-458,Sweet Home Alabama,2002-09-27,Comedy,PG-13,B,Andy Tennant,2002,9,27,
-459,Play it to the Bone,1999-12-24,Comedy,R,D,Ron Shelton,1999,12,24,
-460,The Odd Life of Timothy Green,2012-08-15,Drama,PG,C,Peter Hedges,2012,8,15,
-461,Honey I Blew Up the Kid,1992-07-17,Comedy,PG,B,Randal Kleiser,1992,7,17,
-462,Hercules,1997-06-13,Adventure,G,B,Ron Clements,1997,6,13,
+movie_title,release_date,genre,MPAA_rating,MovieSuccessLevel,director,year,month,day,animated
+Recess: School's Out,2/16/2001,Comedy,G,C,Chuck Sheetz,2001,2,16,YES
+D2: The Mighty Ducks,3/25/1994,Comedy,PG,B,Sam Weisman,1994,3,25,NO
+Home on the Range,4/2/2004,Comedy,PG,C,Will Finn,2004,4,2,YES
+Young Black Stallion,12/25/2003,Adventure,G,D,Simon Wincer,2003,12,25,NO
+What's Love Got to Do With It,6/9/1993,Drama,R,B,Brian Gibson,1993,6,9,NO
+Lady and the Tramp,6/22/2055,Drama,G,S,Hamilton Luske,1955,6,22,NO
+Corky Romano,10/12/2001,Comedy,PG-13,C,Rob Pritts,2001,10,12,NO
+The Waterboy,11/6/1998,Comedy,PG-13,A,Frank Coraci,1998,11,6,NO
+Captain America: The Winter Soldier,4/4/2014,Action,PG-13,A,Anthony Russo,2014,4,4,NO
+Pirates of the Caribbean: Dead Man’…,7/7/2006,Adventure,PG-13,S,Gore Verbinski,2006,7,7,NO
+Ladder 49,10/1/2004,Action,PG-13,B,Jay Russell,2004,10,1,NO
+Coyote Ugly,8/4/2000,Drama,PG-13,B,David McNally,2000,8,4,NO
+The Sixth Man,3/28/1997,Comedy,PG-13,C,Randall Miller,1997,3,28,NO
+Dick Tracy,6/15/1990,Action,PG,A,Warren Beatty,1990,6,15,NO
+Sister Act 2 Back in the Habit,12/10/1993,Comedy,PG,B,Bill Duke,1993,12,10,YES
+DuckTales: The Movie - Treasure of th…,8/3/1990,Adventure,G,C,Bob Hathcock,1990,8,3,NO
+Blame it on the Bellboy,3/6/1992,Comedy,PG-13,D,Mark Herman,1992,3,6,YES
+The Hunchback of Notre Dame,6/21/1996,Adventure,G,B,Gary Trousdale,1996,6,21,NO
+Ernest Goes to Jail,4/6/1990,Comedy,PG,C,John R. Cherry III,1990,4,6,NO
+Ant-Man,7/17/2015,Action,PG-13,B,NO_DIRECTOR,2015,7,17,NO
+The Shaggy Dog,3/10/2006,Comedy,PG,B,Brian Robbins,2006,3,10,NO
+The Life Aquatic with Steve Zissou,12/10/2004,Comedy,R,C,Wes Anderson,2004,12,10,NO
+Bridge to Terabithia,2/16/2007,Drama,PG,B,Gábor Csupó,2007,2,16,YES
+Beauty and the Beast,11/13/1991,Musical,G,A,Gary Trousdale,1991,11,13,NO
+Miami Rhapsody,1/27/1995,Romantic Comedy,PG-13,D,David Frankel,1995,1,27,NO
+A Bug's Life,11/20/1998,Adventure,G,A,John Lasseter,1998,11,20,NO
+3 Men and a Little Lady,11/21/1990,Comedy,PG,B,Emile Ardolino,1990,11,21,NO
+The Puppet Masters,10/21/1994,Horror,R,D,Stuart Orme,1994,10,21,NO
+Signs,8/2/2002,Thriller/Suspense,PG-13,A,M. Night Shyamalan,2002,8,2,NO
+Dead Presidents,10/4/1995,Drama,R,C,Albert Hughes,1995,10,4,NO
+"McFarland, USA",2/20/2015,Drama,PG,C,Niki Caro,2015,2,20,NO
+George Of The Jungle,7/16/1997,Comedy,PG,B,Sam Weisman,1997,7,16,NO
+Bound by Honor,4/16/1993,Crime,R,D,Taylor Hackford,1993,4,16,NO
+The Avengers,5/4/2012,Action,PG-13,S,Joss Whedon,2012,5,4,NO
+Ten Things I Hate About You,3/31/1999,Romantic Comedy,PG-13,C,Andre Paras,1999,3,31,NO
+Earth,4/22/2009,Documentary,G,C,NO_DIRECTOR,2009,4,22,NO
+Hello Again,11/6/1987,Comedy,PG,C,Tom Gustafson,1987,11,6,YES
+When a Man Loves a Woman,4/29/1994,Drama,R,B,Luis Mandoki,1994,4,29,NO
+Unbreakable,11/22/2000,Thriller/Suspense,PG-13,B,NO_DIRECTOR,2000,11,22,YES
+3 Men and a Baby,11/25/1987,Comedy,PG,A,Leonard Nimoy,1987,11,25,NO
+X Games 3D: The Movie,8/21/2009,Documentary,PG,D,Steven Lawrence,2009,8,21,NO
+Cars 2,6/24/2011,Adventure,G,A,John Lasseter,2011,6,24,NO
+The Princess Diaries 2: Royal Engagement,8/11/2004,Romantic Comedy,G,B,Garry Marshall,2004,8,11,NO
+The Jungle Book 2,2/14/2003,Adventure,G,C,Steve Trenbirth,2003,2,14,NO
+Aspen Extreme,1/22/1993,Romantic Comedy,PG-13,D,Patrick Hasburgh,1993,1,22,NO
+Noises Off...,3/20/1992,Comedy,PG-13,D,Peter Bogdanovich,1992,3,20,NO
+He Got Game,5/1/1998,Drama,R,C,Spike Lee,1998,5,1,NO
+Bringing Down the House,3/7/2003,Comedy,PG-13,B,Adam Shankman,2003,3,7,NO
+Bon Voyage!,5/17/2062,Comedy,Not Rated,B,Jean-Paul Rappeneau,1962,5,17,NO
+Doctor Strange,11/4/2016,Adventure,PG-13,A,NO_DIRECTOR,2016,11,4,NO
+Flubber,11/26/1997,Comedy,PG,B,Les Mayfield,1997,11,26,NO
+Roving Mars,1/27/2006,Documentary,G,D,George Butler,2006,1,27,YES
+Captain Ron,9/18/1992,Comedy,PG-13,C,Thom Eberhardt,1992,9,18,NO
+Shadow Conspiracy,1/31/1997,Thriller/Suspense,R,D,George P. Cosmatos,1997,1,31,NO
+Good Morning Vietnam,12/23/1987,Comedy,R,A,Barry Levinson,1987,12,23,NO
+Babes in Toyland,12/14/2061,Musical,G,B,NO_DIRECTOR,1961,12,14,NO
+An Innocent Man,10/6/1989,Drama,R,C,Peter Yates,1989,10,6,NO
+Summer of Sam,7/2/1999,Drama,R,C,Spike Lee,1999,7,2,NO
+The Good Dinosaur,11/25/2015,Adventure,PG,B,Peter Sohn,2015,11,25,NO
+Angels in the Outfield,7/15/1994,Comedy,PG,B,William Dear,1994,7,15,NO
+Tough Guys,10/3/1986,Comedy,PG,C,Jeff Kanew,1986,10,3,NO
+Something Wicked This Way Comes,4/29/1983,Horror,PG,D,Jack Clayton,1983,4,29,NO
+The Rocketeer,6/21/1991,Action,PG,B,Joe Johnston,1991,6,21,NO
+Stakeout,8/5/1987,Comedy,R,B,John Badham,1987,8,5,YES
+National Treasure 2: Book of Secrets,12/21/2007,Adventure,PG,A,Jon Turteltaub,2007,12,21,NO
+Terminal Velocity,9/23/1994,Action,PG-13,C,Deran Sarafian,1994,9,23,NO
+Apocalypto,12/8/2006,Adventure,R,C,Mel Gibson,2006,12,8,NO
+Invincible,8/25/2006,Drama,PG,B,NO_DIRECTOR,2006,8,25,NO
+25th Hour,12/19/2002,Drama,R,D,Spike Lee,2002,12,19,NO
+Mighty Joe Young,12/25/1998,Adventure,PG,B,Ron Underwood,1998,12,25,NO
+Deceived,9/27/1991,Thriller/Suspense,PG-13,C,NO_DIRECTOR,1991,9,27,NO
+Never Cry Wolf,10/7/1983,Drama,PG,B,Carroll Ballard,1983,10,7,NO
+G-Force,7/24/2009,Adventure,PG,B,Hoyt Yeatman,2009,7,24,NO
+Feast of July,10/13/1995,Drama,R,D,Christopher Menaul,1995,10,13,NO
+The Lookout,3/30/2007,Drama,R,D,Scott Frank,2007,3,30,NO
+Cool Runnings,10/1/1993,Comedy,PG,B,Jon Turteltaub,1993,10,1,NO
+Alice Through the Looking Glass,5/27/2016,Adventure,PG,B,James Bobin,2016,5,27,NO
+The Devil and Max Devlin,1/1/1981,Fantasy,PG,C,Steven Hilliard Stern,1981,1,1,NO
+The Chronicles of Narnia: Prince Caspian,5/16/2008,Adventure,PG,B,Andrew Adamson,2008,5,16,NO
+The Insider,11/5/1999,Drama,R,C,Michael Mann,1999,11,5,YES
+Camp Nowhere,8/26/1994,Comedy,PG,C,Jonathan Prince,1994,8,26,NO
+The Rock,6/7/1996,Action,R,A,Michael Bay,1996,6,7,NO
+Green Card,12/25/1990,Romantic Comedy,PG-13,C,Peter Weir,1990,12,25,NO
+Real Steel,10/7/2011,Action,PG-13,B,Shawn Levy,2011,10,7,NO
+A Kid in King Arthur's Court,8/11/1995,Adventure,PG,C,Michael Gottlieb,1995,8,11,NO
+The Last Flight of Noah’s Ark,6/25/1980,Adventure,G,C,Charles Jarrott,1980,6,25,NO
+African Cats,4/22/2011,Documentary,G,D,Alastair Fothergill,2011,4,22,YES
+Toy Story 3D Double Feature,10/2/2009,Adventure,G,C,NO_DIRECTOR,2009,10,2,NO
+Into the Woods,12/25/2014,Musical,PG,B,Rob Marshall,2014,12,25,NO
+Finding Nemo,5/30/2003,Adventure,G,S,Andrew Stanton,2003,5,30,NO
+The Good Mother,11/4/1988,Drama,R,D,Steve Antin,1988,11,4,NO
+The Hundred-Foot Journey,8/8/2014,Romantic Comedy,PG,C,Lasse Hallström,2014,8,8,NO
+Pearl Harbor,5/25/2001,Action,PG-13,A,Michael Bay,2001,5,25,NO
+Pirates of the Caribbean: At World’…,5/24/2007,Adventure,PG-13,A,Gore Verbinski,2007,5,24,NO
+Color of Night,8/19/1994,Thriller/Suspense,R,C,Richard Rush,1994,8,19,NO
+Romy and Michele's High School Reunion,4/25/1997,Comedy,R,C,David Mirkin,1997,4,25,NO
+Cheetah,8/18/1989,Adventure,UNKNOWN,D,NO_DIRECTOR,1989,8,18,NO
+Jack,8/9/1996,Drama,PG-13,B,NO_DIRECTOR,1996,8,9,NO
+Monsters University,6/21/2013,Adventure,G,A,Dan Scanlon,2013,6,21,YES
+The Fifth Estate,10/18/2013,Drama,R,D,Bill Condon,2013,10,18,NO
+Before and After,2/23/1996,Drama,PG-13,D,Barbet Schroeder,1996,2,23,YES
+Moonlight Mile,9/27/2002,Drama,PG-13,D,Brad Silberling,2002,9,27,NO
+A Stranger Among Us,7/17/1992,Drama,PG-13,C,Sidney Lumet,1992,7,17,NO
+The Lizzie McGuire Movie,5/2/2003,Comedy,PG,C,Jim Fall,2003,5,2,NO
+Krippendorf's Tribe,2/27/1998,Comedy,PG-13,D,Todd Holland,1998,2,27,NO
+crazy/beautiful,6/29/2001,Drama,PG-13,C,NO_DIRECTOR,2001,6,29,YES
+Adventures in Babysitting,7/3/1987,Comedy,PG-13,B,John Schultz,1987,7,3,NO
+The Game Plan,9/22/2007,Comedy,PG,B,Andy Fickman,2007,9,22,NO
+Splash,3/9/1984,Comedy,PG,B,Ron Howard,1984,3,9,NO
+Who Framed Roger Rabbit?,6/22/1988,Comedy,PG,A,NO_DIRECTOR,1988,6,22,NO
+The Light Between Oceans,9/2/2016,Drama,PG-13,D,Derek Cianfrance,2016,9,2,NO
+The Guardian,9/29/2006,Action,PG-13,B,Andrew Davis,2006,9,29,NO
+The Sword in the Stone,12/25/2063,Adventure,G,B,Wolfgang Reitherman,1963,12,25,NO
+Mr. Holland's Opus,12/29/1995,Drama,PG,B,Stephen Herek,1995,12,29,NO
+The Rescuers Down Under,11/16/1990,Adventure,G,C,Mike Gabriel,1990,11,16,NO
+The Preacher's Wife,12/13/1996,Drama,PG,B,Penny Marshall,1996,12,13,NO
+Sarafina!,9/18/1992,Drama,PG-13,D,Darrell James Roodt,1992,9,18,NO
+Trenchcoat,3/11/1983,Comedy,PG,D,Michael Tuchner,1983,3,11,NO
+Confessions of a Teenage Drama Queen,2/20/2004,Comedy,PG,C,Sara Sugarman,2004,2,20,NO
+Around the World in 80 Days,6/16/2004,Adventure,PG,C,NO_DIRECTOR,2004,6,16,NO
+Blaze,12/13/1989,Drama,R,C,NO_DIRECTOR,1989,12,13,YES
+Toy Story,11/22/1995,Adventure,G,A,John Lasseter,1995,11,22,NO
+Prince of Persia: Sands of Time,5/28/2010,Action,PG-13,B,NO_DIRECTOR,2010,5,28,NO
+Eddie,5/31/1996,Comedy,PG-13,C,NO_DIRECTOR,1996,5,31,NO
+White Fang 2: Myth of the White Wolf,4/15/1994,Adventure,PG,D,Ken Olin,1994,4,15,NO
+White Squall,2/2/1996,Adventure,PG-13,D,Ridley Scott,1996,2,2,NO
+The Invisible,4/27/2007,Thriller/Suspense,PG-13,C,NO_DIRECTOR,2007,4,27,YES
+Guilty as Sin,6/4/1993,Thriller/Suspense,R,C,Sidney Lumet,1993,6,4,NO
+Operation Dumbo Drop,7/28/1995,Adventure,PG,C,Simon Wincer,1995,7,28,NO
+Ghosts of the Abyss,4/11/2003,Documentary,G,C,James Cameron,2003,4,11,NO
+Scenes from a Mall,2/22/1991,Comedy,R,D,Paul Mazursky,1991,2,22,NO
+The BFG,7/1/2016,Adventure,PG,C,Steven Spielberg,2016,7,1,NO
+Tron,7/9/1982,Action,UNKNOWN,B,NO_DIRECTOR,1982,7,9,NO
+Firelight,9/4/1998,Drama,R,D,William Nicholson,1998,9,4,NO
+Delivery Man,11/22/2013,Comedy,PG-13,C,Ken Scott,2013,11,22,YES
+New York Stories,3/1/1989,Drama,PG,C,Francis Ford Coppola,1989,3,1,NO
+Disorganized Crime,4/14/1989,Comedy,R,D,Jim Kouf,1989,4,14,NO
+Tom and Huck,12/22/1995,Adventure,PG,C,Peter Hewitt,1995,12,22,NO
+Keeping the Faith,4/14/2000,Romantic Comedy,PG-13,C,Edward Norton,2000,4,14,NO
+Grosse Pointe Blank,4/11/1997,Black Comedy,R,C,George Armitage,1997,4,11,YES
+Indian Summer,4/23/1993,Comedy,R,C,NO_DIRECTOR,1993,4,23,YES
+The Princess and the Frog,11/25/2009,Adventure,G,B,Ron Clements,2009,11,25,NO
+Billy Bathgate,11/1/1991,Drama,R,C,Robert Benton,1991,11,1,NO
+3 Ninjas Kick Back,5/6/1994,Action,PG,C,Charles T. Kanganis,1994,5,6,NO
+My Boyfriend's Back,8/6/1993,Comedy,PG-13,D,Bob Balaban,1993,8,6,NO
+Goal! The Dream Begins,5/12/2006,Drama,PG,D,Danny Cannon,2006,5,12,YES
+Country,9/29/1984,Drama,UNKNOWN,C,NO_DIRECTOR,1984,9,29,YES
+Big Trouble,4/5/2002,Comedy,PG-13,D,NO_DIRECTOR,2002,4,5,NO
+People Like Us,6/29/2012,Drama,PG-13,D,Alex Kurtzman,2012,6,29,NO
+Mars Needs Moms,3/11/2011,Adventure,PG,C,Simon Wells,2011,3,11,NO
+Angie,3/4/1994,Comedy,R,D,NO_DIRECTOR,1994,3,4,NO
+Deuce Bigalow: Male Gigolo,12/10/1999,Comedy,R,B,Mike Mitchell,1999,12,10,NO
+Veronica Guerin,10/17/2003,Drama,R,D,Joel Schumacher,2003,10,17,YES
+Max Keeble's Big Move,10/5/2001,Comedy,PG,C,Tim Hill,2001,10,5,YES
+The Scarlet Letter,10/13/1995,Drama,R,C,Roland Joffé,1995,10,13,NO
+D3: The Mighty Ducks,10/4/1996,Comedy,PG,C,Rob Lieberman,1996,10,4,NO
+Up,5/29/2009,Adventure,PG,A,NO_DIRECTOR,2009,5,29,NO
+Alive,1/15/1993,Adventure,R,B,NO_DIRECTOR,1993,1,15,NO
+Can't Buy Me Love,8/14/1987,Romantic Comedy,PG-13,C,Steve Rash,1987,8,14,NO
+The Hoax,4/6/2007,Drama,R,D,Lasse Hallström,2007,4,6,NO
+Fantasia,11/13/2040,Musical,G,S,David Hand,1940,11,13,NO
+Crimson Tide,5/12/1995,Action,R,B,Tony Scott,1995,5,12,NO
+Ransom,11/8/1996,Action,R,A,Ron Howard,1996,11,8,NO
+Pretty Woman,3/23/1990,Romantic Comedy,R,A,Garry Marshall,1990,3,23,YES
+Inspector Gadget,7/23/1999,Comedy,PG,B,David Kellogg,1999,7,23,NO
+Winnie the Pooh,7/15/2011,Adventure,G,C,Stephen J. Anderson,2011,7,15,NO
+The Tigger Movie,2/11/2000,Adventure,G,B,Jun Falkenstein,2000,2,11,YES
+Heavy Weights,2/17/1995,Comedy,PG,C,Steven Brill,1995,2,17,NO
+What About Bob?,5/17/1991,Comedy,PG,B,NO_DIRECTOR,1991,5,17,NO
+Condorman,8/7/1981,Action,G,D,Charles Jarrott,1981,8,7,YES
+The Haunted Mansion,11/26/2003,Comedy,PG,B,Rob Minkoff,2003,11,26,NO
+The Hitchhiker's Guide to the Galaxy,4/29/2005,Comedy,PG,C,Garth Jennings,2005,4,29,YES
+Bedknobs and Broomsticks,10/7/2071,Musical,G,B,Robert Stevenson,1971,10,7,NO
+Pooh's Heffalump Movie,2/11/2005,Adventure,G,C,Frank Nissen,2005,2,11,NO
+Open Range,8/15/2003,Western,R,B,Kevin Costner,2003,8,15,NO
+D.O.A.,3/18/1988,Thriller/Suspense,R,C,Annabel Jankel,1988,3,18,NO
+Meet the Deedles,3/27/1998,Comedy,PG,D,Steve Boyum,1998,3,27,NO
+A Beautiful Planet,4/29/2016,Documentary,G,D,Toni Myers,2016,4,29,NO
+Sister Act,5/29/1992,Comedy,PG,A,Emile Ardolino,1992,5,29,NO
+Strange Magic,1/23/2015,Adventure,PG,D,Gary Rydstrom,2015,1,23,YES
+The Many Adventures of Winnie the Pooh,3/11/1977,Animation,G,D,Wolfgang Reitherman,1977,3,11,NO
+Quiz Show,9/14/1994,Drama,PG-13,C,Robert Redford,1994,9,14,NO
+While You Were Sleeping,4/21/1995,Romantic Comedy,PG,B,Jon Turteltaub,1995,4,21,NO
+Bedtime Stories,12/25/2008,Comedy,PG,B,Adam Shankman,2008,12,25,NO
+"The Chronicles of Narnia: The Lion, t…",12/9/2005,Adventure,PG,A,Andrew Adamson,2005,12,9,NO
+Instinct,6/4/1999,Drama,R,C,NO_DIRECTOR,1999,6,4,NO
+Step Up,8/11/2006,Drama,PG-13,B,Anne Fletcher,2006,8,11,NO
+G.I. Jane,8/22/1997,Drama,R,B,Ridley Scott,1997,8,22,NO
+Oscar,4/26/1991,Comedy,PG,C,John Landis,1991,4,26,NO
+The Parent Trap,7/29/1998,Comedy,PG,B,Nancy Meyers,1998,7,29,NO
+Primeval,1/12/2007,Adventure,R,D,NO_DIRECTOR,2007,1,12,NO
+The Lone Ranger,7/2/2013,Western,PG-13,B,Gore Verbinski,2013,7,2,YES
+"Monsters, Inc.",11/2/2001,Adventure,G,A,Pete Docter,2001,11,2,NO
+Reign of Fire,2/19/2002,Action,PG-13,C,Rob Bowman,2002,2,19,NO
+Running Brave,11/4/1983,Drama,PG,D,Donald Shebib,1983,11,4,NO
+Dinosaur,5/19/2000,Adventure,PG,A,Ralph Zondag,2000,5,19,NO
+Rushmore,12/11/1998,Black Comedy,R,C,Wes Anderson,1998,12,11,NO
+Freaky Friday,1/21/1977,Comedy,UNKNOWN,B,NO_DIRECTOR,1977,1,21,NO
+The 13th Warrior,8/27/1999,Action,R,C,John McTiernan,1999,8,27,NO
+Brave,6/22/2012,Adventure,PG,A,Brenda Chapman,2012,6,22,YES
+Eight Below,2/17/2006,Adventure,PG,B,Frank Marshall,2006,2,17,YES
+Gake no ue no Ponyo,8/14/2009,Adventure,G,D,Hayao Miyazaki,2009,8,14,NO
+Queen of Katwe,9/23/2016,Drama,PG,D,Mira Nair,2016,9,23,YES
+Straight Talk,4/3/1992,Comedy,PG,C,Barnet Kellman,1992,4,3,YES
+Holy Man,10/9/1998,Comedy,PG,C,Stephen Herek,1998,10,9,NO
+The Sorcerer's Apprentice,7/14/2010,Adventure,PG,C,Jon Turteltaub,2010,7,14,NO
+Stella,2/2/1990,Drama,PG-13,C,NO_DIRECTOR,1990,2,2,NO
+An American Werewolf in Paris,12/25/1997,Horror,R,C,Anthony Waller,1997,12,25,NO
+The Mighty Ducks,10/2/1992,Comedy,PG,B,Stephen Herek,1992,10,2,YES
+Tall Tale,3/24/1995,Western,PG,D,Jeremiah S. Chechik,1995,3,24,YES
+Tangled,11/24/2010,Adventure,PG,A,Nathan Greno,2010,11,24,YES
+Ed Wood,9/30/1994,Comedy,R,D,Tim Burton,1994,9,30,NO
+The Jerky Boys,2/3/1995,Comedy,R,D,James Melkonian,1995,2,3,NO
+The Rich Man's Wife,9/13/1996,Thriller/Suspense,R,D,Amy Holden Jones,1996,9,13,NO
+"20,000 Leagues Under the Sea",12/23/2054,Adventure,G,S,Richard Fleischer,1954,12,23,NO
+Super Mario Bros.,5/28/1993,Action,PG,C,Annabel Jankel,1993,5,28,NO
+The Proposal,6/19/2009,Romantic Comedy,PG-13,B,Anne Fletcher,2009,6,19,NO
+Race to Witch Mountain,3/13/2009,Adventure,PG,B,Andy Fickman,2009,3,13,YES
+The Adventures of Huck Finn,4/2/1993,Adventure,PG,C,Stephen Sommers,1993,4,2,NO
+Jefferson in Paris,3/31/1995,Drama,PG-13,D,James Ivory,1995,3,31,NO
+The Jungle Book,4/15/2016,Adventure,PG,A,Wolfgang Reitherman,2016,4,15,NO
+Sky High,7/29/2005,Adventure,PG,B,Mike Mitchell,2005,7,29,NO
+Toy Story 2,11/19/1999,Adventure,G,A,John Lasseter,1999,11,19,NO
+The Rescuers,6/22/1977,Adventure,UNKNOWN,B,Wolfgang Reitherman,1977,6,22,YES
+Remember the Titans,9/29/2000,Drama,PG,B,Boaz Yakin,2000,9,29,NO
+A Lot Like Love,4/22/2005,Comedy,PG-13,C,Nigel Cole,2005,4,22,NO
+3 Ninjas,8/7/1992,Action,PG,C,Jon Turteltaub,1992,8,7,NO
+Flight of the Navigator,7/30/1986,Adventure,PG,C,Randal Kleiser,1986,7,30,NO
+America's Heart and Soul,7/2/2004,Documentary,Not Rated,D,Louis Schwartsberg,2004,7,2,NO
+Swing Vote,8/1/2008,Comedy,PG-13,D,Joshua Michael Stern,2008,8,1,NO
+The Straight Story,10/15/1999,Drama,G,D,David Lynch,1999,10,15,NO
+The Kid,7/7/2000,Comedy,PG,B,NO_DIRECTOR,2000,7,7,NO
+Enchanted,11/21/2007,Romantic Comedy,PG,B,Kevin Lima,2007,11,21,NO
+Zootopia,3/4/2016,Adventure,PG,A,Byron Howard,2016,3,4,NO
+I'll Be Home For Christmas,11/13/1998,Comedy,PG,C,James Brolin,1998,11,13,NO
+The War at Home,11/20/1996,NO_GENRE,R,D,NO_DIRECTOR,1996,11,20,NO
+Peter Pan: Return to Neverland,2/15/2002,Adventure,G,B,Robin Budd,2002,2,15,NO
+Ratatouille,6/29/2007,Comedy,G,A,Brad Bird,2007,6,29,NO
+Secretariat,10/8/2010,Drama,PG,C,Randall Wallace,2010,10,8,NO
+Medicine Man,2/7/1992,Drama,PG-13,B,John McTiernan,1992,2,7,NO
+A Thousand Acres,9/19/1997,Drama,R,D,Jocelyn Moorhouse,1997,9,19,NO
+Mission to Mars,3/10/2000,Adventure,PG,B,Brian De Palma,2000,3,10,NO
+Brother Bear,10/24/2003,Adventure,G,B,Robert Walker,2003,10,24,NO
+Snow White and the Seven Dwarfs,12/21/2037,Musical,G,S,David Hand,1937,12,21,NO
+Toy Story 3,6/18/2010,Adventure,G,A,Lee Unkrich,2010,6,18,NO
+Miracle,2/6/2004,Drama,PG,B,NO_DIRECTOR,2004,2,6,NO
+My Favorite Martian,2/12/1999,Comedy,PG,C,NO_DIRECTOR,1999,2,12,YES
+Benji the Hunted,6/5/1987,Adventure,G,C,Joe Camp,1987,6,5,NO
+A Far Off Place,3/12/1993,Adventure,PG,C,Mikael Salomon,1993,3,12,NO
+Old Dogs,11/25/2009,Comedy,PG,C,Walt Becker,2009,11,25,NO
+Alice in Wonderland,3/5/2010,Adventure,PG,A,Clyde Geronimi,2010,3,5,NO
+The Little Mermaid,11/15/1989,Adventure,G,A,Ron Clements,1989,11,15,NO
+Stick It,4/28/2006,Comedy,PG-13,C,Jessica Bendinger,2006,4,28,NO
+Funny Bones,3/31/1995,Comedy,R,D,Peter Chelsom,1995,3,31,YES
+Cars,6/9/2006,Comedy,G,A,John Lasseter,2006,6,9,NO
+Bicentennial Man,12/17/1999,Drama,PG,B,Chris Columbus,1999,12,17,YES
+Chimpanzee,4/20/2012,Documentary,G,C,Alastair Fothergill,2012,4,20,NO
+The Apple Dumpling Gang,7/1/1975,Comedy,G,B,Norman Tokar,1975,7,1,NO
+The Other Sister,2/26/1999,Romantic Comedy,PG-13,C,Garry Marshall,1999,2,26,NO
+A Simple Twist of Fate,9/2/1994,Drama,PG-13,D,Gillies MacKinnon,1994,9,2,NO
+Where the Heart Is,2/23/1990,Comedy,UNKNOWN,D,NO_DIRECTOR,1990,2,23,NO
+Kaze Tachinu,11/8/2013,Drama,PG-13,D,Mitsuo Wakasugi,2013,11,8,NO
+Off Beat,4/11/1986,Comedy,PG,D,Michael Dinner,1986,4,11,NO
+The Greatest Game Ever Played,9/30/2005,Drama,PG,C,Bill Paxton,2005,9,30,NO
+The Three Musketeers,11/12/1993,Adventure,PG,B,NO_DIRECTOR,1993,11,12,NO
+A Civil Action,12/25/1998,Drama,PG-13,B,Steven Zaillian,1998,12,25,NO
+Walt and El Grupo,9/10/2009,Documentary,PG,D,Theodore Thomas,2009,9,10,NO
+Powder,10/27/1995,Drama,PG-13,C,Victor Salva,1995,10,27,NO
+1492: Conquest of Paradise,10/9/1992,Adventure,PG-13,D,Ridley Scott,1992,10,9,NO
+The Cemetery Club,2/3/1993,Comedy,PG-13,D,Bill Duke,1993,2,3,NO
+Stay Alive,3/24/2006,Horror,PG-13,C,William Brent Bell,2006,3,24,NO
+That Darn Cat,2/14/1997,Comedy,PG,C,NO_DIRECTOR,1997,2,14,NO
+The Muppet Christmas Carol,12/11/1992,Comedy,G,C,Brian Henson,1992,12,11,YES
+Step Up 2 the Streets,2/14/2008,Drama,PG-13,C,Jon M. Chu,2008,2,14,YES
+Fantasia 2000 (Theatrical Release),6/16/2000,Musical,G,D,NO_DIRECTOR,2000,6,16,NO
+The Santa Clause 2,11/1/2002,Comedy,G,A,Michael Lembeck,2002,11,1,YES
+The Recruit,1/31/2003,Thriller/Suspense,PG-13,B,Roger Donaldson,2003,1,31,NO
+Money for Nothing,9/10/1993,Comedy,R,D,Ramón Menéndez,1993,9,10,NO
+Bad Company,1/20/1995,Thriller/Suspense,R,D,NO_DIRECTOR,1995,1,20,NO
+I Love Trouble,6/29/1994,Romantic Comedy,PG,C,Charles Shyer,1994,6,29,YES
+The Absent Minded Professor,3/16/2061,Comedy,G,A,Robert Stevenson,1961,3,16,NO
+Jungle 2 Jungle,3/7/1997,Comedy,PG,B,John Pasquin,1997,3,7,NO
+Tex,11/19/1982,Drama,UNKNOWN,C,NO_DIRECTOR,1982,11,19,NO
+Life With Mikey,6/4/1993,Comedy,PG,C,James Lapine,1993,6,4,NO
+Gone Fishin',5/30/1997,Comedy,PG,C,Riley Cairns,1997,5,30,NO
+Rogue One: A Star Wars Story,12/16/2016,Adventure,PG-13,S,Gareth Edwards,2016,12,16,NO
+The Marrying Man,4/5/1991,Romantic Comedy,R,C,Jerry Rees,1991,4,5,NO
+Bubble Boy,8/24/2001,Comedy,PG-13,D,Blair Hayes,2001,8,24,YES
+Baby: Secret of the Lost Legend,3/22/1985,Adventure,PG,C,Bill L. Norton,1985,3,22,NO
+The Fox and the Hound,7/10/1981,Comedy,G,B,Art Stevens,1981,7,10,NO
+High Heels and Low Lifes,10/26/2001,Action,R,D,Mel Smith,2001,10,26,NO
+The Tie That Binds,9/8/1995,Thriller/Suspense,R,D,Wesley Strick,1995,9,8,NO
+John Carter,3/9/2012,Adventure,PG-13,B,Andrew Stanton,2012,3,9,NO
+Blank Check,2/11/1994,Comedy,PG,C,Rupert Wainwright,1994,2,11,NO
+Guardians of the Galaxy,8/1/2014,Adventure,PG-13,A,James Gunn,2014,8,1,NO
+Star Wars Ep. VII: The Force Awakens,12/18/2015,Adventure,PG-13,S,Unknown,2015,12,18,NO
+A Goofy Movie,4/7/1995,Comedy,G,C,Kevin Lima,1995,4,7,NO
+Hocus Pocus,7/16/1993,Comedy,PG,B,NO_DIRECTOR,1993,7,16,YES
+Pete’s Dragon,8/12/2016,Adventure,PG,B,NO_DIRECTOR,2016,8,12,NO
+Night Crossing,2/5/1982,Drama,PG,D,Delbert Mann,1982,2,5,NO
+Lilo & Stitch,6/21/2002,Adventure,PG,A,Chris Sanders,2002,6,21,NO
+Metro,1/17/1997,Action,R,C,Thomas Carter,1997,1,17,NO
+National Treasure,11/19/2004,Adventure,PG,A,Jon Turteltaub,2004,11,19,NO
+Shanghai Noon,5/26/2000,Western,PG-13,B,Tom Dey,2000,5,26,NO
+Dangerous Minds,8/11/1995,Drama,R,B,John N. Smith,1995,8,11,YES
+The Distinguished Gentleman,12/4/1992,Comedy,R,B,Jonathan Lynn,1992,12,4,NO
+The Secret World of Arietty,2/17/2012,Adventure,G,C,NO_DIRECTOR,2012,2,17,NO
+The Princess Diaries,8/3/2001,Comedy,G,B,Garry Marshall,2001,8,3,YES
+Step Up 3D,8/6/2010,Drama,PG-13,C,Jon M. Chu,2010,8,6,NO
+Underdog,8/3/2007,Adventure,PG,C,NO_DIRECTOR,2007,8,3,NO
+Red Rock West,1/28/1994,Crime,R,D,John Dahl,1994,1,28,NO
+Captain America: Civil War,5/6/2016,Action,PG-13,A,Anthony Russo,2016,5,6,YES
+Mr. Wrong,2/16/1996,Romantic Comedy,PG-13,C,NO_DIRECTOR,1996,2,16,NO
+Nixon,12/20/1995,Drama,R,C,Oliver Stone,1995,12,20,NO
+The Ref,3/9/1994,Comedy,R,C,Ted Demme,1994,3,9,YES
+The Santa Clause 3: The Escape Clause,11/3/2006,Comedy,G,B,Michael Lembeck,2006,11,3,NO
+Ice Princess,3/18/2005,Comedy,G,C,Tim Fywell,2005,3,18,NO
+King Arthur,7/7/2004,Adventure,PG-13,B,NO_DIRECTOR,2004,7,7,NO
+Nothing To Lose,7/18/1997,Comedy,R,B,Steve Oedekerk,1997,7,18,NO
+Herbie: Fully Loaded,6/22/2005,Comedy,G,B,Angela Robinson,2005,6,22,NO
+Father of the Bride,12/20/1991,Comedy,PG,B,NO_DIRECTOR,1991,12,20,YES
+You Again,9/24/2010,Comedy,PG,C,Andy Fickman,2010,9,24,NO
+Treasure Planet,11/27/2002,Adventure,PG,C,Ron Clements,2002,11,27,NO
+The Great Mouse Detective,7/2/1986,Adventure,G,C,Ron Clements,1986,7,2,YES
+Cinderella,3/13/2015,Drama,PG,A,Wilfred Jackson,2015,3,13,NO
+Frozen,11/22/2013,Adventure,PG,A,Chris Buck,2013,11,22,NO
+Pirates of the Caribbean: On Stranger…,5/20/2011,Adventure,PG-13,A,Rob Marshall,2011,5,20,NO
+Zokkomon,4/22/2011,Adventure,PG,D,Satyajit Bhatkal,2011,4,22,NO
+Gross Anatomy,10/20/1989,Drama,PG-13,C,Thom Eberhardt,1989,10,20,NO
+The Incredibles,11/5/2004,Adventure,PG,A,Brad Bird,2004,11,5,NO
+Frank McKlusky C.I.,1/1/2002,Action,PG-13,D,Arlene Sanford,2002,1,1,NO
+Taking Care of Business,8/17/1990,Comedy,R,C,Arthur Hiller,1990,8,17,NO
+Tim Burton's The Nightmare Before Chr…,10/20/2006,Musical,PG,C,NO_DIRECTOR,2006,10,20,NO
+Cocktail,7/29/1988,Drama,R,B,Roger Donaldson,1988,7,29,NO
+Gun Shy,2/4/2000,Comedy,R,D,NO_DIRECTOR,2000,2,4,NO
+Mr. Destiny,10/12/1990,Comedy,PG-13,C,James Orr,1990,10,12,NO
+Herbie Goes to Monte Carlo,6/24/1977,Romance,G,B,Vincent McEveety,1977,6,24,NO
+Evita,12/25/1996,Musical,PG,B,Alan Parker,1996,12,25,NO
+Dark Water,7/8/2005,Thriller/Suspense,PG-13,C,Walter Salles,2005,7,8,NO
+Piglet's Big Movie,3/21/2003,Comedy,G,C,Francis Glebas,2003,3,21,YES
+Kazaam,7/17/1996,Comedy,PG,C,Paul Michael Glaser,1996,7,17,NO
+Déjà Vu,11/22/2006,Thriller/Suspense,PG-13,B,Tony Scott,2006,11,22,NO
+Waking Sleeping Beauty,3/26/2010,Documentary,PG,D,Don Hahn,2010,3,26,NO
+The Count of Monte Cristo,1/25/2002,Drama,PG-13,B,Kevin Reynolds,2002,1,25,YES
+The Program,9/24/1993,Action,R,C,Stephen Frears,1993,9,24,NO
+When in Rome,1/29/2010,Romantic Comedy,PG-13,C,Mark Steven Johnson,2010,1,29,NO
+Born Yesterday,3/26/1993,Romantic Comedy,PG,C,NO_DIRECTOR,1993,3,26,NO
+The Alamo,4/9/2004,Western,PG-13,C,NO_DIRECTOR,2004,4,9,NO
+Mad Love,5/26/1995,Drama,PG-13,C,NO_DIRECTOR,1995,5,26,NO
+Armageddon,7/1/1998,Adventure,PG-13,A,Michael Bay,1998,7,1,YES
+Air Bud,8/1/1997,Comedy,PG,C,Charles Martin Smith,1997,8,1,NO
+Fire Birds,5/24/1990,Action,PG-13,C,David Green,1990,5,24,NO
+The Black Cauldron,7/24/1985,Adventure,PG,C,Ted Berman,1985,7,24,NO
+Oz the Great and Powerful,3/8/2013,Adventure,PG,A,Sam Raimi,2013,3,8,NO
+Two Much,3/15/1996,Romantic Comedy,PG-13,D,Fernando Trueba,1996,3,15,NO
+102 Dalmatians,11/22/2000,Comedy,G,B,Kevin Lima,2000,11,22,NO
+The Pacifier,3/4/2005,Comedy,PG,B,Adam Shankman,2005,3,4,NO
+Prom,4/29/2011,Comedy,PG,D,NO_DIRECTOR,2011,4,29,NO
+Un indien dans la ville,3/22/1996,Comedy,PG,D,NO_DIRECTOR,1996,3,22,NO
+Annapolis,1/27/2006,Drama,PG-13,C,Justin Lin,2006,1,27,YES
+The Country Bears,7/26/2002,Adventure,G,C,Peter Hastings,2002,7,26,NO
+Planes: Fire and Rescue,7/18/2014,Adventure,PG,C,Roberts Gannaway,2014,7,18,NO
+Tin Men,3/6/1987,Comedy,R,C,Barry Levinson,1987,3,6,NO
+Renaissance Man,6/3/1994,Comedy,PG-13,C,Penny Marshall,1994,6,3,YES
+Playing God,10/17/1997,Thriller/Suspense,R,D,NO_DIRECTOR,1997,10,17,NO
+Phenomenon,7/5/1996,Drama,PG,B,NO_DIRECTOR,1996,7,5,NO
+Gnomeo and Juliet,2/11/2011,Comedy,G,B,Kelly Asbury,2011,2,11,NO
+The Color of Money,10/17/1986,Drama,R,B,Martin Scorsese,1986,10,17,NO
+Blackbeard's Ghost,2/8/2068,Comedy,G,B,Robert Stevenson,1968,2,8,YES
+Ernest Scared Stupid,10/11/1991,Comedy,PG,C,John R. Cherry III,1991,10,11,NO
+The Emperor's New Groove,12/15/2000,Adventure,G,B,Mark Dindal,2000,12,15,YES
+Double Take,1/12/2001,Action,PG-13,C,George Gallo,2001,1,12,NO
+Rocket Man,10/10/1997,Comedy,PG,C,Oscar Rudolph,1997,10,10,NO
+Mulan,6/19/1998,Adventure,G,A,Barry Cook,1998,6,19,YES
+Song of the South,11/12/2046,Adventure,G,S,Wilfred Jackson,1946,11,12,NO
+The Black Hole,12/21/1979,Adventure,PG,B,Gary Nelson,1979,12,21,YES
+Raising Helen,5/28/2004,Comedy,PG-13,C,Garry Marshall,2004,5,28,NO
+A Gun in Betty Lou's Handbag,8/21/1992,Comedy,PG-13,D,Allan Moyle,1992,8,21,YES
+The Air Up There,1/7/1994,Comedy,PG,C,Paul Michael Glaser,1994,1,7,NO
+Roommates,3/3/1995,Comedy,PG,C,NO_DIRECTOR,1995,3,3,NO
+Morning Light,10/17/2008,Documentary,PG,D,Mark Monroe,2008,10,17,NO
+Valiant,8/19/2005,Adventure,G,C,Gary Chapman,2005,8,19,NO
+Down and Out in Beverly Hills,1/31/1986,Comedy,R,B,Paul Mazursky,1986,1,31,NO
+Tarzan,6/16/1999,Adventure,G,A,Chris Buck,1999,6,16,NO
+The Royal Tenenbaums,12/14/2001,Black Comedy,R,B,Wes Anderson,2001,12,14,NO
+James and the Giant Peach,4/12/1996,Adventure,PG,C,Henry Selick,1996,4,12,NO
+"Mystery, Alaska",10/1/1999,Comedy,R,D,Jay Roach,1999,10,1,NO
+Last Dance,5/3/1996,Drama,R,D,NO_DIRECTOR,1996,5,3,YES
+My Science Project,8/9/1985,Comedy,PG,D,Jonathan R. Betuel,1985,8,9,
+Homeward Bound II: Lost in San Franc…,3/8/1996,Adventure,G,C,David R. Ellis,1996,3,8,
+The Muppets,11/23/2011,Comedy,PG,B,James Bobin,2011,11,23,
+Turner & Hooch,7/28/1989,Comedy,PG,B,NO_DIRECTOR,1989,7,28,
+Oceans,4/22/2010,Documentary,G,C,NO_DIRECTOR,2010,4,22,
+It's Pat,8/26/1994,Comedy,PG-13,D,Adam Bernstein,1994,8,26,
+The Finest Hours,1/29/2016,Thriller/Suspense,PG,C,Craig Gillespie,2016,1,29,
+Shoot to Kill,2/12/1988,Action,R,C,Roger Spottiswoode,1988,2,12,
+Hannah Montana the Movie,4/10/2009,Drama,G,B,Peter Chelsom,2009,4,10,
+First Kid,8/30/1996,Comedy,PG,C,David M. Evans,1996,8,30,
+Consenting Adults,10/16/1992,Drama,R,C,Alan J. Pakula,1992,10,16,
+Dan in Real Life,10/20/2007,Romantic Comedy,PG-13,C,Peter Hedges,2007,10,20,
+Sorority Boys,3/22/2002,Comedy,R,D,Wallace Wolodarsky,2002,3,22,
+Simon Birch,9/11/1998,Drama,PG,C,Mark Steven Johnson,1998,9,11,
+In the Army Now,8/12/1994,Comedy,PG,C,Daniel Petrie Jr.,1994,8,12,
+Bad Company,6/7/2002,Action,PG-13,C,Joel Schumacher,2002,6,7,
+Wreck-It Ralph,11/2/2012,Adventure,PG,A,Rich Moore,2012,11,2,
+Iron Man 3,5/3/2013,Action,PG-13,A,Shane Black,2013,5,3,
+Cinderella,2/15/2050,Drama,G,S,Wilfred Jackson,1950,2,15,
+One Magic Christmas,11/22/1985,Drama,G,C,Phillip Borsos,1985,11,22,
+Beverly Hills Chihuahua,10/3/2008,Comedy,PG,B,Raja Gosnell,2008,10,3,
+WALL-E,6/27/2008,Adventure,G,A,Andrew Stanton,2008,6,27,
+Aladdin,11/11/1992,Comedy,G,A,Ron Clements,1992,11,11,
+Casanova,12/25/2005,Drama,R,D,Lasse Hallström,2005,12,25,
+Thor: The Dark World,11/8/2013,Adventure,PG-13,A,Alan Taylor,2013,11,8,
+Monkey Kingdom,4/17/2015,Documentary,G,D,Alastair Fothergill,2015,4,17,
+Ernest Saves Christmas,11/11/1988,Comedy,PG,C,John R. Cherry III,1988,11,11,
+Hannah Montana/Miley Cyrus: Best of B…,2/1/2008,Concert/Performance,G,B,NO_DIRECTOR,2008,2,1,
+Saving Mr. Banks,12/13/2013,Drama,PG-13,B,John Lee Hancock,2013,12,13,
+The Aristocats,4/24/2070,Musical,G,A,Wolfgang Reitherman,1970,4,24,
+Calendar Girls,12/19/2003,Comedy,PG-13,C,Nigel Cole,2003,12,19,
+Unstrung Heroes,9/15/1995,Drama,PG,D,Diane Keaton,1995,9,15,
+Three Fugitives,1/27/1989,Comedy,PG-13,B,Francis Veber,1989,1,27,
+Tomorrowland,5/22/2015,Adventure,PG,B,Brad Bird,2015,5,22,
+The Village,7/30/2004,Thriller/Suspense,PG-13,B,M. Night Shyamalan,2004,7,30,
+"Alexander and the Terrible, Horrible,…",10/10/2014,Comedy,PG,C,Miguel Arteta,2014,10,10,
+Arachnophobia,7/18/1990,Thriller/Suspense,PG-13,B,Frank Marshall,1990,7,18,
+Lincoln,11/9/2012,Drama,PG-13,B,NO_DIRECTOR,2012,11,9,
+The Horse Whisperer,5/15/1998,Drama,PG-13,B,Robert Redford,1998,5,15,
+Muppets Most Wanted,3/21/2014,Comedy,PG,C,James Bobin,2014,3,21,
+Fantasia 2000 (IMAX),1/1/2000,Musical,G,B,Unknown,2000,1,1,
+Spaced Invaders,4/27/1990,Comedy,PG,C,Patrick Read Johnson,1990,4,27,
+Just Visiting,4/6/2001,Comedy,PG-13,D,Jean-Marie Poiré,2001,4,6,
+Holes,4/18/2003,Drama,PG,B,Andrew Davis,2003,4,18,
+The Last Shot,9/24/2004,Comedy,R,D,NO_DIRECTOR,2004,9,24,
+The Jungle Book,10/18/2067,Musical,Not Rated,S,NO_DIRECTOR,1967,10,18,
+Meet the Robinsons,3/30/2007,Adventure,G,B,Stephen J. Anderson,2007,3,30,
+Dead Poets Society,6/2/1989,Drama,PG,A,Peter Weir,1989,6,2,
+Avengers: Age of Ultron,5/1/2015,Action,PG-13,A,Joss Whedon,2015,5,1,
+Man of the House,3/3/1995,Comedy,PG,B,NO_DIRECTOR,1995,3,3,
+Bears,4/18/2014,Documentary,G,D,NO_DIRECTOR,2014,4,18,
+Passed Away,4/24/1992,Comedy,PG-13,D,Charlie Peters,1992,4,24,
+ESPN's Ultimate X - The Movie,5/10/2002,Documentary,PG,D,Unknown,2002,5,10,
+Atlantis: The Lost Empire,6/8/2001,Adventure,PG,B,Gary Trousdale,2001,6,8,
+Ernest Goes to Camp,5/22/1987,Comedy,PG,C,John R. Cherry III,1987,5,22,
+Teacher's Pet: The Movie,1/16/2004,Comedy,PG,D,Unknown,2004,1,16,
+Spy Hard,5/24/1996,Comedy,PG-13,C,Rick Friedberg,1996,5,24,
+Snow Dogs,1/18/2002,Comedy,PG,B,Brian Levant,2002,1,18,
+Frankenweenie,10/5/2012,Comedy,PG,C,Tim Burton,2012,10,5,
+Tuck Everlasting,10/11/2002,Drama,PG,C,Jay Russell,2002,10,11,
+Hauru no ugoku shiro,6/10/2005,Adventure,PG,D,Hayao Miyazaki,2005,6,10,
+Gedo Senki (Tales from Earthsea),8/13/2010,Adventure,PG-13,D,NO_DIRECTOR,2010,8,13,
+Return to Oz,6/21/1985,Adventure,G,C,Walter Murch,1985,6,21,
+Disney's A Christmas Carol,11/6/2009,Drama,PG,B,Robert Zemeckis,2009,11,6,
+Prefontaine,1/24/1997,Drama,PG-13,D,Steve James,1997,1,24,
+Beaches,12/21/1988,Drama,PG-13,B,Garry Marshall,1988,12,21,
+101 Dalmatians,1/25/2061,Comedy,G,S,NO_DIRECTOR,1961,1,25,
+The Last Song,3/31/2010,Drama,PG,C,Julie Anne Robinson,2010,3,31,
+Father Hood,8/27/1993,Action,PG-13,D,Darrell James Roodt,1993,8,27,
+Encino Man,5/22/1992,Comedy,PG,B,Les Mayfield,1992,5,22,
+Sweet Home Alabama,9/27/2002,Comedy,PG-13,B,Andy Tennant,2002,9,27,
+Play it to the Bone,12/24/1999,Comedy,R,D,Ron Shelton,1999,12,24,
+The Odd Life of Timothy Green,8/15/2012,Drama,PG,C,Peter Hedges,2012,8,15,
+Honey I Blew Up the Kid,7/17/1992,Comedy,PG,B,Randal Kleiser,1992,7,17,
+Hercules,6/13/1997,Adventure,G,B,Ron Clements,1997,6,13,

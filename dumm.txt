@@ -6,6 +6,7 @@ genre_Comedy
 genre_Crime
 genre_Documentary
 genre_Drama
+genre_Family
 genre_Fantasy
 genre_Horror
 genre_Musical
@@ -17,3 +18,4 @@ MPAA_rating_G
 MPAA_rating_PG
 MPAA_rating_PG-13
 MPAA_rating_R
+MPAA_rating_TV-G

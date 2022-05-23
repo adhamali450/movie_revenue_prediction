@@ -140,7 +140,7 @@ def setting_xy_for_classifiers(data, target_col):
 
     X = data_encoded.iloc[:, 0:]  # Features
     X.drop(['movie_title', target_col], axis=1, inplace=True)
-
+    print(X.columns)
     Y = data_encoded[target_col]  # Label
 
     X_new = lasso_feature_selection(X, Y)
@@ -169,10 +169,11 @@ def setting_xy_for_predict(data, target_col):
 
     Y = data_ready[target_col]  # Label
     X.drop('revenue', axis=1, inplace=True)
+    print(X.columns)
 
     # feature Selection
     X_new = lasso_feature_selection(X, Y)
-
+    
     # scaling
     scale = StandardScaler()
     X_new = scale.fit_transform(X_new)
@@ -188,11 +189,32 @@ def settingXandYUsingDummies(data):
     merge_data.drop(columns=colName, axis=1, inplace=True)
     shift_target_column(merge_data, 'revenue')
 
+    with open('dumm.txt', 'w') as f:
+        for col in dummeis.columns:
+            f.write(col + '\n')
+
     cols = ['movie_title', 'director']
     for c in cols:
         frequency_encoding(merge_data, c)
 
-    return merge_data
+    min_threshold, max_threshold = merge_data["revenue"].quantile([0.01, 0.99])
+    merge_data2 = merge_data[ (merge_data['revenue']>min_threshold) & (merge_data['revenue'] < max_threshold)]
+    X = merge_data2.iloc[:, 0:]  # Features
+    X.drop(['revenue'], axis=1, inplace=True)
+    Y = merge_data2['revenue']
+
+    lasso = Lasso().fit(X, Y)
+    model = SelectFromModel(lasso, prefit=True)
+    X = model.transform(X)
+
+    #feature scaling
+    sc = StandardScaler()
+    X = sc.fit_transform(X)
+
+
+
+
+    return X , Y
 
 def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
@@ -213,19 +235,17 @@ def setting_xy_for_random(data, target_col):
     with open('dumm.txt', 'w') as f:
         for col in dummeis.columns:
             f.write(col + '\n')
-    
-
-
-    print(dummeis.columns)
 
     cols = ['director']
     for c in cols:
         frequency_encoding(merge_data, c)
 
     merge_data.drop(['movie_title'], inplace=True, axis=1)
-    X = merge_data.iloc[:, 1:-1]
+    X = merge_data.iloc[:, 0:]
     Y = merge_data.iloc[:, -1:]
-
+    X.drop(['MovieSuccessLevel'], axis=1, inplace=True)
+    print(X.shape)
+    
     levelOfSuccess = LabelEncoder()
     Y = levelOfSuccess.fit_transform(Y)
 

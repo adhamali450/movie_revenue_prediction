@@ -1,7 +1,7 @@
 from operator import mod
 
 from sklearn.impute import SimpleImputer
-import preprocessing
+import test_preprocessing
 import pandas as pd
 import numpy as np
 from sklearn import metrics
@@ -13,11 +13,11 @@ from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.preprocessing import OneHotEncoder
 
 
-df = pd.read_csv('movies/movies-revenue-test-samples.csv')
+# df = pd.read_csv('movies/movies-revenue-test-samples.csv')
 # df2 = pd.read_csv('movies/movie-director-test-samples.csv')
 
 
-preprocessing.shift_target_column(df, 'MovieSuccessLevel')
+# preprocessing.shift_target_column(df, 'MovieSuccessLevel')
 
 
 
@@ -28,15 +28,12 @@ def test_model(model, X_test, y_test):
     print(metrics.accuracy_score(y_test, y_pred))
     print(metrics.r2_score(y_test, y_pred))
 
-
-
 def main():
     
     data = pd.read_csv('testComplete.csv')
 
-    X_test , y_test = preprocessing.setting_xy_for_SVM(data, 'MovieSuccessLevel')
-
-    filename = 'random_forest_regressor.sav'
+    X_test , y_test = test_preprocessing.setting_xy_for_classefiers(data , 'MovieSuccessLevel')
+    filename = 'model1.sav'
     model = joblib.load(filename)
     pred = model.predict(X_test)
     print('Mean Square Error  => ', metrics.mean_squared_error(y_test, pred))
