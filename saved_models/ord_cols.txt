@@ -1,0 +1,19 @@
+genre_Comedy
+genre_Adventure
+genre_Drama
+genre_Action
+genre_Musical
+genre_Romantic Comedy
+genre_Horror
+genre_Thriller/Suspense
+genre_Crime
+genre_Documentary
+genre_Fantasy
+genre_Black Comedy
+genre_Western
+genre_Animation
+genre_Romance
+MPAA_rating_G
+MPAA_rating_PG
+MPAA_rating_R
+MPAA_rating_PG-13
