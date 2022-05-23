@@ -4,6 +4,7 @@ from sklearn.svm import SVC
 from preprocessing import *
 from sklearn.model_selection import train_test_split, GridSearchCV
 import time
+import joblib
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
 
@@ -26,6 +27,7 @@ def train_model(X, Y):
 
     train_start = time.time()
     ovo = ovo.fit(X_train, y_train)
+    joblib.dump(ovo, 'model2.sav')
     train_end = time.time()
 
     test_start = time.time()

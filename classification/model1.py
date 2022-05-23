@@ -4,6 +4,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from preprocessing import *
 import warnings
+import joblib
+
 warnings.filterwarnings("ignore")
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue.csv')
@@ -23,6 +25,7 @@ def train_model(X, Y):
 
     train_start = time.time()
     knn.fit(X_train, y_train)
+    joblib.dump(knn, 'model1.sav')
     train_end = time.time()
 
     test_start = time.time()

@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 import time
 import matplotlib.pyplot as plt
 import warnings
+import joblib
 
 warnings.filterwarnings("ignore")
 
@@ -37,6 +38,7 @@ def train_random_model(X, Y):
     # Train the model on training data
     train_start = time.time()
     rf.fit(X_train, y_train)
+    joblib.dump(rf, 'model4.sav')
     train_end = time.time()
 
     test_start = time.time()
