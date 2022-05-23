@@ -13,14 +13,13 @@ def applying_GridSearch(X_train, y_train):
     grid_params = {'n_neighbors': [5, 7, 9, 11, 13, 15],
                    'weights': ['uniform', 'distance'],
                    'metric': ['minkowski', 'euclidean', 'manhattan']}
-    gs = GridSearchCV(KNeighborsClassifier(), grid_params, verbose=1, cv=3, n_jobs=-1)
+    gs = GridSearchCV(KNeighborsClassifier(), grid_params, verbose=1, cv=4, n_jobs=4, refit='r2')
     g_res = gs.fit(X_train, y_train)
-    print(g_res.best_score_)
-    print(g_res.best_params_)
+    return g_res
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=63, shuffle=True)
-    knn = KNeighborsClassifier(n_neighbors=9, metric='manhattan', weights='uniform')
+    knn = applying_GridSearch(X_train, y_train)
 
     train_start = time.time()
     knn.fit(X_train, y_train)
@@ -48,6 +47,5 @@ def train_model(X, Y):
 def __main__():
     X, Y = setting_xy_for_knn(data, 'MovieSuccessLevel')
     train_model(X, Y)
-
 
 __main__()
