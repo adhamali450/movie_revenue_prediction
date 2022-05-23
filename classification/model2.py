@@ -48,7 +48,7 @@ def train_model(X, Y):
     graph_bar(plot_numbers, 'Time', 'SVM One-vs-One Model')
 
 def __main__():
-    X, Y = setting_xy_for_SVM(data, 'MovieSuccessLevel')
+    X, Y = setting_xy_for_classifiers(data, 'MovieSuccessLevel')
     train_model(X, Y)
 
 __main__()

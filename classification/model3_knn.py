@@ -3,7 +3,6 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from preprocessing import *
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -13,13 +12,14 @@ def applying_GridSearch(X_train, y_train):
     grid_params = {'n_neighbors': [5, 7, 9, 11, 13, 15],
                    'weights': ['uniform', 'distance'],
                    'metric': ['minkowski', 'euclidean', 'manhattan']}
-    gs = GridSearchCV(KNeighborsClassifier(), grid_params, verbose=1, cv=4, n_jobs=4, refit='r2')
+    gs = GridSearchCV(KNeighborsClassifier(), grid_params, verbose=1, cv=3, n_jobs=-1)
     g_res = gs.fit(X_train, y_train)
-    return g_res
+    print(g_res.best_params_)
+    print(g_res.best_estimator_)
 
 def train_model(X, Y):
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=63, shuffle=True)
-    knn = applying_GridSearch(X_train, y_train)
+    knn = KNeighborsClassifier(metric='minkowski', n_neighbors=13, weights='uniform')
 
     train_start = time.time()
     knn.fit(X_train, y_train)
@@ -45,7 +45,7 @@ def train_model(X, Y):
     graph_bar(plot_numbers, 'Time', 'KNN Model')
 
 def __main__():
-    X, Y = setting_xy_for_knn(data, 'MovieSuccessLevel')
+    X, Y = setting_xy_for_classifiers(data, 'MovieSuccessLevel')
     train_model(X, Y)
 
 __main__()
