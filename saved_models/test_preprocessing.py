@@ -9,8 +9,6 @@ from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings("ignore")
 
-with open('../dumm.txt', 'r') as f:
-    fetched = f.read().splitlines()
 
 def movie_lemma(movie):
     return re.sub("\d*", "", movie).strip()
@@ -111,6 +109,8 @@ def plot_graph(y_test, y_pred, regressorName):
 
 def prepare_data(data, target_col, work_with_revenue=True):
     # work with revenue set to False when called to a classification model
+    data['genre'] = data['genre'].fillna('Comedy')
+    data['mpaa_rating'] = data['mpaa_rating'].fillna('PG')
     data.fillna(0, inplace=True)
     # drop_contextual_na(data)
     get_sequels(data)
@@ -119,7 +119,13 @@ def prepare_data(data, target_col, work_with_revenue=True):
     spread_date(data, 'release_date', False)
     shift_target_column(data, target_col)
 
-
+def corr_feature_extraction(YColumn,readyData):
+    movie_data = readyData.iloc[:, :]
+    corr = movie_data.corr()
+    top_feature = corr.index[abs(corr[YColumn]) > 0.09]
+    top_corr = movie_data[top_feature].corr()
+    top_feature = top_feature.delete(-1)
+    return readyData[top_feature]
 
 def lasso_feature_selection(X, Y):
     lasso = Lasso().fit(X, Y)
@@ -127,7 +133,7 @@ def lasso_feature_selection(X, Y):
     return model.transform(X)
 
 
-def setting_xy_for_predict(data, target_col):
+def setting_xy_for_predict(data, target_col, fetched):
     prepare_data(data, 'revenue')
 
     # encoding
@@ -142,15 +148,15 @@ def setting_xy_for_predict(data, target_col):
 
     print(X.columns)
 
-    # X = lasso_feature_selection(X, Y)
+    X = lasso_feature_selection(X, Y)
 
-    # scale = StandardScaler()
-    # X = scale.fit_transform(X)
+    scale = StandardScaler()
+    X = scale.fit_transform(X)
 
     return X, Y
 
 
-def settingXandYUsingDummies(data):
+def settingXandYUsingDummies(data , fetched):
     prepare_data(data, 'revenue')
 
     colName = ['genre', 'MPAA_rating']
@@ -168,13 +174,13 @@ def settingXandYUsingDummies(data):
     X.drop(['revenue'], axis=1, inplace=True)
     Y = merge_data['revenue']
     
-    # lasso = Lasso().fit(X, Y)
-    # model = SelectFromModel(lasso, prefit=True)
-    # X = model.transform(X)
+    lasso = Lasso().fit(X, Y)
+    model = SelectFromModel(lasso, prefit=True)
+    X = model.transform(X)
 
-    #feature scaling
-    # sc = StandardScaler()
-    # X = sc.fit_transform(X)
+    # feature scaling
+    sc = StandardScaler()
+    X = sc.fit_transform(X)
     
     return X , Y
 
@@ -184,7 +190,7 @@ def frequency_encoding(data, col_name):
     data[col_name] = data[col_name].map(dic[col_name])
 
 
-def setting_xy_for_classefiers(data, target_col):
+def setting_xy_for_classefiers(data, target_col, fetched):
     prepare_data(data, target_col, False)
 
     data_encoded = feature_encoder(data, ['director'], ['genre', 'MPAA_rating'])
@@ -205,7 +211,7 @@ def setting_xy_for_classefiers(data, target_col):
 
     return X_new, Y
 
-def setting_xy_for_random(data, target_col):
+def setting_xy_for_random(data, target_col, fetched):
     prepare_data(data, target_col, False)
 
     #Generate Dummies for Genres and MPAA_ratings

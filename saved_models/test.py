@@ -14,6 +14,14 @@ def main(model_no):
 
     filename = ''
     data = None
+
+    #fetching train columns
+    with open('../dumm.txt', 'r') as f:
+        fetched_dumm = f.read().splitlines()
+
+    with open('../ord_cols.txt', 'r') as f:
+        fetched_ord_cols = f.read().splitlines()
+    
     # regression
     if model_no in [1, 2]:
         data = merged = merge_samples_directors('./Milestone 1/movies-test-samples.csv',
@@ -37,13 +45,17 @@ def main(model_no):
     model = joblib.load(filename)
 
     if model_no == 1:
-        X_test, Y_test = setting_xy_for_predict(data, 'revenue')
+        fetched = fetched_ord_cols
+        X_test, Y_test = setting_xy_for_predict(data, 'revenue', fetched)
     elif model_no == 2:
-        X_test, Y_test = settingXandYUsingDummies(data)
+        fetched = fetched_dumm
+        X_test, Y_test = settingXandYUsingDummies(data, fetched)
     elif model_no == 3 or model_no == 5:
-        X_test, Y_test = setting_xy_for_classefiers(data, 'MovieSuccessLevel')
+        fetched = fetched_ord_cols
+        X_test, Y_test = setting_xy_for_classefiers(data, 'MovieSuccessLevel', fetched)
     elif model_no == 4:
-        X_test, Y_test = setting_xy_for_random(data, 'MovieSuccessLevel')
+        fetched = fetched_dumm
+        X_test, Y_test = setting_xy_for_random(data, 'MovieSuccessLevel', fetched)
 
     # data = pd.read_csv('testComplete.csv')
     pred = model.predict(X_test)

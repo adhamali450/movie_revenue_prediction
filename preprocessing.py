@@ -123,6 +123,15 @@ def prepare_data(data, target_col, work_with_revenue=True):
     spread_date(data, 'release_date', False)
     shift_target_column(data, target_col)
 
+def corr_feature_extraction(YColumn,readyData):
+    movie_data = readyData.iloc[:, :]
+    corr = movie_data.corr()
+    top_feature = corr.index[abs(corr[YColumn]) > 0.09]
+    top_corr = movie_data[top_feature].corr()
+    top_feature = top_feature.delete(-1)
+    return readyData[top_feature]
+
+
 def lasso_feature_selection(X, Y):
     lasso = Lasso().fit(X, Y)
     model = SelectFromModel(lasso, prefit=True)
@@ -172,8 +181,8 @@ def setting_xy_for_predict(data, target_col):
     print(X.columns)
 
     # feature Selection
-    # X_new = lasso_feature_selection(X, Y)
-    X_new = X
+    X_new = lasso_feature_selection(X, Y)
+    # X_new = X
 
     # scaling
     scale = StandardScaler()
@@ -204,13 +213,13 @@ def settingXandYUsingDummies(data):
     X.drop(['revenue'], axis=1, inplace=True)
     Y = merge_data2['revenue']
 
-    # lasso = Lasso().fit(X, Y)
-    # model = SelectFromModel(lasso, prefit=True)
-    # X = model.transform(X)
-    #
-    # #feature scaling
-    # sc = StandardScaler()
-    # X = sc.fit_transform(X)
+    lasso = Lasso().fit(X, Y)
+    model = SelectFromModel(lasso, prefit=True)
+    X = model.transform(X)
+    
+    #feature scaling
+    sc = StandardScaler()
+    X = sc.fit_transform(X)
 
     return X , Y
 
