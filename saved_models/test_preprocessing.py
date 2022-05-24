@@ -110,7 +110,7 @@ def plot_graph(y_test, y_pred, regressorName):
 def prepare_data(data, target_col, work_with_revenue=True):
     # work with revenue set to False when called to a classification model
     data['genre'] = data['genre'].fillna('Comedy')
-    data['mpaa_rating'] = data['mpaa_rating'].fillna('PG')
+    data['MPAA_rating'] = data['mpaa_rating'].fillna('PG')
     data.fillna(0, inplace=True)
     # drop_contextual_na(data)
     get_sequels(data)
