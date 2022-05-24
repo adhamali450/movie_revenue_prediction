@@ -8,7 +8,7 @@ import joblib
 import warnings
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue2.csv')
+data = pd.read_csv('../[MERGED-COMPLETE]movies_revenue2.csv')
 
 
 def train_model(X, Y):
@@ -18,7 +18,7 @@ def train_model(X, Y):
     start = time.time()
     ridge = Ridge(alpha=1.0, solver='auto')
     ridge.fit(X_train, y_train)
-    joblib.dump(ridge, 'model1Ridge.sav')
+    joblib.dump(ridge, '../saved_models/model1_ridge.sav')
     end = time.time()
     print(X.shape)
     y_pred = ridge.predict(X_test)

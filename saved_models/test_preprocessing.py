@@ -1,17 +1,15 @@
 import re
-import datetime
-from datetime import timedelta
 import pandas as pd
-import numpy as np
-import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.linear_model import Lasso
 from sklearn.feature_selection import SelectFromModel
 import category_encoders as ce
 from sklearn.preprocessing import LabelEncoder, scale 
 from sklearn.preprocessing import StandardScaler
+import warnings
+warnings.filterwarnings("ignore")
 
-with open('dumm.txt', 'r') as f:
+with open('../dumm.txt', 'r') as f:
     fetched = f.read().splitlines()
 
 def movie_lemma(movie):
@@ -37,6 +35,15 @@ def merge_files(fileOnePath, fileTwoPath, commonColumn):
     df = pd.merge(df1, df2, on=commonColumn, how='outer')
     return df
 
+def merge_samples_directors(samples_path, directors_path):
+    sample = pd.read_csv(samples_path)
+    directors = pd.read_csv(directors_path)
+
+    directors = directors.rename(columns={'name': 'movie_title'})
+    merged = pd.merge(directors, sample, on='movie_title', how='outer')
+
+    return merged
+
 def find_in_file(source_data, target_data, col_name):
     for i in range(0, source_data.shape[0]):
         for j in range(0, target_data.shape[0]):
@@ -45,9 +52,13 @@ def find_in_file(source_data, target_data, col_name):
                     source_data[cell][i] = target_data[cell][j]
                 
 
+def unformat_revenue(data):
+    data['revenue'] = data['revenue'].replace(
+        '[\$,]', '', regex=True).astype(float)
+
 def feature_encoder(data, nom_cols, ord_cols):
     encoder = ce.OneHotEncoder(
-        cols=ord_cols, handle_unknown='return_nan', return_df=True, use_cat_names=True)
+        cols=ord_cols, handle_unknown='ignore', return_df=True, use_cat_names=True)
     data = encoder.fit_transform(data)
 
     for c in nom_cols:
@@ -55,20 +66,6 @@ def feature_encoder(data, nom_cols, ord_cols):
 
     return data
 
-def drop_contextual_na(data):
-    # actual nulls and rows that evaluates to null
-    # e.g. director: Unknown
-    data.dropna(how='any', inplace=True)
-
-    data.drop(data.index[data['director'] == 'Unknown'], inplace=True)
-    data.drop(data.index[data['director'] == 'NO_DIRECTOR'], inplace=True)
-    data.drop(data.index[data['MPAA_rating'] == 'Unknown'], inplace=True)
-    data.drop(data.index[data['MPAA_rating'] == 'Not Rated'], inplace=True)
-    data.drop('animated', axis=1, inplace=True)
-
-def unformat_revenue(data):
-    data['revenue'] = data['revenue'].replace(
-        '[\$,]', '', regex=True).astype(float)
 
 def spread_date(df, col_name, keep_original=False):
     df[col_name] = pd.to_datetime(df[col_name])
@@ -89,8 +86,16 @@ def spread_date(df, col_name, keep_original=False):
         df.drop(['release_date'], axis=1, inplace=True)
 
 def shift_target_column(data, col_name):
-    move = data.pop(col_name)
-    data.insert(int(data.iloc[0].size), col_name, move)
+
+    correct_cols = []
+    for i in data.columns:
+        if i != col_name:
+            correct_cols.append(i)
+    correct_cols.append(col_name)
+    return data[correct_cols]
+
+    # move = data.pop(col_name)
+    # data.insert(int(data.iloc[0].size), col_name, move)
 
 
 def plot_graph(y_test, y_pred, regressorName):
@@ -106,36 +111,44 @@ def plot_graph(y_test, y_pred, regressorName):
 
 def prepare_data(data, target_col, work_with_revenue=True):
     # work with revenue set to False when called to a classification model
-    drop_contextual_na(data)
+    data.fillna(0, inplace=True)
+    # drop_contextual_na(data)
     get_sequels(data)
     if work_with_revenue:
         unformat_revenue(data)
     spread_date(data, 'release_date', False)
     shift_target_column(data, target_col)
 
+
+
 def lasso_feature_selection(X, Y):
     lasso = Lasso().fit(X, Y)
     model = SelectFromModel(lasso, prefit=True)
     return model.transform(X)
 
+
 def setting_xy_for_predict(data, target_col):
     prepare_data(data, 'revenue')
 
     # encoding
-    data_encoded = feature_encoder(data, ['movie_title','director'], ['genre', 'MPAA_rating'])
+    data_encoded = feature_encoder(data, ['movie_title', 'director'], ['genre', 'MPAA_rating'])
     data_encoded = concat_data_columns(data_encoded, fetched)
+
     # corr graph
     X = data_encoded.iloc[:, 0:]  # Features
 
     Y = data_encoded[target_col]  # Label
     X.drop('revenue', axis=1, inplace=True)
-    
-    X = lasso_feature_selection(X, Y)
 
-    scale = StandardScaler()
-    X = scale.fit_transform(X)
+    print(X.columns)
+
+    # X = lasso_feature_selection(X, Y)
+
+    # scale = StandardScaler()
+    # X = scale.fit_transform(X)
 
     return X, Y
+
 
 def settingXandYUsingDummies(data):
     prepare_data(data, 'revenue')
@@ -155,13 +168,13 @@ def settingXandYUsingDummies(data):
     X.drop(['revenue'], axis=1, inplace=True)
     Y = merge_data['revenue']
     
-    lasso = Lasso().fit(X, Y)
-    model = SelectFromModel(lasso, prefit=True)
-    X = model.transform(X)
+    # lasso = Lasso().fit(X, Y)
+    # model = SelectFromModel(lasso, prefit=True)
+    # X = model.transform(X)
 
     #feature scaling
-    sc = StandardScaler()
-    X = sc.fit_transform(X)
+    # sc = StandardScaler()
+    # X = sc.fit_transform(X)
     
     return X , Y
 
@@ -169,6 +182,7 @@ def frequency_encoding(data, col_name):
     dic = {col_name: (data[col_name].value_counts() /
                       len(data[col_name])).to_dict()}
     data[col_name] = data[col_name].map(dic[col_name])
+
 
 def setting_xy_for_classefiers(data, target_col):
     prepare_data(data, target_col, False)
@@ -201,7 +215,6 @@ def setting_xy_for_random(data, target_col):
     merge_data.drop(columns=colName, axis=1, inplace=True)
     merge_data = concat_data_columns(merge_data, fetched)
     shift_target_column(merge_data, target_col)
-
 
     cols = ['director']
     for c in cols:

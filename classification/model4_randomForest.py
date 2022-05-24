@@ -38,7 +38,7 @@ def train_random_model(X, Y):
     # Train the model on training data
     train_start = time.time()
     rf.fit(X_train, y_train)
-    joblib.dump(rf, 'model4.sav')
+    joblib.dump(rf, '../saved_models/model4_randomForest.sav')
     train_end = time.time()
 
     test_start = time.time()
@@ -65,5 +65,6 @@ def train_random_model(X, Y):
 def __main__():
     X, Y = setting_xy_for_random(data, 'MovieSuccessLevel')
     train_random_model(X, Y)
+
 
 __main__()

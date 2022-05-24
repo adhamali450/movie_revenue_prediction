@@ -1,45 +1,56 @@
 from operator import mod
 
 from sklearn.impute import SimpleImputer
-import test_preprocessing
+from test_preprocessing import *
 import pandas as pd
 import numpy as np
 from sklearn import metrics
 
 from sklearn import metrics
 import joblib
-from sklearn.compose import make_column_transformer
-from sklearn.pipeline import Pipeline, make_pipeline
-from sklearn.preprocessing import OneHotEncoder
 
 
-# df = pd.read_csv('movies/movies-revenue-test-samples.csv')
-# df2 = pd.read_csv('movies/movie-director-test-samples.csv')
+def main(model_no):
 
+    filename = ''
+    data = None
+    # regression
+    if model_no in [1, 2]:
+        data = merged = merge_samples_directors('./Milestone 1/movies-test-samples.csv',
+                                                './Milestone 1/movie-director.csv')
+        if model_no == 1:
+            filename = './model1_ridge.sav'
+        else:
+            filename = './model2_polynomial.sav'
 
-# preprocessing.shift_target_column(df, 'MovieSuccessLevel')
+    # classification
+    elif model_no in [3, 4, 5]:
+        data = merged = merge_samples_directors('./Milestone 2/movies-revenue-test-samples.csv',
+                                                './Milestone 2/movie-director-test-samples.csv')
+        if model_no == 3:
+            filename = './model3_knn.sav'
+        elif model_no == 4:
+            filename = './model4_randomForest.sav'
+        else:
+            filename = 'model5_svm.sav'
 
-
-
-def test_model(model, X_test, y_test):
-    y_pred = model.predict(X_test)
-    print(metrics.classification_report(y_test, y_pred))
-    print(metrics.confusion_matrix(y_test, y_pred))
-    print(metrics.accuracy_score(y_test, y_pred))
-    print(metrics.r2_score(y_test, y_pred))
-
-def main():
-    
-    data = pd.read_csv('testComplete.csv')
-
-    X_test , y_test = test_preprocessing.setting_xy_for_classefiers(data , 'MovieSuccessLevel')
-    filename = 'model1.sav'
     model = joblib.load(filename)
-    pred = model.predict(X_test)
-    print('Mean Square Error  => ', metrics.mean_squared_error(y_test, pred))
-    print('r2:', metrics.r2_score(y_test, pred))
-    
 
-main()
+    if model_no == 1:
+        X_test, Y_test = setting_xy_for_predict(data, 'revenue')
+    elif model_no == 2:
+        X_test, Y_test = settingXandYUsingDummies(data)
+    elif model_no == 3 or model_no == 5:
+        X_test, Y_test = setting_xy_for_classefiers(data, 'MovieSuccessLevel')
+    elif model_no == 4:
+        X_test, Y_test = setting_xy_for_random(data, 'MovieSuccessLevel')
+
+    # data = pd.read_csv('testComplete.csv')
+    pred = model.predict(X_test)
+    print('Mean Square Error  => ', metrics.mean_squared_error(Y_test, pred))
+    print('r2:', metrics.r2_score(Y_test, pred))
+
+
+main(4)
 
 

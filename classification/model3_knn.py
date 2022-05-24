@@ -3,8 +3,8 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from preprocessing import *
-import warnings
 import joblib
+import warnings
 warnings.filterwarnings("ignore")
 
 data = pd.read_csv('../[P2-MERGED-COMPLETE]movies_revenue2.csv')
@@ -19,12 +19,12 @@ def applying_GridSearch(X_train, y_train):
     print(g_res.best_estimator_)
 
 def train_model(X, Y):
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=63, shuffle=True)
-    knn = KNeighborsClassifier(metric='minkowski', n_neighbors=13, weights='uniform')
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=82, shuffle=True)
+    knn = KNeighborsClassifier(metric='minkowski', n_neighbors=7, weights='uniform')
 
     train_start = time.time()
     knn.fit(X_train, y_train)
-    joblib.dump(knn, 'model3.sav')
+    joblib.dump(knn, '../saved_models/model3_knn.sav')
     train_end = time.time()
 
     test_start = time.time()

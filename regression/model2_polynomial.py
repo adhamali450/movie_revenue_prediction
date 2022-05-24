@@ -4,13 +4,10 @@ import time
 from sklearn.model_selection import train_test_split
 import preprocessing
 import pandas as pd
-from sklearn.linear_model import Lasso
-from sklearn.feature_selection import SelectFromModel
-from sklearn.preprocessing import StandardScaler
 import joblib
 
 
-data = pd.read_csv('./[MERGED-COMPLETE]movies_revenue2.csv')
+data = pd.read_csv('../[MERGED-COMPLETE]movies_revenue2.csv')
 
 def settingXandY(YColumn):
       X ,Y = preprocessing.settingXandYUsingDummies(data)
@@ -22,7 +19,7 @@ def create_model(X ,Y):
     poly_model = linear_model.LinearRegression()
     start = time.time()
     poly_model.fit(X_train, y_train)
-    joblib.dump(poly_model, 'model2_polynomial.sav')
+    joblib.dump(poly_model, '../saved_models/model2_polynomial.sav')
     end = time.time()
 
     prediction = poly_model.predict(X_test)

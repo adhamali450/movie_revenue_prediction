@@ -27,7 +27,7 @@ def train_model(X, Y):
 
     train_start = time.time()
     ovo = ovo.fit(X_train, y_train)
-    joblib.dump(ovo, 'model2.sav')
+    joblib.dump(ovo, '../saved_models/model5_svm.sav')
     train_end = time.time()
 
     test_start = time.time()

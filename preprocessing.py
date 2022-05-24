@@ -43,7 +43,7 @@ def feature_encoder(data, nom_cols, ord_cols):
     cols = cols.drop(ord_cols)
     temp_data.drop(columns= cols, axis=1, inplace=True)
     
-    with open('ord_cols.txt', 'w') as f:
+    with open('../ord_cols.txt', 'w') as f:
         for col in temp_data.columns:
             f.write(col + '\n')
 
@@ -172,8 +172,9 @@ def setting_xy_for_predict(data, target_col):
     print(X.columns)
 
     # feature Selection
-    X_new = lasso_feature_selection(X, Y)
-    
+    # X_new = lasso_feature_selection(X, Y)
+    X_new = X
+
     # scaling
     scale = StandardScaler()
     X_new = scale.fit_transform(X_new)
@@ -189,7 +190,7 @@ def settingXandYUsingDummies(data):
     merge_data.drop(columns=colName, axis=1, inplace=True)
     shift_target_column(merge_data, 'revenue')
 
-    with open('dumm.txt', 'w') as f:
+    with open('../dumm.txt', 'w') as f:
         for col in dummeis.columns:
             f.write(col + '\n')
 
@@ -203,16 +204,13 @@ def settingXandYUsingDummies(data):
     X.drop(['revenue'], axis=1, inplace=True)
     Y = merge_data2['revenue']
 
-    lasso = Lasso().fit(X, Y)
-    model = SelectFromModel(lasso, prefit=True)
-    X = model.transform(X)
-
-    #feature scaling
-    sc = StandardScaler()
-    X = sc.fit_transform(X)
-
-
-
+    # lasso = Lasso().fit(X, Y)
+    # model = SelectFromModel(lasso, prefit=True)
+    # X = model.transform(X)
+    #
+    # #feature scaling
+    # sc = StandardScaler()
+    # X = sc.fit_transform(X)
 
     return X , Y
 
@@ -232,7 +230,7 @@ def setting_xy_for_random(data, target_col):
     merge_data.drop(columns=colName, axis=1, inplace=True)
     shift_target_column(merge_data, target_col)
 
-    with open('dumm.txt', 'w') as f:
+    with open('../dumm.txt', 'w') as f:
         for col in dummeis.columns:
             f.write(col + '\n')
 
